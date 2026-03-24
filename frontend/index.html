@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI2CUP: AI-powered platform for Ethiopian coffee trade — ለኢትዮጵያ ቡና ንግድ በ AI የተጎላበተ">
+    <title>AI2CUP — AI-Powered Ethiopian Coffee Trade</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar" id="navbar">
+        <a href="#" class="navbar-brand">
+            <div>
+                <div class="navbar-logo"><span class="logo-icon">☕</span> AI2CUP</div>
+                <div class="navbar-tagline">AI for Ethiopian Coffee · ለኢትዮጵያ ቡና</div>
+            </div>
+        </a>
+        <ul class="navbar-nav">
+            <li><a href="#price-section" class="active" data-section="price">📈 Price</a></li>
+            <li><a href="#quality-section" data-section="quality">🔬 Quality</a></li>
+            <li><a href="#marketplace-section" data-section="marketplace">🏪 Market</a></li>
+        </ul>
+    </nav>
+
+    <div class="toast-container" id="toastContainer"></div>
+
+    <main class="app-container">
+        <!-- HERO -->
+        <section class="hero">
+            <h1 class="hero-title">Empowering Ethiopian Coffee Trade with AI</h1>
+            <p class="hero-subtitle-amharic">የኢትዮጵያን የቡና ንግድ በአርቴፊሻል ኢንተለጀንስ ማጎልበት</p>
+            <p class="hero-description">
+                Ethiopia is the birthplace of Arabica coffee — providing livelihood to 15 million people. 
+                AI2CUP uses artificial intelligence to predict fair prices, verify bean quality using 
+                ECX standards, and connect farmers with global buyers.
+            </p>
+        </section>
+
+        <!-- STATS BAR -->
+        <div class="stats-bar" id="statsBar">
+            <div class="stat-card">
+                <div class="stat-value">8</div>
+                <div class="stat-label">Coffee Regions</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="statSellers">—</div>
+                <div class="stat-label">Cooperatives</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="statBuyers">—</div>
+                <div class="stat-label">Global Buyers</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">ECX</div>
+                <div class="stat-label">Grade Standard</div>
+            </div>
+        </div>
+
+        <!-- SECTION 1: PRICE PREDICTION -->
+        <section class="section-panel" id="price-section">
+            <div class="section-header">
+                <div class="section-icon price">📈</div>
+                <div>
+                    <h2 class="section-title">Coffee Price Prediction · የቡና ዋጋ ትንበያ</h2>
+                    <p class="section-subtitle">AI-predicted prices in ETB & USD based on ECX market factors</p>
+                </div>
+            </div>
+            <form id="priceForm" onsubmit="return false;">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label class="form-label" for="regionSelect">Region · ክልል</label>
+                        <select class="form-select" id="regionSelect">
+                            <option value="Yirgacheffe">Yirgacheffe (ይርጋጨፌ)</option>
+                            <option value="Sidamo">Sidamo (ሲዳሞ)</option>
+                            <option value="Harar">Harar (ሐረር)</option>
+                            <option value="Jimma">Jimma (ጅማ)</option>
+                            <option value="Limu">Limu (ሊሙ)</option>
+                            <option value="Guji">Guji (ጉጂ)</option>
+                            <option value="Wellega">Wellega (ወለጋ)</option>
+                            <option value="Bench Maji">Bench Maji (ቤንች ማጂ)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="monthSelect">Month · ወር</label>
+                        <select class="form-select" id="monthSelect">
+                            <option value="1">January (ጥር)</option>
+                            <option value="2">February (የካቲት)</option>
+                            <option value="3">March (መጋቢት)</option>
+                            <option value="4">April (ሚያዝያ)</option>
+                            <option value="5">May (ግንቦት)</option>
+                            <option value="6">June (ሰኔ)</option>
+                            <option value="7">July (ሐምሌ)</option>
+                            <option value="8">August (ነሐሴ)</option>
+                            <option value="9">September (መስከረም)</option>
+                            <option value="10">October (ጥቅምት)</option>
+                            <option value="11">November (ህዳር)</option>
+                            <option value="12">December (ታህሳስ)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="altitudeInput">Altitude (m)</label>
+                        <input type="number" class="form-input" id="altitudeInput" value="1800" min="1000" max="3000" step="50">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="rainfallInput">Rainfall (mm)</label>
+                        <input type="number" class="form-input" id="rainfallInput" value="120" min="0" max="500" step="10">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="varietySelect">Variety · ዝርያ</label>
+                        <select class="form-select" id="varietySelect">
+                            <option value="Heirloom">Heirloom (የአገር ቤት)</option>
+                            <option value="Typica">Typica</option>
+                            <option value="Bourbon">Bourbon</option>
+                            <option value="Gesha">Gesha (ገሻ)</option>
+                            <option value="74110">74110 (JARC)</option>
+                            <option value="74112">74112 (JARC)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="processingSelect">Processing</label>
+                        <select class="form-select" id="processingSelect">
+                            <option value="Washed">Washed (ውኃ ያጠበ)</option>
+                            <option value="Natural">Natural / Sun-dried (ፀሐይ ያደረቀ)</option>
+                            <option value="Honey">Honey Process</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="ecxGradeSelect">ECX Grade · ደረጃ</label>
+                        <select class="form-select" id="ecxGradeSelect">
+                            <option value="1">Grade 1 — Specialty (ልዩ)</option>
+                            <option value="2">Grade 2 — Very Good (በጣም ጥሩ)</option>
+                            <option value="3" selected>Grade 3 — Good (ጥሩ)</option>
+                            <option value="4">Grade 4 — Commercial (ንግድ)</option>
+                            <option value="5">Grade 5 — Below Standard</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary" id="predictBtn" onclick="predictPrice()">
+                    <span class="spinner" id="priceSpinner"></span>
+                    <span id="predictBtnText">🔮 Predict Price · ዋጋ ተንብይ</span>
+                </button>
+            </form>
+
+            <!-- Price Result -->
+            <div class="result-card" id="priceResult">
+                <div class="result-header">✅ Prediction Result · የትንበያ ውጤት</div>
+                <div class="dual-price">
+                    <div>
+                        <div class="result-value" id="predictedPriceETB">0.00 ETB</div>
+                        <div style="color:var(--color-text-muted);font-size:0.85rem;">Ethiopian Birr per kg</div>
+                    </div>
+                    <div class="price-divider">≈</div>
+                    <div>
+                        <div class="result-value secondary" id="predictedPriceUSD">$0.00</div>
+                        <div style="color:var(--color-text-muted);font-size:0.85rem;">US Dollars per kg</div>
+                    </div>
+                </div>
+                <div id="ecxGradeLabel" style="margin:var(--space-md) 0;color:var(--color-accent);font-weight:600;font-size:0.9rem;"></div>
+                <div class="result-details" id="priceResultDetails"></div>
+            </div>
+
+            <!-- Price Chart -->
+            <div class="chart-container" id="priceChart">
+                <div class="chart-title">📊 Monthly Price Trend (ETB/kg)</div>
+                <div class="chart-bars" id="chartBars"></div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: QUALITY DETECTION -->
+        <section class="section-panel" id="quality-section">
+            <div class="section-header">
+                <div class="section-icon quality">🔬</div>
+                <div>
+                    <h2 class="section-title">Coffee Quality Detection · የቡና ጥራት ምርመራ</h2>
+                    <p class="section-subtitle">Upload coffee bean image — graded using ECX (Ethiopia Commodity Exchange) standards</p>
+                </div>
+            </div>
+            <div class="upload-area" id="uploadArea" onclick="document.getElementById('fileInput').click()">
+                <div class="upload-icon">📸</div>
+                <div class="upload-text">Drag & drop your coffee bean image, or <strong>browse</strong></div>
+                <div class="upload-hint">Supports JPEG, PNG, WebP — Max 10MB</div>
+            </div>
+            <input type="file" id="fileInput" accept="image/*" style="display:none" onchange="handleFileSelect(event)">
+            <div class="upload-preview" id="uploadPreview">
+                <img id="previewImage" src="" alt="Preview">
+                <div>
+                    <div class="upload-file-name" id="fileName">—</div>
+                    <div class="upload-file-info" id="fileSize">—</div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary" id="analyzeBtn" onclick="analyzeQuality()" disabled>
+                <span class="spinner" id="qualitySpinner"></span>
+                <span id="analyzeBtnText">🔬 Analyze Quality · ጥራት ተንትን</span>
+            </button>
+
+            <!-- Quality Result -->
+            <div class="result-card" id="qualityResult">
+                <div class="result-header">✅ ECX Quality Assessment · የECX ጥራት ግምገማ</div>
+                <div class="ecx-result-row">
+                    <span class="quality-badge" id="qualityBadge">—</span>
+                    <span class="ecx-grade-badge" id="ecxGradeBadge">—</span>
+                </div>
+                <div id="ecxAmharic" style="color:var(--color-primary-light);font-size:0.95rem;margin:var(--space-sm) 0;font-weight:600;"></div>
+                <div id="qualityDescription" style="color:var(--color-text-muted);font-size:0.9rem;margin-bottom:var(--space-sm);"></div>
+                <div id="exportEligible" style="font-size:0.85rem;margin-bottom:var(--space-md);"></div>
+
+                <!-- Confidence Bar -->
+                <div class="confidence-bar-container">
+                    <div class="confidence-label"><span>Confidence</span><span id="confidenceValue">0%</span></div>
+                    <div class="confidence-bar"><div class="confidence-bar-fill" id="confidenceFill"></div></div>
+                </div>
+                <div class="result-details" id="qualityDetails"></div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: MARKETPLACE -->
+        <section class="section-panel" id="marketplace-section">
+            <div class="section-header">
+                <div class="section-icon market">🏪</div>
+                <div>
+                    <h2 class="section-title">Ethiopian Coffee Marketplace · የቡና ገበያ</h2>
+                    <p class="section-subtitle">Ethiopian cooperatives & international buyers — smart matching</p>
+                </div>
+            </div>
+            <div class="marketplace-tabs">
+                <button class="tab-btn active" id="tabSellers" onclick="switchTab('sellers')">🌱 Sellers / ሻጮች</button>
+                <button class="tab-btn" id="tabBuyers" onclick="switchTab('buyers')">🛒 Buyers / ገዢዎች</button>
+            </div>
+            <div class="loading-overlay" id="marketLoading"><div class="spinner active"></div>Loading marketplace...</div>
+            <div class="marketplace-list" id="marketplaceList"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 <strong>AI2CUP</strong> — AI-Powered Ethiopian Coffee Trade Platform</p>
+        <p style="margin-top:4px;">🇪🇹 Built for Ethiopian coffee farmers and global trade · ለኢትዮጵያ ቡና አርሶ አደሮች</p>
+    </footer>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
