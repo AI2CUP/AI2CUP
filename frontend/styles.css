@@ -954,3 +954,111 @@ body::before {
     background: rgba(var(--color-primary-rgb), 0.3);
     color: var(--color-text);
 }
+
+/* ═══════════════════════════════════════════════════
+   ETHIOPIA-SPECIFIC STYLES
+   ═══════════════════════════════════════════════════ */
+
+/* ── Amharic subtitle in hero ── */
+.hero-subtitle-amharic {
+    font-size: 1rem;
+    color: var(--color-primary);
+    margin-bottom: var(--space-md);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* ── Dual Price Display ── */
+.dual-price {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xl);
+    flex-wrap: wrap;
+    margin-bottom: var(--space-sm);
+}
+
+.price-divider {
+    font-size: 1.5rem;
+    color: var(--color-text-dim);
+    font-weight: 300;
+}
+
+.result-value.secondary {
+    font-size: 1.8rem;
+    background: linear-gradient(135deg, var(--color-accent), #4ade80);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* ── ECX Grade Badge ── */
+.ecx-grade-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    background: rgba(var(--color-primary-rgb), 0.12);
+    color: var(--color-primary-light);
+    border: 1px solid rgba(var(--color-primary-rgb), 0.25);
+    letter-spacing: 0.5px;
+}
+
+.ecx-result-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+}
+
+/* ── Certification Tags ── */
+.cert-tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.65rem;
+    font-weight: 600;
+    background: rgba(var(--color-accent-rgb), 0.1);
+    color: var(--color-accent);
+    border: 1px solid rgba(var(--color-accent-rgb), 0.2);
+    margin-right: 4px;
+    margin-top: 4px;
+}
+
+.listing-certs {
+    margin-top: 4px;
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+}
+
+/* ── Listing Amharic Name ── */
+.listing-amharic {
+    font-size: 0.75rem;
+    color: var(--color-text-dim);
+    margin-top: 2px;
+}
+
+/* ── Listing Secondary Price (USD under ETB) ── */
+.listing-price-usd {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    font-weight: 500;
+}
+
+/* ── Listing Members Count ── */
+.listing-members {
+    font-size: 0.75rem;
+    color: var(--color-text-dim);
+    margin-top: 2px;
+}
+
+/* ── Ethiopian flag accent on section tops ── */
+.section-panel::before {
+    background: linear-gradient(90deg, #009b3a, #fcdd09, #e4181c) !important;
+}
+
+/* ── Wrap listing meta for small screens ── */
+.listing-meta {
+    flex-wrap: wrap;
+}
