@@ -134,7 +134,7 @@ def analyze_quality(image_bytes: bytes) -> dict:
 
         return {
             "quality": quality_map[ecx_grade],
-            "confidence": confidence,
+            "confidence": float(confidence),
             "description": grade_info["description"],
             "ecx_grade": ecx_grade,
             "ecx_label": grade_info["label"],
@@ -144,10 +144,10 @@ def analyze_quality(image_bytes: bytes) -> dict:
             "export_eligible": grade_info["export_eligible"],
             "details": {
                 "image_size": f"{image.width}x{image.height}",
-                "brightness": round(brightness, 1),
-                "color_uniformity": round(uniformity, 3),
-                "warmth_index": round(warmth_score, 3),
-                "quality_score": round(quality_score, 3),
+                "brightness": float(round(brightness, 1)),
+                "color_uniformity": float(round(uniformity, 3)),
+                "warmth_index": float(round(warmth_score, 3)),
+                "quality_score": float(round(quality_score, 3)),
             },
         }
 
@@ -157,7 +157,7 @@ def analyze_quality(image_bytes: bytes) -> dict:
         quality_map = {2: "High", 3: "Medium", 4: "Medium"}
         return {
             "quality": quality_map[ecx_grade],
-            "confidence": round(random.uniform(0.60, 0.80), 2),
+            "confidence": float(round(random.uniform(0.60, 0.80), 2)),
             "description": grade_info["description"],
             "ecx_grade": ecx_grade,
             "ecx_label": grade_info["label"],
