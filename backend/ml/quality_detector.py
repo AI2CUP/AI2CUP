@@ -7,12 +7,12 @@ Simulates coffee bean quality analysis using the ECX
 (Ethiopia Commodity Exchange) grading system.
 
 ECX Grading (Ethiopian standard):
-- Grade 1: Specialty (0-3 defects per 300g)  — 85+ SCAA score
-- Grade 2: Very Good (4-12 defects)          — 80-84 SCAA
-- Grade 3: Good (13-25 defects)              — 75-79 SCAA
-- Grade 4: Commercial (26-45 defects)        — 70-74 SCAA
-- Grade 5: Below Standard (46-90 defects)    — 60-69 SCAA
-- UG: Under Grade (90+ defects)              — <60 SCAA
+- Grade 1: Specialty (0-3 defects per 300g)  - 85+ SCAA score
+- Grade 2: Very Good (4-12 defects)          - 80-84 SCAA
+- Grade 3: Good (13-25 defects)              - 75-79 SCAA
+- Grade 4: Commercial (26-45 defects)        - 70-74 SCAA
+- Grade 5: Below Standard (46-90 defects)    - 60-69 SCAA
+- UG: Under Grade (90+ defects)              - <60 SCAA
 
 For this MVP, we analyze image properties and map them
 to the ECX grading system with realistic confidence scores.
@@ -27,41 +27,41 @@ from PIL import Image
 # ── ECX Grade descriptions ──
 ECX_GRADES = {
     1: {
-        "label": "Grade 1 — Specialty",
+        "label": "Grade 1 - Specialty",
         "amharic": "ልዩ ደረጃ",
-        "description": "Premium specialty grade — suitable for direct export to specialty roasters worldwide",
+        "description": "Premium specialty grade - suitable for direct export to specialty roasters worldwide",
         "defects": "0-3 defects per 300g",
         "scaa_range": "85+",
         "export_eligible": True,
     },
     2: {
-        "label": "Grade 2 — Very Good",
+        "label": "Grade 2 - Very Good",
         "amharic": "በጣም ጥሩ",
-        "description": "High quality — suitable for export and specialty domestic market",
+        "description": "High quality - suitable for export and specialty domestic market",
         "defects": "4-12 defects per 300g",
         "scaa_range": "80-84",
         "export_eligible": True,
     },
     3: {
-        "label": "Grade 3 — Good",
+        "label": "Grade 3 - Good",
         "amharic": "ጥሩ",
-        "description": "Good commercial grade — suitable for export and domestic consumption",
+        "description": "Good commercial grade - suitable for export and domestic consumption",
         "defects": "13-25 defects per 300g",
         "scaa_range": "75-79",
         "export_eligible": True,
     },
     4: {
-        "label": "Grade 4 — Commercial",
+        "label": "Grade 4 - Commercial",
         "amharic": "ንግድ",
-        "description": "Standard commercial grade — primarily for domestic market and blending",
+        "description": "Standard commercial grade  - primarily for domestic market and blending",
         "defects": "26-45 defects per 300g",
         "scaa_range": "70-74",
         "export_eligible": False,
     },
     5: {
-        "label": "Grade 5 — Below Standard",
+        "label": "Grade 5 - Below Standard",
         "amharic": "ከደረጃ በታች",
-        "description": "Below standard — requires further sorting and processing before sale",
+        "description": "Below standard - requires further sorting and processing before sale",
         "defects": "46-90 defects per 300g",
         "scaa_range": "60-69",
         "export_eligible": False,

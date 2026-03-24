@@ -1,6 +1,6 @@
 /**
  * ================================================
- * AI2CUP — Frontend JavaScript
+ * AI2CUP - Frontend JavaScript
  * ================================================
  * Ethiopian coffee trade platform.
  * Handles API calls, dual currency (ETB/USD), ECX grading,
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // ================================================
-// NAVIGATION — smooth scroll, active tab highlight
+// NAVIGATION - smooth scroll, active tab highlight
 // ================================================
 function setupNavigation() {
     document.querySelectorAll('.navbar-nav a').forEach(link => {
@@ -245,10 +245,10 @@ function displayQualityResult(data) {
     // Export eligibility
     const exportEl = document.getElementById('exportEligible');
     if (data.export_eligible) {
-        exportEl.innerHTML = '🟢 <strong>Export Eligible</strong> — ለወጭ ንግድ ብቁ';
+        exportEl.innerHTML = '🟢 <strong>Export Eligible</strong> - ለወጭ ንግድ ብቁ';
         exportEl.style.color = 'var(--color-success)';
     } else {
-        exportEl.innerHTML = '🔴 <strong>Domestic Only</strong> — ለአገር ውስጥ ገበያ ብቻ';
+        exportEl.innerHTML = '🔴 <strong>Domestic Only</strong> - ለአገር ውስጥ ገበያ ብቻ';
         exportEl.style.color = 'var(--color-danger)';
     }
 

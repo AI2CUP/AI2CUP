@@ -40,11 +40,11 @@ class PricePredictionResponse(BaseModel):
 
 # ── ECX grade labels ──
 ECX_LABELS = {
-    1: "Grade 1 — Specialty (ልዩ ደረጃ)",
-    2: "Grade 2 — Very Good (በጣም ጥሩ)",
-    3: "Grade 3 — Good (ጥሩ)",
-    4: "Grade 4 — Commercial (ንግድ)",
-    5: "Grade 5 — Below Standard (ከደረጃ በታች)",
+    1: "Grade 1 - Specialty (ልዩ ደረጃ)",
+    2: "Grade 2 - Very Good (በጣም ጥሩ)",
+    3: "Grade 3 - Good (ጥሩ)",
+    4: "Grade 4 - Commercial (ንግድ)",
+    5: "Grade 5 - Below Standard (ከደረጃ በታች)",
 }
 
 

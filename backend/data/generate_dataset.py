@@ -113,7 +113,7 @@ VARIETY_PREMIUM = {
     "Heirloom": 1.0,     # Most common Ethiopian variety
     "Typica":   0.95,
     "Bourbon":  1.05,
-    "Gesha":    1.35,    # Gesha/Geisha — world's most expensive coffee origin
+    "Gesha":    1.35,    # Gesha/Geisha - world's most expensive coffee origin
     "74110":    1.0,     # Ethiopian-bred rust-resistant variety
     "74112":    1.0,     # Ethiopian-bred variety
 }
@@ -123,11 +123,11 @@ PROCESSING_METHODS = ["Washed", "Natural", "Honey"]
 
 # ECX Grade distribution probabilities (weighted toward middle grades)
 ECX_GRADE_WEIGHTS = {
-    1: 0.10,  # Grade 1 — Specialty (rare)
-    2: 0.20,  # Grade 2 — Very Good
-    3: 0.30,  # Grade 3 — Good (most common)
-    4: 0.25,  # Grade 4 — Commercial
-    5: 0.12,  # Grade 5 — Below Standard
+    1: 0.10,  # Grade 1 - Specialty (rare)
+    2: 0.20,  # Grade 2 - Very Good
+    3: 0.30,  # Grade 3 - Good (most common)
+    4: 0.25,  # Grade 4 - Commercial
+    5: 0.12,  # Grade 5 - Below Standard
 }
 
 # Grade price multipliers
@@ -238,7 +238,7 @@ def generate_coffee_dataset(num_samples: int = NUM_SAMPLES, seed: int = RANDOM_S
 
 
 if __name__ == "__main__":
-    print("🌿 AI2CUP — Generating synthetic Ethiopian coffee dataset...")
+    print("🌿 AI2CUP - Generating synthetic Ethiopian coffee dataset...")
 
     df = generate_coffee_dataset()
 

@@ -1,6 +1,6 @@
-# ☕ AI2CUP — AI-Powered Ethiopian Coffee Trade Platform
+# ☕ AI2CUP - AI-Powered Ethiopian Coffee Trade Platform
 
-> **MVP / Demo-Ready** — Predict fair prices, verify bean quality, and connect with trading partners using artificial intelligence.
+> **MVP / Demo-Ready** - Predict fair prices, verify bean quality, and connect with trading partners using artificial intelligence.
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104-green)
@@ -133,7 +133,7 @@ curl -X POST http://localhost:8000/api/analyze-quality \
 
 ## 📝 Notes
 
-- This is an **MVP for demonstration** — not production-ready
+- This is an **MVP for demonstration** - not production-ready
 - Quality detection uses **simulated analysis** (replace with real CNN for production)
 - Dataset is **synthetically generated** (replace with real data)
 - CORS is set to allow all origins (restrict in production)
@@ -142,6 +142,6 @@ curl -X POST http://localhost:8000/api/analyze-quality \
 
 ## 📜 License
 
-© 2026 AI2CUP — All rights reserved.
+© 2026 AI2CUP - All rights reserved.
 
 Built with ❤️ for Ethiopian coffee farmers and traders.
