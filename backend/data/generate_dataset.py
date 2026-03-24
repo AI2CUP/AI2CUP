@@ -176,7 +176,8 @@ def generate_coffee_dataset(num_samples: int = NUM_SAMPLES, seed: int = RANDOM_S
 
         # ── ECX Grade ──
         grades = list(ECX_GRADE_WEIGHTS.keys())
-        grade_probs = list(ECX_GRADE_WEIGHTS.values())
+        grade_probs = np.array(list(ECX_GRADE_WEIGHTS.values()), dtype=float)
+        grade_probs = grade_probs / grade_probs.sum()
         ecx_grade = np.random.choice(grades, p=grade_probs)
 
         # ── Calculate price in ETB ──
