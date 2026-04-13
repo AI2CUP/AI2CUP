@@ -1,0 +1,1201 @@
+region,zone,month,altitude,rainfall,variety,processing,ecx_grade,price_per_kg_etb,price_per_kg_usd
+Wellega,"Wellega Zone, Oromia",4,1975.4,120.5,74110,Natural,3,352.46,6.17
+Limu,"Jimma Zone, Oromia",4,1557.1,111.6,74110,Honey,4,248.16,4.34
+Guji,"Guji Zone, Oromia",2,1890.9,60.2,Gesha,Natural,1,700.0,12.25
+Wellega,"Wellega Zone, Oromia",10,1523.3,58.6,74112,Washed,3,244.45,4.28
+Jimma,"Jimma Zone, Oromia",7,1793.3,220.0,74110,Natural,2,320.61,5.61
+Jimma,"Jimma Zone, Oromia",12,1576.1,11.7,74110,Natural,2,357.47,6.26
+Yirgacheffe,"Gedeo Zone, SNNPR",4,1791.1,123.1,74112,Natural,3,457.18,8.0
+Bench Maji,"Bench Sheko Zone, SNNPR",8,1542.3,228.1,74112,Washed,3,210.61,3.69
+Sidamo,Sidama Region,5,1814.0,146.2,Gesha,Natural,2,688.93,12.06
+Harar,Harari Region,3,1962.8,48.1,Typica,Washed,4,303.3,5.31
+Bench Maji,"Bench Sheko Zone, SNNPR",12,1398.5,8.5,74112,Washed,4,185.68,3.25
+Yirgacheffe,"Gedeo Zone, SNNPR",3,1759.8,118.5,Heirloom,Natural,2,606.09,10.61
+Guji,"Guji Zone, Oromia",7,1820.2,256.6,Typica,Washed,2,413.35,7.23
+Jimma,"Jimma Zone, Oromia",4,1763.0,67.4,74110,Natural,2,377.77,6.61
+Limu,"Jimma Zone, Oromia",7,1615.9,174.2,Typica,Natural,2,370.97,6.49
+Jimma,"Jimma Zone, Oromia",12,1566.6,53.6,Typica,Washed,3,236.78,4.14
+Guji,"Guji Zone, Oromia",1,1936.1,40.6,Heirloom,Natural,4,334.66,5.86
+Yirgacheffe,"Gedeo Zone, SNNPR",5,2046.2,69.6,Bourbon,Washed,3,435.06,7.61
+Yirgacheffe,"Gedeo Zone, SNNPR",4,1881.8,146.9,Gesha,Washed,4,433.66,7.59
+Bench Maji,"Bench Sheko Zone, SNNPR",1,1360.1,58.7,Gesha,Washed,2,425.93,7.45
+Yirgacheffe,"Gedeo Zone, SNNPR",1,1819.8,13.0,Gesha,Washed,3,563.07,9.85
+Bench Maji,"Bench Sheko Zone, SNNPR",11,1345.3,49.2,74110,Natural,4,169.18,2.96
+Harar,Harari Region,1,1590.4,33.0,74110,Honey,3,418.16,7.32
+Wellega,"Wellega Zone, Oromia",3,1674.3,50.6,Heirloom,Natural,3,304.85,5.33
+Sidamo,Sidama Region,8,1611.9,201.2,Heirloom,Washed,3,287.54,5.03
+Bench Maji,"Bench Sheko Zone, SNNPR",10,1789.3,33.4,Heirloom,Washed,1,382.55,6.69
+Jimma,"Jimma Zone, Oromia",5,1760.2,109.6,Heirloom,Washed,4,215.24,3.77
+Guji,"Guji Zone, Oromia",8,2243.9,277.6,Heirloom,Washed,5,183.34,3.21
+Jimma,"Jimma Zone, Oromia",3,1548.9,143.4,Heirloom,Washed,2,410.05,7.18
+Bench Maji,"Bench Sheko Zone, SNNPR",9,1305.6,152.7,74112,Washed,4,158.96,2.78
+Bench Maji,"Bench Sheko Zone, SNNPR",8,1709.5,248.6,Heirloom,Natural,3,201.52,3.53
+Guji,"Guji Zone, Oromia",6,2289.4,223.0,Bourbon,Washed,3,443.57,7.76
+Yirgacheffe,"Gedeo Zone, SNNPR",12,2034.5,52.5,Gesha,Natural,2,700.0,12.25
+Yirgacheffe,"Gedeo Zone, SNNPR",12,2170.2,57.5,74110,Honey,4,356.46,6.24
+Limu,"Jimma Zone, Oromia",8,1632.3,232.9,Bourbon,Honey,1,465.82,8.15
+Yirgacheffe,"Gedeo Zone, SNNPR",3,1784.7,101.2,74112,Natural,3,455.95,7.98
+Bench Maji,"Bench Sheko Zone, SNNPR",2,1569.0,148.9,Typica,Washed,2,358.45,6.27
+Yirgacheffe,"Gedeo Zone, SNNPR",11,2054.5,35.4,Typica,Natural,4,306.24,5.36
+Yirgacheffe,"Gedeo Zone, SNNPR",8,2156.6,226.7,Heirloom,Natural,2,538.78,9.43
+Guji,"Guji Zone, Oromia",12,2243.3,6.5,Typica,Washed,3,406.23,7.11
+Guji,"Guji Zone, Oromia",3,2032.8,99.7,74110,Natural,4,361.74,6.33
+Limu,"Jimma Zone, Oromia",1,1831.1,19.9,Gesha,Natural,1,700.0,12.25
+Limu,"Jimma Zone, Oromia",4,1664.5,116.9,Gesha,Washed,5,204.59,3.58
+Sidamo,Sidama Region,7,1662.9,177.7,74112,Natural,4,230.84,4.04
+Limu,"Jimma Zone, Oromia",1,1569.3,13.6,Typica,Washed,1,483.67,8.46
+Bench Maji,"Bench Sheko Zone, SNNPR",5,1567.0,86.2,Gesha,Natural,2,493.19,8.63
+Guji,"Guji Zone, Oromia",9,1970.9,163.8,Heirloom,Washed,5,208.33,3.65
+Jimma,"Jimma Zone, Oromia",1,1585.9,40.7,Typica,Natural,4,216.12,3.78
+Sidamo,Sidama Region,4,1718.6,108.8,Typica,Natural,3,390.13,6.83
+Bench Maji,"Bench Sheko Zone, SNNPR",7,1766.6,280.1,Bourbon,Natural,4,179.73,3.15
+Harar,Harari Region,12,1577.1,49.6,Bourbon,Honey,3,418.32,7.32
+Yirgacheffe,"Gedeo Zone, SNNPR",10,1859.5,51.5,Typica,Washed,2,469.54,8.22
+Wellega,"Wellega Zone, Oromia",4,1846.4,78.3,Bourbon,Honey,4,251.42,4.4
+Sidamo,Sidama Region,5,1887.8,128.8,Heirloom,Natural,2,525.06,9.19
+Yirgacheffe,"Gedeo Zone, SNNPR",7,1990.3,280.1,74110,Washed,4,254.99,4.46
+Guji,"Guji Zone, Oromia",1,2067.2,32.3,Heirloom,Washed,5,229.54,4.02
+Yirgacheffe,"Gedeo Zone, SNNPR",4,1705.4,139.6,Gesha,Washed,5,284.16,4.97
+Sidamo,Sidama Region,5,1591.3,106.3,Gesha,Natural,4,403.85,7.07
+Wellega,"Wellega Zone, Oromia",9,1556.7,289.6,Typica,Washed,3,216.56,3.79
+Harar,Harari Region,11,1570.2,12.9,Typica,Natural,4,259.35,4.54
+Guji,"Guji Zone, Oromia",7,2013.0,183.4,Heirloom,Natural,4,315.83,5.53
+Wellega,"Wellega Zone, Oromia",7,1993.0,263.0,74112,Natural,3,252.67,4.42
+Jimma,"Jimma Zone, Oromia",6,1682.0,187.3,Bourbon,Washed,3,255.46,4.47
+Sidamo,Sidama Region,4,1603.5,52.9,Heirloom,Natural,4,269.15,4.71
+Jimma,"Jimma Zone, Oromia",9,1549.9,192.9,Heirloom,Washed,5,114.37,2.0
+Limu,"Jimma Zone, Oromia",4,1721.5,146.6,Typica,Washed,2,416.04,7.28
+Wellega,"Wellega Zone, Oromia",1,1813.8,37.1,Heirloom,Honey,5,168.0,2.94
+Bench Maji,"Bench Sheko Zone, SNNPR",12,1401.4,14.3,Gesha,Washed,3,302.99,5.3
+Sidamo,Sidama Region,12,1585.0,58.6,Bourbon,Natural,3,395.5,6.92
+Jimma,"Jimma Zone, Oromia",3,1729.0,144.5,74110,Natural,3,315.06,5.51
+Bench Maji,"Bench Sheko Zone, SNNPR",2,1531.0,58.1,Heirloom,Natural,3,260.06,4.55
+Harar,Harari Region,11,1841.4,8.5,Heirloom,Washed,2,504.25,8.82
+Bench Maji,"Bench Sheko Zone, SNNPR",7,1718.8,271.9,74110,Honey,3,193.62,3.39
+Guji,"Guji Zone, Oromia",9,1864.6,293.1,74110,Washed,5,177.94,3.11
+Bench Maji,"Bench Sheko Zone, SNNPR",2,1414.9,52.5,Typica,Washed,3,227.06,3.97
+Yirgacheffe,"Gedeo Zone, SNNPR",6,2184.0,163.3,Bourbon,Washed,2,605.42,10.59
+Wellega,"Wellega Zone, Oromia",7,1877.6,243.0,Typica,Natural,5,136.82,2.39
+Sidamo,Sidama Region,2,1836.5,101.0,Bourbon,Honey,3,455.39,7.97
+Guji,"Guji Zone, Oromia",1,2191.8,26.8,Typica,Honey,5,202.9,3.55
+Bench Maji,"Bench Sheko Zone, SNNPR",5,1788.0,94.2,74110,Washed,3,266.21,4.66
+Harar,Harari Region,3,1822.4,90.6,Bourbon,Washed,4,319.71,5.59
+Harar,Harari Region,3,1809.1,147.0,74110,Washed,1,647.65,11.33
+Limu,"Jimma Zone, Oromia",2,1611.4,59.5,74110,Natural,3,350.85,6.14
+Yirgacheffe,"Gedeo Zone, SNNPR",10,2045.2,7.2,Heirloom,Washed,4,297.65,5.21
+Bench Maji,"Bench Sheko Zone, SNNPR",11,1752.5,8.4,Typica,Honey,1,403.55,7.06
+Wellega,"Wellega Zone, Oromia",8,1742.3,242.7,74112,Washed,4,190.57,3.33
+Guji,"Guji Zone, Oromia",11,1926.2,44.2,74112,Natural,1,663.43,11.61
+Harar,Harari Region,9,1942.4,177.3,Heirloom,Natural,1,640.86,11.22
+Guji,"Guji Zone, Oromia",12,1916.6,23.9,Heirloom,Natural,4,311.6,5.45
+Wellega,"Wellega Zone, Oromia",6,1793.4,261.8,Heirloom,Natural,3,254.55,4.45
+Limu,"Jimma Zone, Oromia",6,1859.9,241.1,Bourbon,Washed,5,135.36,2.37
+Guji,"Guji Zone, Oromia",5,1876.4,67.1,Gesha,Honey,1,700.0,12.25
+Guji,"Guji Zone, Oromia",8,2248.4,162.0,Bourbon,Washed,4,337.89,5.91
+Wellega,"Wellega Zone, Oromia",6,1987.5,223.6,74112,Natural,5,153.38,2.68
+Wellega,"Wellega Zone, Oromia",11,1785.8,20.4,Gesha,Washed,5,179.99,3.15
+Jimma,"Jimma Zone, Oromia",1,1611.9,43.9,74112,Washed,3,288.51,5.05
+Harar,Harari Region,4,1692.4,105.3,74112,Washed,2,527.8,9.24
+Yirgacheffe,"Gedeo Zone, SNNPR",5,1701.4,52.8,74112,Washed,3,381.46,6.68
+Yirgacheffe,"Gedeo Zone, SNNPR",5,2115.3,146.2,74112,Honey,5,231.72,4.06
+Yirgacheffe,"Gedeo Zone, SNNPR",8,2060.8,157.2,74110,Washed,4,288.02,5.04
+Guji,"Guji Zone, Oromia",12,1881.8,14.0,74110,Washed,4,303.05,5.3
+Sidamo,Sidama Region,9,1857.3,217.8,74112,Honey,4,273.67,4.79
+Yirgacheffe,"Gedeo Zone, SNNPR",7,1919.4,236.6,Heirloom,Honey,3,425.48,7.45
+Harar,Harari Region,7,1570.1,291.0,Bourbon,Washed,2,402.24,7.04
+Wellega,"Wellega Zone, Oromia",1,1766.7,54.2,Gesha,Honey,4,354.98,6.21
+Yirgacheffe,"Gedeo Zone, SNNPR",4,1984.9,123.9,Bourbon,Natural,1,700.0,12.25
+Limu,"Jimma Zone, Oromia",4,1682.8,106.4,74110,Natural,3,371.52,6.5
+Harar,Harari Region,3,1916.4,99.7,Bourbon,Natural,4,342.9,6.0
+Guji,"Guji Zone, Oromia",10,1971.3,17.5,Typica,Honey,2,518.49,9.07
+Yirgacheffe,"Gedeo Zone, SNNPR",1,1709.1,53.0,Gesha,Washed,5,320.93,5.62
+Limu,"Jimma Zone, Oromia",8,1509.2,247.7,Heirloom,Natural,3,291.37,5.1
+Bench Maji,"Bench Sheko Zone, SNNPR",9,1755.3,217.6,74112,Washed,2,276.31,4.84
+Jimma,"Jimma Zone, Oromia",6,1735.0,199.8,74112,Natural,3,251.37,4.4
+Yirgacheffe,"Gedeo Zone, SNNPR",10,2101.4,5.3,Heirloom,Washed,3,405.11,7.09
+Sidamo,Sidama Region,11,1965.3,30.6,Bourbon,Natural,3,394.36,6.9
+Harar,Harari Region,6,1605.8,224.8,74112,Washed,3,314.92,5.51
+Limu,"Jimma Zone, Oromia",11,1752.9,5.7,74110,Natural,5,193.87,3.39
+Guji,"Guji Zone, Oromia",12,2067.5,15.1,Heirloom,Washed,3,399.96,7.0
+Harar,Harari Region,11,1979.9,24.2,74112,Washed,1,650.37,11.38
+Sidamo,Sidama Region,1,1899.0,29.9,Typica,Natural,3,364.34,6.38
+Guji,"Guji Zone, Oromia",6,2182.7,165.4,74110,Washed,4,325.42,5.69
+Sidamo,Sidama Region,12,1910.3,58.8,Typica,Honey,3,377.08,6.6
+Yirgacheffe,"Gedeo Zone, SNNPR",7,1826.9,179.4,74110,Natural,3,428.33,7.5
+Jimma,"Jimma Zone, Oromia",8,1439.8,186.5,74112,Natural,4,167.32,2.93
+Bench Maji,"Bench Sheko Zone, SNNPR",4,1766.6,55.5,74112,Washed,5,135.06,2.36
+Jimma,"Jimma Zone, Oromia",2,1757.1,129.9,Gesha,Washed,4,299.73,5.25
+Harar,Harari Region,7,1520.5,274.6,74110,Washed,3,263.36,4.61
+Jimma,"Jimma Zone, Oromia",10,1705.4,12.7,Typica,Natural,5,114.24,2.0
+Wellega,"Wellega Zone, Oromia",1,1742.4,33.2,Heirloom,Natural,4,234.29,4.1
+Harar,Harari Region,4,1579.4,139.1,Typica,Washed,1,579.46,10.14
+Sidamo,Sidama Region,5,1916.8,94.8,Typica,Natural,4,275.26,4.82
+Sidamo,Sidama Region,6,1611.6,285.0,74112,Natural,2,400.93,7.02
+Limu,"Jimma Zone, Oromia",9,1697.7,236.0,Heirloom,Washed,3,264.46,4.63
+Jimma,"Jimma Zone, Oromia",6,1695.2,162.4,Gesha,Natural,1,600.54,10.51
+Harar,Harari Region,8,1762.3,287.3,Bourbon,Washed,3,351.45,6.15
+Guji,"Guji Zone, Oromia",6,2166.3,182.2,Gesha,Natural,2,700.0,12.25
+Jimma,"Jimma Zone, Oromia",11,1738.6,57.5,Bourbon,Washed,4,206.65,3.62
+Harar,Harari Region,8,1760.9,187.0,Bourbon,Washed,1,589.15,10.31
+Harar,Harari Region,6,1854.1,204.1,Gesha,Natural,5,263.21,4.61
+Yirgacheffe,"Gedeo Zone, SNNPR",12,1971.0,53.0,74110,Natural,4,351.16,6.15
+Bench Maji,"Bench Sheko Zone, SNNPR",6,1788.3,285.5,Gesha,Washed,5,142.84,2.5
+Wellega,"Wellega Zone, Oromia",10,1784.0,55.4,74112,Washed,4,206.9,3.62
+Harar,Harari Region,8,2082.6,291.6,Typica,Natural,1,548.0,9.59
+Wellega,"Wellega Zone, Oromia",1,1825.1,25.1,Gesha,Washed,1,641.85,11.23
+Limu,"Jimma Zone, Oromia",11,1635.9,44.9,Gesha,Natural,4,344.13,6.02
+Limu,"Jimma Zone, Oromia",2,1708.1,86.9,Gesha,Washed,1,700.0,12.25
+Sidamo,Sidama Region,2,1559.6,136.2,74110,Washed,5,189.02,3.31
+Bench Maji,"Bench Sheko Zone, SNNPR",8,1363.0,209.7,74112,Washed,3,174.71,3.06
+Limu,"Jimma Zone, Oromia",1,1595.5,11.1,74112,Washed,4,248.22,4.34
+Bench Maji,"Bench Sheko Zone, SNNPR",1,1746.2,7.5,Heirloom,Washed,2,374.79,6.56
+Harar,Harari Region,10,1978.8,19.2,Gesha,Washed,5,247.19,4.33
+Limu,"Jimma Zone, Oromia",2,1566.8,149.0,Bourbon,Washed,4,277.36,4.85
+Guji,"Guji Zone, Oromia",5,2215.3,53.2,Bourbon,Washed,2,583.3,10.21
+Guji,"Guji Zone, Oromia",5,1828.9,146.6,Heirloom,Natural,3,421.49,7.38
+Yirgacheffe,"Gedeo Zone, SNNPR",11,1898.1,46.7,74112,Honey,5,252.69,4.42
+Limu,"Jimma Zone, Oromia",9,1737.2,237.0,Typica,Washed,3,253.15,4.43
+Harar,Harari Region,12,1786.0,7.4,Typica,Honey,4,303.74,5.32
+Harar,Harari Region,2,1745.1,81.0,Bourbon,Natural,3,486.15,8.51
+Guji,"Guji Zone, Oromia",5,1910.1,115.2,74110,Honey,1,700.0,12.25
+Harar,Harari Region,10,1842.8,41.4,Bourbon,Honey,4,318.6,5.58
+Bench Maji,"Bench Sheko Zone, SNNPR",3,1720.9,67.0,Bourbon,Honey,4,235.17,4.12
+Sidamo,Sidama Region,4,1828.4,122.8,74110,Honey,4,324.93,5.69
+Harar,Harari Region,7,1503.1,273.0,74110,Natural,2,399.76,7.0
+Limu,"Jimma Zone, Oromia",12,1502.6,20.8,74112,Washed,3,305.21,5.34
+Bench Maji,"Bench Sheko Zone, SNNPR",2,1580.4,99.4,Bourbon,Washed,2,382.09,6.69
+Sidamo,Sidama Region,12,1834.7,56.3,74110,Natural,2,494.33,8.65
+Jimma,"Jimma Zone, Oromia",2,1778.9,58.3,Gesha,Washed,3,417.95,7.31
+Harar,Harari Region,2,2022.9,147.1,74110,Washed,4,304.03,5.32
+Jimma,"Jimma Zone, Oromia",12,1409.8,6.2,74112,Washed,4,187.15,3.28
+Jimma,"Jimma Zone, Oromia",1,1440.9,52.0,74110,Natural,2,343.69,6.01
+Sidamo,Sidama Region,4,1844.5,70.1,Heirloom,Honey,1,639.88,11.2
+Limu,"Jimma Zone, Oromia",11,1885.8,46.8,74110,Honey,3,343.7,6.01
+Jimma,"Jimma Zone, Oromia",6,1492.0,182.0,Heirloom,Natural,3,238.54,4.17
+Bench Maji,"Bench Sheko Zone, SNNPR",12,1311.3,52.8,74110,Washed,3,240.66,4.21
+Sidamo,Sidama Region,4,1558.0,127.6,Gesha,Washed,5,264.2,4.62
+Yirgacheffe,"Gedeo Zone, SNNPR",7,1762.6,252.8,Gesha,Natural,2,632.11,11.06
+Jimma,"Jimma Zone, Oromia",6,1632.8,190.3,Bourbon,Honey,2,382.69,6.7
+Sidamo,Sidama Region,6,1681.2,254.2,Heirloom,Honey,5,152.71,2.67
+Harar,Harari Region,6,1949.5,171.9,Gesha,Honey,2,700.0,12.25
+Jimma,"Jimma Zone, Oromia",1,1623.9,5.5,Gesha,Washed,3,377.51,6.61
+Yirgacheffe,"Gedeo Zone, SNNPR",1,2112.3,24.7,Typica,Honey,2,612.61,10.72
+Sidamo,Sidama Region,7,1851.7,292.7,74110,Natural,1,505.83,8.85
+Guji,"Guji Zone, Oromia",9,1826.0,231.2,Typica,Honey,5,205.76,3.6
+Wellega,"Wellega Zone, Oromia",11,1742.2,41.3,Gesha,Natural,4,309.65,5.42
+Wellega,"Wellega Zone, Oromia",3,1520.4,58.0,74112,Washed,1,456.81,7.99
+Limu,"Jimma Zone, Oromia",3,1587.7,147.3,Gesha,Natural,4,351.01,6.14
+Limu,"Jimma Zone, Oromia",7,1517.5,174.3,74112,Natural,2,364.49,6.38
+Harar,Harari Region,6,1518.4,188.7,Gesha,Washed,5,231.53,4.05
+Sidamo,Sidama Region,8,1741.5,201.9,Gesha,Natural,3,458.41,8.02
+Yirgacheffe,"Gedeo Zone, SNNPR",4,1714.7,83.5,Gesha,Honey,5,354.88,6.21
+Guji,"Guji Zone, Oromia",7,1938.4,238.9,74112,Washed,3,391.79,6.86
+Yirgacheffe,"Gedeo Zone, SNNPR",3,2088.0,84.6,74112,Washed,2,605.22,10.59
+Guji,"Guji Zone, Oromia",2,1890.5,134.0,74110,Washed,1,700.0,12.25
+Wellega,"Wellega Zone, Oromia",9,1831.3,164.3,Heirloom,Washed,5,117.58,2.06
+Sidamo,Sidama Region,3,1845.5,75.8,Gesha,Washed,5,231.56,4.05
+Harar,Harari Region,6,1601.9,228.0,Typica,Natural,2,433.11,7.58
+Limu,"Jimma Zone, Oromia",4,1735.2,144.3,Heirloom,Washed,2,434.33,7.6
+Yirgacheffe,"Gedeo Zone, SNNPR",8,2102.8,237.8,74112,Washed,2,541.05,9.47
+Sidamo,Sidama Region,2,1605.3,65.4,Typica,Washed,2,458.59,8.03
+Limu,"Jimma Zone, Oromia",1,1702.9,7.3,Typica,Washed,3,308.69,5.4
+Harar,Harari Region,11,1510.4,22.8,74110,Honey,3,340.91,5.97
+Jimma,"Jimma Zone, Oromia",6,1455.9,154.5,74110,Washed,5,166.8,2.92
+Jimma,"Jimma Zone, Oromia",7,1465.0,178.3,74110,Washed,4,184.62,3.23
+Wellega,"Wellega Zone, Oromia",7,1972.3,252.5,Typica,Washed,4,161.38,2.82
+Wellega,"Wellega Zone, Oromia",8,1884.3,167.0,Heirloom,Natural,4,233.81,4.09
+Limu,"Jimma Zone, Oromia",5,1730.9,78.3,Typica,Honey,1,479.39,8.39
+Yirgacheffe,"Gedeo Zone, SNNPR",1,1903.5,52.9,Heirloom,Washed,2,566.47,9.91
+Guji,"Guji Zone, Oromia",4,2133.8,128.9,Typica,Honey,3,449.62,7.87
+Limu,"Jimma Zone, Oromia",11,1650.3,21.3,Heirloom,Washed,4,239.59,4.19
+Harar,Harari Region,12,1829.1,37.8,Heirloom,Washed,1,646.95,11.32
+Harar,Harari Region,3,1601.1,110.7,Typica,Washed,3,379.05,6.63
+Guji,"Guji Zone, Oromia",12,1812.8,23.8,Gesha,Washed,3,562.33,9.84
+Wellega,"Wellega Zone, Oromia",12,1738.3,26.7,74112,Natural,4,254.51,4.45
+Harar,Harari Region,7,2038.0,160.7,Heirloom,Natural,3,401.42,7.02
+Jimma,"Jimma Zone, Oromia",5,1591.7,61.4,74112,Washed,2,311.91,5.46
+Wellega,"Wellega Zone, Oromia",12,1769.6,22.1,Gesha,Natural,3,409.5,7.17
+Limu,"Jimma Zone, Oromia",4,1829.3,97.5,Gesha,Washed,3,457.19,8.0
+Sidamo,Sidama Region,10,1963.0,28.3,74112,Natural,3,368.14,6.44
+Bench Maji,"Bench Sheko Zone, SNNPR",10,1267.4,5.1,74112,Natural,5,100.0,1.75
+Sidamo,Sidama Region,8,1735.0,276.0,Heirloom,Washed,4,202.15,3.54
+Sidamo,Sidama Region,8,1920.2,213.6,Typica,Natural,4,241.42,4.22
+Limu,"Jimma Zone, Oromia",1,1794.7,52.5,74110,Washed,1,516.78,9.04
+Wellega,"Wellega Zone, Oromia",3,1803.5,100.1,Typica,Washed,4,248.17,4.34
+Sidamo,Sidama Region,3,1749.2,89.0,Heirloom,Natural,5,181.46,3.18
+Jimma,"Jimma Zone, Oromia",3,1641.3,77.1,74110,Washed,1,433.54,7.59
+Yirgacheffe,"Gedeo Zone, SNNPR",7,1734.7,227.9,Typica,Natural,1,574.74,10.06
+Bench Maji,"Bench Sheko Zone, SNNPR",5,1362.7,105.2,Bourbon,Natural,3,275.31,4.82
+Wellega,"Wellega Zone, Oromia",12,1830.9,35.7,Typica,Washed,3,272.06,4.76
+Guji,"Guji Zone, Oromia",12,1844.4,57.9,74110,Natural,2,541.22,9.47
+Yirgacheffe,"Gedeo Zone, SNNPR",7,2078.1,202.1,Gesha,Honey,3,576.06,10.08
+Guji,"Guji Zone, Oromia",7,1999.7,172.9,74110,Natural,4,325.02,5.69
+Jimma,"Jimma Zone, Oromia",6,1502.8,268.2,Heirloom,Natural,3,191.86,3.36
+Jimma,"Jimma Zone, Oromia",2,1425.2,52.9,Typica,Washed,3,236.31,4.14
+Yirgacheffe,"Gedeo Zone, SNNPR",11,2112.6,20.4,Typica,Natural,3,411.17,7.2
+Harar,Harari Region,6,1798.2,298.8,74110,Washed,3,336.15,5.88
+Limu,"Jimma Zone, Oromia",3,1769.7,98.6,74112,Natural,4,242.44,4.24
+Jimma,"Jimma Zone, Oromia",9,1529.0,153.4,Bourbon,Natural,3,265.73,4.65
+Yirgacheffe,"Gedeo Zone, SNNPR",2,1766.3,134.8,Gesha,Natural,2,700.0,12.25
+Bench Maji,"Bench Sheko Zone, SNNPR",6,1697.6,197.6,Bourbon,Washed,2,297.72,5.21
+Sidamo,Sidama Region,4,1610.8,145.9,Gesha,Natural,2,675.08,11.81
+Jimma,"Jimma Zone, Oromia",4,1575.8,51.6,74112,Washed,1,399.26,6.99
+Wellega,"Wellega Zone, Oromia",3,1782.2,61.1,Heirloom,Washed,5,175.13,3.06
+Limu,"Jimma Zone, Oromia",8,1618.9,214.6,Heirloom,Washed,2,333.37,5.83
+Bench Maji,"Bench Sheko Zone, SNNPR",12,1570.8,39.8,Heirloom,Washed,2,313.53,5.49
+Limu,"Jimma Zone, Oromia",4,1762.3,133.3,Typica,Washed,5,140.99,2.47
+Wellega,"Wellega Zone, Oromia",11,1707.1,50.5,74110,Washed,5,136.91,2.4
+Wellega,"Wellega Zone, Oromia",2,1566.9,86.0,74112,Washed,4,241.15,4.22
+Yirgacheffe,"Gedeo Zone, SNNPR",5,2117.2,109.2,74110,Natural,5,215.99,3.78
+Jimma,"Jimma Zone, Oromia",1,1443.9,35.1,74110,Natural,1,428.13,7.49
+Jimma,"Jimma Zone, Oromia",12,1660.7,49.6,74110,Washed,3,271.25,4.75
+Limu,"Jimma Zone, Oromia",10,1856.8,57.5,Heirloom,Natural,5,161.09,2.82
+Bench Maji,"Bench Sheko Zone, SNNPR",12,1668.7,50.4,Typica,Washed,3,237.37,4.15
+Yirgacheffe,"Gedeo Zone, SNNPR",1,1733.3,33.5,Bourbon,Washed,5,210.72,3.69
+Bench Maji,"Bench Sheko Zone, SNNPR",9,1647.7,248.9,Bourbon,Washed,1,351.39,6.15
+Limu,"Jimma Zone, Oromia",4,1795.0,78.9,74112,Honey,5,158.05,2.77
+Limu,"Jimma Zone, Oromia",6,1805.7,189.8,74112,Washed,3,266.78,4.67
+Yirgacheffe,"Gedeo Zone, SNNPR",8,2084.6,243.7,Typica,Natural,1,610.75,10.69
+Yirgacheffe,"Gedeo Zone, SNNPR",9,2179.9,221.7,Typica,Washed,2,483.77,8.47
+Harar,Harari Region,8,1568.4,222.9,Gesha,Washed,1,693.5,12.14
+Yirgacheffe,"Gedeo Zone, SNNPR",9,1888.0,232.5,Typica,Natural,5,175.43,3.07
+Guji,"Guji Zone, Oromia",4,1860.8,61.7,74112,Washed,5,185.74,3.25
+Wellega,"Wellega Zone, Oromia",1,1629.2,34.9,74110,Natural,3,332.37,5.82
+Bench Maji,"Bench Sheko Zone, SNNPR",8,1534.7,177.1,Bourbon,Washed,4,175.13,3.06
+Limu,"Jimma Zone, Oromia",2,1543.2,115.4,Gesha,Natural,2,596.08,10.43
+Harar,Harari Region,7,2004.4,259.9,Bourbon,Natural,4,258.64,4.53
+Wellega,"Wellega Zone, Oromia",7,1788.6,281.6,74110,Washed,3,234.77,4.11
+Bench Maji,"Bench Sheko Zone, SNNPR",8,1348.0,259.0,Heirloom,Washed,2,202.48,3.54
+Yirgacheffe,"Gedeo Zone, SNNPR",10,2071.2,49.8,Bourbon,Washed,3,437.18,7.65
+Limu,"Jimma Zone, Oromia",9,1721.7,150.8,Typica,Natural,4,232.87,4.08
+Bench Maji,"Bench Sheko Zone, SNNPR",3,1705.2,91.7,Bourbon,Honey,3,341.6,5.98
+Limu,"Jimma Zone, Oromia",4,1788.8,137.5,Bourbon,Washed,4,263.17,4.61
+Yirgacheffe,"Gedeo Zone, SNNPR",7,2137.1,226.5,Bourbon,Washed,3,401.23,7.02
+Wellega,"Wellega Zone, Oromia",4,1780.3,106.4,Typica,Natural,3,305.74,5.35
+Bench Maji,"Bench Sheko Zone, SNNPR",12,1670.9,43.9,Gesha,Natural,3,363.96,6.37
+Jimma,"Jimma Zone, Oromia",7,1694.2,185.4,Gesha,Washed,4,248.07,4.34
+Guji,"Guji Zone, Oromia",1,2010.6,40.0,Bourbon,Natural,5,250.73,4.39
+Jimma,"Jimma Zone, Oromia",11,1696.0,57.3,74110,Washed,3,261.79,4.58
+Limu,"Jimma Zone, Oromia",3,1876.3,68.5,74112,Washed,3,313.56,5.49
+Bench Maji,"Bench Sheko Zone, SNNPR",5,1488.5,87.9,74110,Natural,4,192.93,3.38
+Jimma,"Jimma Zone, Oromia",6,1422.9,183.8,Gesha,Washed,4,227.81,3.99
+Bench Maji,"Bench Sheko Zone, SNNPR",9,1774.0,160.3,Gesha,Washed,1,503.95,8.82
+Guji,"Guji Zone, Oromia",8,2287.4,205.7,Typica,Natural,2,500.5,8.76
+Yirgacheffe,"Gedeo Zone, SNNPR",4,1716.8,46.9,Typica,Natural,3,421.4,7.37
+Guji,"Guji Zone, Oromia",2,2166.2,100.3,74110,Washed,3,456.38,7.99
+Bench Maji,"Bench Sheko Zone, SNNPR",9,1496.7,296.9,74110,Natural,2,208.99,3.66
+Yirgacheffe,"Gedeo Zone, SNNPR",5,2004.3,78.4,Heirloom,Washed,4,346.98,6.07
+Wellega,"Wellega Zone, Oromia",10,1544.4,42.6,Heirloom,Natural,2,351.17,6.15
+Yirgacheffe,"Gedeo Zone, SNNPR",7,2053.9,231.5,74112,Washed,4,304.65,5.33
+Sidamo,Sidama Region,5,1613.4,113.1,Heirloom,Natural,3,397.28,6.95
+Guji,"Guji Zone, Oromia",12,1831.1,33.2,Gesha,Washed,5,258.19,4.52
+Harar,Harari Region,1,1620.8,19.2,Gesha,Natural,4,408.98,7.16
+Jimma,"Jimma Zone, Oromia",12,1502.2,57.1,Typica,Natural,3,245.97,4.3
+Sidamo,Sidama Region,9,1592.4,201.5,Gesha,Natural,3,437.4,7.65
+Yirgacheffe,"Gedeo Zone, SNNPR",11,1890.2,47.7,Bourbon,Washed,2,541.84,9.48
+Bench Maji,"Bench Sheko Zone, SNNPR",8,1414.0,263.6,74110,Natural,4,135.21,2.37
+Bench Maji,"Bench Sheko Zone, SNNPR",2,1294.8,116.5,Gesha,Washed,3,344.86,6.04
+Limu,"Jimma Zone, Oromia",3,1858.9,58.6,74112,Washed,2,425.97,7.45
+Jimma,"Jimma Zone, Oromia",6,1787.1,278.5,Heirloom,Natural,3,239.42,4.19
+Bench Maji,"Bench Sheko Zone, SNNPR",1,1450.7,59.1,74110,Natural,3,245.41,4.29
+Limu,"Jimma Zone, Oromia",9,1537.2,154.4,Gesha,Honey,1,660.96,11.57
+Limu,"Jimma Zone, Oromia",3,1575.0,134.4,Gesha,Honey,2,640.96,11.22
+Yirgacheffe,"Gedeo Zone, SNNPR",5,1827.2,130.1,Gesha,Washed,2,700.0,12.25
+Limu,"Jimma Zone, Oromia",12,1830.4,10.5,74110,Washed,5,150.96,2.64
+Harar,Harari Region,9,1761.3,236.6,Heirloom,Natural,3,365.0,6.39
+Wellega,"Wellega Zone, Oromia",11,1817.1,11.9,Typica,Washed,4,200.14,3.5
+Bench Maji,"Bench Sheko Zone, SNNPR",7,1367.6,246.4,Gesha,Honey,2,363.11,6.35
+Wellega,"Wellega Zone, Oromia",5,1516.6,73.4,74112,Natural,5,149.55,2.62
+Jimma,"Jimma Zone, Oromia",2,1660.3,136.2,Bourbon,Natural,2,430.84,7.54
+Bench Maji,"Bench Sheko Zone, SNNPR",6,1336.0,207.2,74112,Washed,5,100.0,1.75
+Yirgacheffe,"Gedeo Zone, SNNPR",8,2070.0,287.7,74112,Honey,2,490.73,8.59
+Harar,Harari Region,3,1952.4,128.5,Gesha,Honey,4,496.64,8.69
+Yirgacheffe,"Gedeo Zone, SNNPR",12,2017.5,29.7,74112,Washed,1,700.0,12.25
+Yirgacheffe,"Gedeo Zone, SNNPR",9,1706.2,220.3,Heirloom,Natural,1,623.57,10.91
+Yirgacheffe,"Gedeo Zone, SNNPR",4,1732.2,136.5,Typica,Natural,3,413.22,7.23
+Yirgacheffe,"Gedeo Zone, SNNPR",8,1792.7,161.8,74110,Natural,2,504.43,8.83
+Guji,"Guji Zone, Oromia",2,2086.7,112.5,Gesha,Washed,3,614.82,10.76
+Limu,"Jimma Zone, Oromia",9,1863.9,250.4,Heirloom,Washed,5,111.76,1.96
+Harar,Harari Region,10,1598.9,14.4,74110,Natural,3,352.11,6.16
+Limu,"Jimma Zone, Oromia",3,1595.0,96.4,Gesha,Washed,4,338.68,5.93
+Yirgacheffe,"Gedeo Zone, SNNPR",1,1834.5,27.4,74112,Washed,3,400.49,7.01
+Jimma,"Jimma Zone, Oromia",6,1418.3,171.0,Gesha,Washed,3,361.77,6.33
+Guji,"Guji Zone, Oromia",3,2023.7,92.2,Heirloom,Natural,1,700.0,12.25
+Guji,"Guji Zone, Oromia",1,1909.5,7.0,Gesha,Washed,3,548.94,9.61
+Sidamo,Sidama Region,11,1570.0,20.3,74110,Washed,4,242.45,4.24
+Limu,"Jimma Zone, Oromia",3,1851.9,103.2,74110,Natural,1,613.04,10.73
+Limu,"Jimma Zone, Oromia",1,1655.9,45.1,74110,Natural,3,337.27,5.9
+Bench Maji,"Bench Sheko Zone, SNNPR",1,1694.3,57.5,Typica,Natural,4,192.99,3.38
+Jimma,"Jimma Zone, Oromia",1,1582.5,25.3,Bourbon,Natural,3,313.57,5.49
+Yirgacheffe,"Gedeo Zone, SNNPR",1,1902.1,22.7,Heirloom,Honey,4,333.69,5.84
+Harar,Harari Region,10,1801.3,12.6,Heirloom,Natural,4,299.23,5.24
+Jimma,"Jimma Zone, Oromia",6,1448.2,285.4,74112,Natural,5,110.68,1.94
+Jimma,"Jimma Zone, Oromia",3,1579.5,49.3,Typica,Honey,4,226.41,3.96
+Wellega,"Wellega Zone, Oromia",9,1864.6,247.8,Gesha,Washed,4,259.45,4.54
+Yirgacheffe,"Gedeo Zone, SNNPR",5,2130.9,104.9,Gesha,Natural,4,470.01,8.23
+Jimma,"Jimma Zone, Oromia",12,1766.7,28.7,Bourbon,Natural,3,332.85,5.82
+Yirgacheffe,"Gedeo Zone, SNNPR",8,1887.3,175.0,74110,Natural,1,675.26,11.82
+Yirgacheffe,"Gedeo Zone, SNNPR",1,2173.3,23.7,Typica,Natural,4,331.1,5.79
+Guji,"Guji Zone, Oromia",11,1955.6,42.2,74110,Natural,4,312.22,5.46
+Bench Maji,"Bench Sheko Zone, SNNPR",12,1535.8,10.8,Heirloom,Washed,3,241.95,4.23
+Harar,Harari Region,4,1559.6,63.0,Bourbon,Washed,2,489.41,8.56
+Sidamo,Sidama Region,6,1890.3,218.8,74112,Washed,4,234.11,4.1
+Harar,Harari Region,7,1766.5,299.2,Heirloom,Honey,2,412.51,7.22
+Wellega,"Wellega Zone, Oromia",4,1515.5,146.8,74112,Natural,2,435.81,7.63
+Guji,"Guji Zone, Oromia",5,2216.8,88.4,Typica,Natural,4,363.65,6.36
+Sidamo,Sidama Region,1,1778.4,42.3,74110,Honey,3,416.45,7.29
+Bench Maji,"Bench Sheko Zone, SNNPR",3,1290.3,129.8,Gesha,Washed,5,143.54,2.51
+Jimma,"Jimma Zone, Oromia",2,1649.4,102.6,Typica,Washed,4,219.26,3.84
+Limu,"Jimma Zone, Oromia",4,1862.8,54.6,Bourbon,Honey,4,277.71,4.86
+Limu,"Jimma Zone, Oromia",12,1515.2,46.0,Gesha,Washed,4,296.11,5.18
+Guji,"Guji Zone, Oromia",1,2274.6,33.2,Gesha,Washed,4,457.03,8.0
+Wellega,"Wellega Zone, Oromia",7,1687.7,192.9,Heirloom,Natural,3,276.82,4.84
+Harar,Harari Region,2,1935.4,138.4,Bourbon,Washed,4,340.52,5.96
+Wellega,"Wellega Zone, Oromia",4,1903.3,92.4,Heirloom,Washed,1,509.25,8.91
+Bench Maji,"Bench Sheko Zone, SNNPR",3,1387.1,68.2,74110,Natural,4,204.2,3.57
+Wellega,"Wellega Zone, Oromia",7,1509.6,221.5,74110,Washed,4,212.68,3.72
+Limu,"Jimma Zone, Oromia",12,1821.8,20.3,74112,Honey,1,568.06,9.94
+Harar,Harari Region,2,1906.1,131.1,74112,Washed,4,327.59,5.73
+Limu,"Jimma Zone, Oromia",8,1874.8,273.3,Heirloom,Natural,4,210.75,3.69
+Sidamo,Sidama Region,8,1729.6,258.5,74112,Washed,3,279.5,4.89
+Harar,Harari Region,12,1846.2,43.4,74110,Honey,3,409.41,7.16
+Bench Maji,"Bench Sheko Zone, SNNPR",2,1246.1,95.1,Typica,Washed,3,247.72,4.34
+Bench Maji,"Bench Sheko Zone, SNNPR",12,1718.0,27.1,74112,Washed,2,322.04,5.64
+Guji,"Guji Zone, Oromia",7,2038.2,183.9,Heirloom,Washed,1,603.63,10.56
+Yirgacheffe,"Gedeo Zone, SNNPR",6,1793.9,258.0,74112,Washed,4,243.64,4.26
+Guji,"Guji Zone, Oromia",4,2118.5,97.9,Typica,Natural,4,339.07,5.93
+Wellega,"Wellega Zone, Oromia",4,1571.4,125.3,Typica,Washed,2,396.87,6.95
+Sidamo,Sidama Region,2,1920.7,119.4,Heirloom,Natural,3,428.04,7.49
+Sidamo,Sidama Region,2,1674.3,117.8,Typica,Washed,3,368.41,6.45
+Jimma,"Jimma Zone, Oromia",9,1433.1,289.6,Heirloom,Washed,2,230.32,4.03
+Jimma,"Jimma Zone, Oromia",2,1756.7,87.7,Heirloom,Washed,5,170.39,2.98
+Harar,Harari Region,5,1569.6,44.7,74110,Washed,4,270.01,4.73
+Limu,"Jimma Zone, Oromia",5,1886.4,123.7,Heirloom,Natural,5,163.58,2.86
+Yirgacheffe,"Gedeo Zone, SNNPR",5,1937.7,109.8,74110,Washed,3,429.02,7.51
+Yirgacheffe,"Gedeo Zone, SNNPR",3,1928.8,63.0,74112,Natural,1,700.0,12.25
+Wellega,"Wellega Zone, Oromia",9,1593.0,232.8,Gesha,Honey,2,459.69,8.04
+Bench Maji,"Bench Sheko Zone, SNNPR",6,1329.4,251.7,74110,Washed,3,196.91,3.45
+Bench Maji,"Bench Sheko Zone, SNNPR",7,1275.4,260.6,74112,Natural,3,144.05,2.52
+Jimma,"Jimma Zone, Oromia",5,1515.0,80.5,Heirloom,Natural,4,218.42,3.82
+Limu,"Jimma Zone, Oromia",12,1539.9,42.8,74110,Washed,3,298.93,5.23
+Wellega,"Wellega Zone, Oromia",6,1765.5,239.3,74110,Washed,5,100.0,1.75
+Jimma,"Jimma Zone, Oromia",10,1671.0,22.2,Gesha,Washed,2,414.46,7.25
+Wellega,"Wellega Zone, Oromia",9,1560.1,189.8,74110,Washed,4,184.16,3.22
+Wellega,"Wellega Zone, Oromia",4,1820.9,102.8,Bourbon,Natural,3,363.29,6.36
+Bench Maji,"Bench Sheko Zone, SNNPR",11,1697.9,38.3,74110,Washed,2,323.3,5.66
+Harar,Harari Region,9,2062.4,240.5,74110,Natural,3,381.48,6.68
+Wellega,"Wellega Zone, Oromia",12,1888.5,16.3,Typica,Washed,2,386.41,6.76
+Sidamo,Sidama Region,9,1901.6,236.7,Bourbon,Honey,3,391.23,6.85
+Wellega,"Wellega Zone, Oromia",4,1668.7,119.7,Heirloom,Honey,4,260.88,4.57
+Sidamo,Sidama Region,10,1616.3,5.4,Gesha,Washed,1,662.2,11.59
+Sidamo,Sidama Region,10,1855.8,9.2,74112,Honey,4,262.56,4.59
+Guji,"Guji Zone, Oromia",10,1890.2,30.2,Bourbon,Washed,3,405.94,7.1
+Jimma,"Jimma Zone, Oromia",12,1784.3,15.8,Bourbon,Washed,3,301.39,5.27
+Harar,Harari Region,10,1813.5,17.1,74110,Washed,3,356.93,6.25
+Sidamo,Sidama Region,6,1635.5,268.9,Bourbon,Washed,4,218.32,3.82
+Harar,Harari Region,5,2071.7,146.4,74110,Honey,4,316.03,5.53
+Harar,Harari Region,7,1968.8,294.0,Typica,Natural,3,313.46,5.49
+Yirgacheffe,"Gedeo Zone, SNNPR",5,1704.5,79.3,Gesha,Washed,4,384.81,6.73
+Sidamo,Sidama Region,7,1878.0,164.3,74110,Washed,3,332.0,5.81
+Jimma,"Jimma Zone, Oromia",10,1760.6,13.5,Bourbon,Honey,3,239.8,4.2
+Harar,Harari Region,4,1554.4,43.6,Bourbon,Honey,3,442.05,7.74
+Guji,"Guji Zone, Oromia",1,2193.8,18.8,Gesha,Natural,3,619.41,10.84
+Yirgacheffe,"Gedeo Zone, SNNPR",1,1774.1,42.4,Heirloom,Honey,3,466.85,8.17
+Harar,Harari Region,8,1848.1,227.5,Typica,Natural,2,456.47,7.99
+Sidamo,Sidama Region,8,1730.4,264.5,Typica,Honey,3,287.49,5.03
+Limu,"Jimma Zone, Oromia",8,1574.5,199.7,74112,Washed,1,376.87,6.6
+Bench Maji,"Bench Sheko Zone, SNNPR",11,1701.5,23.3,Typica,Natural,3,242.5,4.24
+Jimma,"Jimma Zone, Oromia",3,1606.3,91.0,74110,Washed,3,308.84,5.4
+Limu,"Jimma Zone, Oromia",9,1889.2,183.9,74112,Washed,3,250.78,4.39
+Bench Maji,"Bench Sheko Zone, SNNPR",3,1231.1,61.0,Gesha,Washed,4,241.32,4.22
+Wellega,"Wellega Zone, Oromia",10,1651.5,22.9,Heirloom,Washed,2,346.39,6.06
+Yirgacheffe,"Gedeo Zone, SNNPR",11,2199.8,27.3,74112,Washed,3,421.01,7.37
+Wellega,"Wellega Zone, Oromia",10,1854.7,14.2,74112,Natural,5,149.05,2.61
+Sidamo,Sidama Region,6,1669.4,240.2,Gesha,Natural,2,616.23,10.78
+Wellega,"Wellega Zone, Oromia",9,1586.0,295.9,Typica,Natural,4,165.45,2.9
+Harar,Harari Region,6,2052.6,254.2,74110,Honey,2,473.82,8.29
+Limu,"Jimma Zone, Oromia",6,1634.2,296.8,Bourbon,Washed,4,204.77,3.58
+Bench Maji,"Bench Sheko Zone, SNNPR",7,1529.6,196.8,Typica,Washed,4,132.09,2.31
+Harar,Harari Region,11,2003.4,5.6,Typica,Natural,4,309.15,5.41
+Wellega,"Wellega Zone, Oromia",4,1779.5,95.1,74112,Natural,5,168.82,2.95
+Harar,Harari Region,6,1571.1,294.2,74112,Natural,3,310.02,5.43
+Harar,Harari Region,11,2019.2,13.7,Gesha,Natural,3,546.59,9.57
+Bench Maji,"Bench Sheko Zone, SNNPR",7,1387.7,290.3,Typica,Natural,5,100.0,1.75
+Sidamo,Sidama Region,4,1853.3,45.7,Heirloom,Washed,3,361.77,6.33
+Guji,"Guji Zone, Oromia",1,2015.3,53.3,74110,Washed,4,304.2,5.32
+Guji,"Guji Zone, Oromia",2,2016.4,115.4,74110,Washed,2,594.38,10.4
+Jimma,"Jimma Zone, Oromia",6,1693.4,167.4,Bourbon,Natural,3,290.97,5.09
+Jimma,"Jimma Zone, Oromia",8,1510.5,214.8,Heirloom,Washed,3,220.66,3.86
+Yirgacheffe,"Gedeo Zone, SNNPR",5,1794.9,104.0,Heirloom,Washed,3,418.17,7.32
+Harar,Harari Region,3,1623.2,93.1,Typica,Washed,4,286.2,5.01
+Wellega,"Wellega Zone, Oromia",11,1537.8,57.3,Bourbon,Washed,4,216.22,3.78
+Harar,Harari Region,4,1555.3,100.9,74110,Washed,5,203.88,3.57
+Yirgacheffe,"Gedeo Zone, SNNPR",6,1856.5,190.7,Gesha,Washed,2,662.87,11.6
+Harar,Harari Region,10,1769.5,38.7,Bourbon,Natural,5,199.1,3.48
+Sidamo,Sidama Region,9,1572.7,244.1,74110,Natural,2,394.84,6.91
+Jimma,"Jimma Zone, Oromia",3,1783.0,83.9,74110,Natural,4,255.89,4.48
+Sidamo,Sidama Region,2,1884.3,76.0,Gesha,Natural,5,255.92,4.48
+Jimma,"Jimma Zone, Oromia",4,1573.8,119.6,Typica,Honey,2,409.48,7.17
+Sidamo,Sidama Region,4,1641.8,111.9,74110,Honey,4,308.08,5.39
+Wellega,"Wellega Zone, Oromia",1,1607.2,19.9,Typica,Washed,3,293.86,5.14
+Harar,Harari Region,2,1723.3,76.6,Typica,Natural,4,315.47,5.52
+Harar,Harari Region,8,1620.2,242.5,Heirloom,Washed,5,176.47,3.09
+Yirgacheffe,"Gedeo Zone, SNNPR",9,1803.1,270.0,Heirloom,Honey,5,173.53,3.04
+Limu,"Jimma Zone, Oromia",9,1514.0,268.1,Typica,Natural,2,288.05,5.04
+Jimma,"Jimma Zone, Oromia",2,1659.7,143.0,Gesha,Washed,3,439.94,7.7
+Bench Maji,"Bench Sheko Zone, SNNPR",11,1559.3,16.1,74112,Natural,1,396.19,6.93
+Wellega,"Wellega Zone, Oromia",1,1882.2,27.5,Typica,Washed,5,152.02,2.66
+Limu,"Jimma Zone, Oromia",5,1814.6,143.7,Typica,Honey,4,242.88,4.25
+Limu,"Jimma Zone, Oromia",1,1623.9,18.7,Typica,Natural,3,324.04,5.67
+Wellega,"Wellega Zone, Oromia",10,1914.3,48.4,74112,Honey,5,135.17,2.37
+Sidamo,Sidama Region,10,1973.5,53.2,74110,Honey,1,578.96,10.13
+Limu,"Jimma Zone, Oromia",3,1639.6,97.4,74110,Natural,4,274.95,4.81
+Yirgacheffe,"Gedeo Zone, SNNPR",6,1848.0,218.9,74110,Natural,3,415.28,7.27
+Bench Maji,"Bench Sheko Zone, SNNPR",7,1457.8,261.1,74110,Natural,4,110.97,1.94
+Yirgacheffe,"Gedeo Zone, SNNPR",1,1907.1,45.3,Bourbon,Washed,3,455.0,7.96
+Jimma,"Jimma Zone, Oromia",3,1488.9,97.1,Gesha,Washed,2,495.13,8.66
+Guji,"Guji Zone, Oromia",12,2086.0,59.2,Heirloom,Washed,3,412.39,7.22
+Harar,Harari Region,3,1917.9,117.2,Heirloom,Washed,3,456.95,8.0
+Limu,"Jimma Zone, Oromia",1,1698.3,56.3,Typica,Natural,2,443.3,7.76
+Sidamo,Sidama Region,1,1855.5,47.5,74110,Natural,3,403.63,7.06
+Harar,Harari Region,5,1633.1,118.6,Heirloom,Natural,4,308.0,5.39
+Bench Maji,"Bench Sheko Zone, SNNPR",1,1479.0,53.1,Heirloom,Washed,3,244.72,4.28
+Harar,Harari Region,3,2013.0,137.1,Bourbon,Washed,3,474.02,8.3
+Yirgacheffe,"Gedeo Zone, SNNPR",8,1707.8,192.1,Typica,Washed,5,184.02,3.22
+Jimma,"Jimma Zone, Oromia",12,1618.2,59.0,Typica,Washed,4,157.57,2.76
+Wellega,"Wellega Zone, Oromia",4,1998.6,101.5,74110,Washed,1,552.79,9.67
+Wellega,"Wellega Zone, Oromia",4,1732.1,119.5,Typica,Washed,5,173.19,3.03
+Guji,"Guji Zone, Oromia",11,2215.7,51.3,Heirloom,Washed,4,319.97,5.6
+Yirgacheffe,"Gedeo Zone, SNNPR",4,2083.3,104.2,74110,Natural,3,501.14,8.77
+Bench Maji,"Bench Sheko Zone, SNNPR",10,1655.1,5.8,Bourbon,Natural,4,176.43,3.09
+Jimma,"Jimma Zone, Oromia",6,1700.0,286.2,Bourbon,Washed,4,162.12,2.84
+Sidamo,Sidama Region,5,1793.7,123.4,Gesha,Washed,4,359.38,6.29
+Harar,Harari Region,9,1644.9,182.2,74112,Honey,4,257.2,4.5
+Harar,Harari Region,1,1850.8,12.4,Bourbon,Natural,4,319.27,5.59
+Guji,"Guji Zone, Oromia",9,1932.0,290.9,74112,Washed,3,355.4,6.22
+Bench Maji,"Bench Sheko Zone, SNNPR",12,1477.9,20.3,Bourbon,Natural,2,355.68,6.22
+Jimma,"Jimma Zone, Oromia",7,1793.3,268.0,Typica,Natural,3,219.01,3.83
+Jimma,"Jimma Zone, Oromia",8,1412.5,188.9,74112,Washed,5,110.18,1.93
+Guji,"Guji Zone, Oromia",2,2191.9,87.2,74112,Honey,3,523.57,9.16
+Limu,"Jimma Zone, Oromia",7,1898.5,273.8,Typica,Natural,4,231.18,4.05
+Bench Maji,"Bench Sheko Zone, SNNPR",1,1776.7,54.0,74110,Natural,3,268.08,4.69
+Wellega,"Wellega Zone, Oromia",12,1827.2,17.8,74112,Washed,5,137.11,2.4
+Wellega,"Wellega Zone, Oromia",11,1502.7,56.6,74110,Honey,3,302.05,5.29
+Yirgacheffe,"Gedeo Zone, SNNPR",4,2195.3,123.2,Bourbon,Natural,2,690.7,12.09
+Wellega,"Wellega Zone, Oromia",8,1689.6,205.7,Gesha,Natural,2,487.26,8.53
+Harar,Harari Region,5,2088.7,111.4,Heirloom,Washed,5,215.36,3.77
+Limu,"Jimma Zone, Oromia",2,1645.0,135.0,Bourbon,Washed,3,362.97,6.35
+Yirgacheffe,"Gedeo Zone, SNNPR",11,2048.6,40.7,Typica,Natural,4,307.3,5.38
+Bench Maji,"Bench Sheko Zone, SNNPR",12,1225.4,36.9,Heirloom,Natural,2,315.42,5.52
+Jimma,"Jimma Zone, Oromia",2,1711.6,107.1,Bourbon,Washed,3,335.32,5.87
+Jimma,"Jimma Zone, Oromia",8,1781.4,282.2,Typica,Natural,2,271.8,4.76
+Jimma,"Jimma Zone, Oromia",6,1633.3,238.9,Bourbon,Washed,1,390.52,6.83
+Bench Maji,"Bench Sheko Zone, SNNPR",4,1728.6,137.1,74112,Natural,3,288.92,5.06
+Harar,Harari Region,8,1618.0,260.6,Heirloom,Honey,1,510.86,8.94
+Wellega,"Wellega Zone, Oromia",9,1732.5,277.1,74112,Washed,3,238.92,4.18
+Limu,"Jimma Zone, Oromia",7,1658.4,250.4,Typica,Honey,1,385.12,6.74
+Jimma,"Jimma Zone, Oromia",10,1491.7,30.8,74112,Honey,1,391.91,6.86
+Wellega,"Wellega Zone, Oromia",5,1764.9,148.4,Heirloom,Honey,3,342.73,6.0
+Guji,"Guji Zone, Oromia",8,1909.9,153.1,Typica,Washed,3,357.7,6.26
+Limu,"Jimma Zone, Oromia",4,1584.2,129.0,Typica,Washed,4,203.32,3.56
+Jimma,"Jimma Zone, Oromia",5,1591.4,125.9,74112,Washed,1,431.85,7.56
+Jimma,"Jimma Zone, Oromia",7,1432.9,218.9,Typica,Natural,1,321.6,5.63
+Limu,"Jimma Zone, Oromia",9,1729.7,250.1,Heirloom,Honey,3,231.28,4.05
+Wellega,"Wellega Zone, Oromia",7,1920.1,298.4,Heirloom,Honey,1,379.37,6.64
+Yirgacheffe,"Gedeo Zone, SNNPR",12,1941.6,51.1,Heirloom,Honey,3,488.08,8.54
+Wellega,"Wellega Zone, Oromia",7,1727.0,264.4,74112,Honey,5,122.78,2.15
+Limu,"Jimma Zone, Oromia",9,1705.2,280.4,74112,Washed,3,264.6,4.63
+Yirgacheffe,"Gedeo Zone, SNNPR",11,1770.6,36.4,Gesha,Washed,4,361.99,6.33
+Bench Maji,"Bench Sheko Zone, SNNPR",6,1562.3,236.5,74112,Washed,3,210.17,3.68
+Harar,Harari Region,10,1720.4,9.8,Heirloom,Natural,3,401.16,7.02
+Wellega,"Wellega Zone, Oromia",6,1875.8,243.5,Typica,Natural,4,242.78,4.25
+Limu,"Jimma Zone, Oromia",1,1560.8,30.2,74110,Washed,3,300.8,5.26
+Sidamo,Sidama Region,11,1815.5,5.4,Gesha,Natural,2,633.54,11.09
+Sidamo,Sidama Region,6,1743.5,239.5,74110,Natural,3,339.13,5.93
+Limu,"Jimma Zone, Oromia",5,1518.2,111.1,Bourbon,Natural,5,174.13,3.05
+Sidamo,Sidama Region,12,1775.6,7.8,Gesha,Washed,4,375.3,6.57
+Bench Maji,"Bench Sheko Zone, SNNPR",9,1401.6,219.9,74110,Washed,3,201.51,3.53
+Bench Maji,"Bench Sheko Zone, SNNPR",11,1304.1,25.9,Typica,Washed,4,153.31,2.68
+Bench Maji,"Bench Sheko Zone, SNNPR",10,1606.4,36.1,74112,Washed,3,210.82,3.69
+Limu,"Jimma Zone, Oromia",3,1709.9,125.3,Bourbon,Washed,2,454.85,7.96
+Bench Maji,"Bench Sheko Zone, SNNPR",3,1582.3,105.7,74112,Natural,3,275.34,4.82
+Sidamo,Sidama Region,6,1976.2,282.7,Gesha,Washed,5,205.64,3.6
+Sidamo,Sidama Region,1,1867.8,39.2,74112,Natural,2,487.55,8.53
+Guji,"Guji Zone, Oromia",8,1956.6,277.4,Typica,Washed,4,252.23,4.41
+Jimma,"Jimma Zone, Oromia",11,1436.9,14.0,Gesha,Washed,3,319.73,5.6
+Limu,"Jimma Zone, Oromia",9,1865.3,178.4,74112,Washed,5,133.92,2.34
+Harar,Harari Region,3,1676.6,52.6,Bourbon,Washed,1,658.1,11.52
+Jimma,"Jimma Zone, Oromia",9,1665.4,211.7,Typica,Honey,3,225.18,3.94
+Bench Maji,"Bench Sheko Zone, SNNPR",7,1264.2,216.0,Typica,Washed,3,185.38,3.24
+Yirgacheffe,"Gedeo Zone, SNNPR",4,2115.5,53.2,74112,Washed,2,574.5,10.05
+Guji,"Guji Zone, Oromia",4,2166.9,109.5,Heirloom,Washed,3,454.3,7.95
+Harar,Harari Region,12,1939.8,41.2,Typica,Washed,4,309.3,5.41
+Bench Maji,"Bench Sheko Zone, SNNPR",2,1536.3,143.7,Bourbon,Natural,2,400.17,7.0
+Limu,"Jimma Zone, Oromia",5,1685.6,53.1,74110,Natural,2,410.79,7.19
+Bench Maji,"Bench Sheko Zone, SNNPR",12,1570.2,52.5,Gesha,Washed,2,433.29,7.58
+Harar,Harari Region,8,1677.8,290.7,74112,Washed,4,215.05,3.76
+Wellega,"Wellega Zone, Oromia",4,1513.6,97.6,74112,Washed,3,293.79,5.14
+Yirgacheffe,"Gedeo Zone, SNNPR",9,1988.8,203.9,74110,Natural,1,652.48,11.42
+Guji,"Guji Zone, Oromia",1,1964.1,16.5,Heirloom,Natural,3,451.31,7.9
+Limu,"Jimma Zone, Oromia",6,1726.3,177.4,74110,Natural,4,231.13,4.04
+Bench Maji,"Bench Sheko Zone, SNNPR",3,1210.1,114.7,Typica,Natural,3,259.62,4.54
+Sidamo,Sidama Region,5,1690.3,67.5,Bourbon,Natural,5,212.85,3.72
+Limu,"Jimma Zone, Oromia",7,1667.1,167.5,Bourbon,Natural,1,521.49,9.13
+Harar,Harari Region,1,1888.9,17.7,Bourbon,Washed,4,322.25,5.64
+Yirgacheffe,"Gedeo Zone, SNNPR",7,1827.7,165.9,Gesha,Washed,4,417.12,7.3
+Guji,"Guji Zone, Oromia",5,1835.1,83.5,Gesha,Natural,1,700.0,12.25
+Sidamo,Sidama Region,3,1654.1,95.3,Bourbon,Washed,3,378.67,6.63
+Sidamo,Sidama Region,8,1572.6,219.7,Typica,Washed,2,366.19,6.41
+Sidamo,Sidama Region,5,1901.4,83.8,Typica,Natural,2,478.73,8.38
+Limu,"Jimma Zone, Oromia",6,1877.3,185.6,Gesha,Washed,5,211.77,3.71
+Bench Maji,"Bench Sheko Zone, SNNPR",10,1508.5,22.0,Gesha,Washed,5,134.43,2.35
+Wellega,"Wellega Zone, Oromia",3,1914.2,118.4,Gesha,Washed,2,608.95,10.66
+Bench Maji,"Bench Sheko Zone, SNNPR",6,1464.3,169.9,74112,Natural,2,303.21,5.31
+Harar,Harari Region,10,1515.5,38.2,74112,Natural,2,431.38,7.55
+Wellega,"Wellega Zone, Oromia",4,1773.2,85.9,Gesha,Washed,3,441.74,7.73
+Wellega,"Wellega Zone, Oromia",9,1898.6,258.6,74112,Washed,1,366.86,6.42
+Harar,Harari Region,11,1514.2,50.9,74110,Washed,2,453.84,7.94
+Guji,"Guji Zone, Oromia",2,2263.2,86.2,74112,Washed,3,464.69,8.13
+Wellega,"Wellega Zone, Oromia",10,1794.2,26.9,74112,Natural,2,387.69,6.78
+Harar,Harari Region,8,2042.5,206.2,74112,Washed,1,554.42,9.7
+Wellega,"Wellega Zone, Oromia",1,1613.0,50.0,74110,Washed,2,384.1,6.72
+Guji,"Guji Zone, Oromia",12,1943.7,20.4,74112,Natural,1,652.74,11.42
+Harar,Harari Region,4,1916.3,100.8,74110,Natural,4,319.07,5.58
+Harar,Harari Region,7,1592.3,172.4,74112,Washed,3,344.23,6.02
+Guji,"Guji Zone, Oromia",4,2092.4,77.1,Typica,Washed,4,302.47,5.29
+Limu,"Jimma Zone, Oromia",4,1854.4,138.5,Gesha,Washed,2,622.54,10.89
+Wellega,"Wellega Zone, Oromia",9,1570.6,231.8,Typica,Washed,2,306.03,5.36
+Guji,"Guji Zone, Oromia",11,1980.2,41.9,74110,Honey,1,699.07,12.23
+Jimma,"Jimma Zone, Oromia",3,1467.6,78.7,Bourbon,Natural,4,176.8,3.09
+Harar,Harari Region,5,1960.8,87.8,Typica,Washed,3,397.99,6.96
+Guji,"Guji Zone, Oromia",7,2267.2,253.4,Heirloom,Washed,1,594.18,10.4
+Wellega,"Wellega Zone, Oromia",10,1761.8,18.9,Heirloom,Honey,5,131.49,2.3
+Sidamo,Sidama Region,7,1663.9,279.8,Gesha,Washed,2,483.23,8.46
+Sidamo,Sidama Region,11,1983.7,12.4,Bourbon,Natural,3,424.22,7.42
+Jimma,"Jimma Zone, Oromia",6,1571.6,191.4,Heirloom,Washed,3,248.49,4.35
+Sidamo,Sidama Region,8,1695.7,249.2,74112,Washed,1,499.71,8.74
+Jimma,"Jimma Zone, Oromia",2,1418.0,120.8,Typica,Washed,3,258.25,4.52
+Jimma,"Jimma Zone, Oromia",8,1450.6,154.2,Typica,Washed,2,285.24,4.99
+Yirgacheffe,"Gedeo Zone, SNNPR",3,1974.1,59.2,Bourbon,Natural,4,358.0,6.27
+Sidamo,Sidama Region,12,1816.4,14.1,74110,Washed,1,557.87,9.76
+Bench Maji,"Bench Sheko Zone, SNNPR",10,1444.0,12.9,Gesha,Honey,4,239.52,4.19
+Wellega,"Wellega Zone, Oromia",4,1802.7,73.9,74110,Natural,5,145.97,2.55
+Jimma,"Jimma Zone, Oromia",5,1653.5,105.3,74112,Natural,3,279.41,4.89
+Limu,"Jimma Zone, Oromia",7,1722.6,201.4,Gesha,Honey,3,371.98,6.51
+Harar,Harari Region,4,1886.9,71.7,74112,Washed,1,623.76,10.92
+Wellega,"Wellega Zone, Oromia",3,1678.3,68.0,74112,Washed,4,230.03,4.03
+Wellega,"Wellega Zone, Oromia",9,1692.0,249.9,74110,Washed,2,343.26,6.01
+Wellega,"Wellega Zone, Oromia",1,1657.5,10.3,Bourbon,Natural,5,154.86,2.71
+Bench Maji,"Bench Sheko Zone, SNNPR",3,1734.8,91.0,Typica,Washed,3,271.57,4.75
+Sidamo,Sidama Region,4,1857.0,74.7,Bourbon,Washed,4,277.62,4.86
+Jimma,"Jimma Zone, Oromia",4,1701.4,136.0,74112,Honey,1,515.14,9.01
+Harar,Harari Region,12,1960.5,21.9,74110,Natural,2,544.52,9.53
+Sidamo,Sidama Region,3,1765.3,104.4,Gesha,Natural,4,393.35,6.88
+Bench Maji,"Bench Sheko Zone, SNNPR",7,1785.3,221.1,74112,Washed,2,287.7,5.03
+Harar,Harari Region,6,1651.4,196.2,Typica,Washed,5,173.38,3.03
+Bench Maji,"Bench Sheko Zone, SNNPR",11,1281.4,54.1,Bourbon,Honey,5,132.25,2.31
+Jimma,"Jimma Zone, Oromia",11,1776.6,34.1,74110,Washed,1,437.04,7.65
+Yirgacheffe,"Gedeo Zone, SNNPR",6,1851.5,295.0,Gesha,Washed,4,327.74,5.74
+Guji,"Guji Zone, Oromia",9,1925.4,168.1,Gesha,Natural,3,538.06,9.42
+Yirgacheffe,"Gedeo Zone, SNNPR",6,1933.4,161.5,74112,Washed,4,292.95,5.13
+Wellega,"Wellega Zone, Oromia",8,1992.9,150.0,Bourbon,Natural,3,298.2,5.22
+Jimma,"Jimma Zone, Oromia",10,1424.6,49.8,Typica,Natural,2,281.33,4.92
+Yirgacheffe,"Gedeo Zone, SNNPR",7,1962.6,166.7,Bourbon,Washed,2,545.48,9.55
+Limu,"Jimma Zone, Oromia",12,1565.1,45.4,Bourbon,Natural,2,434.18,7.6
+Limu,"Jimma Zone, Oromia",3,1546.6,68.0,Gesha,Natural,1,700.0,12.25
+Harar,Harari Region,9,1737.8,194.4,Bourbon,Washed,3,342.55,5.99
+Bench Maji,"Bench Sheko Zone, SNNPR",10,1481.9,32.6,74112,Washed,3,210.14,3.68
+Jimma,"Jimma Zone, Oromia",12,1731.5,48.1,74110,Washed,4,193.39,3.38
+Jimma,"Jimma Zone, Oromia",8,1720.7,220.4,Typica,Natural,5,100.0,1.75
+Yirgacheffe,"Gedeo Zone, SNNPR",10,1940.6,49.5,74112,Natural,3,419.37,7.34
+Limu,"Jimma Zone, Oromia",2,1757.6,81.9,74112,Washed,2,438.89,7.68
+Sidamo,Sidama Region,12,1888.5,54.8,Gesha,Washed,4,379.59,6.64
+Yirgacheffe,"Gedeo Zone, SNNPR",2,2099.9,101.0,Gesha,Honey,3,700.0,12.25
+Wellega,"Wellega Zone, Oromia",9,1507.3,187.1,74112,Washed,3,238.38,4.17
+Sidamo,Sidama Region,6,1576.8,240.7,Typica,Washed,4,219.52,3.84
+Harar,Harari Region,7,1724.3,243.8,Bourbon,Washed,2,451.42,7.9
+Guji,"Guji Zone, Oromia",12,1998.9,33.1,Bourbon,Honey,2,598.73,10.48
+Sidamo,Sidama Region,4,1763.5,40.8,Bourbon,Washed,3,393.29,6.88
+Jimma,"Jimma Zone, Oromia",5,1419.5,50.8,74112,Natural,5,127.37,2.23
+Yirgacheffe,"Gedeo Zone, SNNPR",5,1925.6,76.3,74112,Washed,3,417.73,7.31
+Guji,"Guji Zone, Oromia",9,1883.0,158.9,74112,Natural,5,215.22,3.77
+Sidamo,Sidama Region,11,1799.6,9.2,Gesha,Washed,1,700.0,12.25
+Yirgacheffe,"Gedeo Zone, SNNPR",8,2026.5,236.9,Gesha,Washed,1,700.0,12.25
+Harar,Harari Region,10,1859.6,45.1,74112,Washed,2,467.17,8.18
+Sidamo,Sidama Region,2,1814.5,52.4,Gesha,Washed,2,657.5,11.51
+Yirgacheffe,"Gedeo Zone, SNNPR",7,2091.2,298.9,74110,Natural,5,190.63,3.34
+Yirgacheffe,"Gedeo Zone, SNNPR",3,2069.8,107.4,74112,Washed,4,375.55,6.57
+Jimma,"Jimma Zone, Oromia",12,1692.6,25.5,Gesha,Natural,4,294.13,5.15
+Sidamo,Sidama Region,3,1756.8,114.3,74112,Natural,5,199.53,3.49
+Bench Maji,"Bench Sheko Zone, SNNPR",12,1605.3,26.8,74112,Washed,4,159.62,2.79
+Limu,"Jimma Zone, Oromia",9,1663.6,203.2,Bourbon,Natural,3,327.15,5.73
+Wellega,"Wellega Zone, Oromia",11,1674.9,18.4,74110,Washed,3,257.04,4.5
+Harar,Harari Region,8,1652.7,221.0,Gesha,Natural,3,467.49,8.18
+Limu,"Jimma Zone, Oromia",9,1818.5,260.3,74110,Washed,2,321.58,5.63
+Yirgacheffe,"Gedeo Zone, SNNPR",12,1956.9,20.9,Typica,Washed,5,178.62,3.13
+Limu,"Jimma Zone, Oromia",6,1536.5,197.8,Typica,Honey,2,349.32,6.11
+Sidamo,Sidama Region,1,1712.7,11.9,Bourbon,Honey,2,540.1,9.45
+Limu,"Jimma Zone, Oromia",1,1844.7,36.7,Heirloom,Washed,4,259.8,4.55
+Guji,"Guji Zone, Oromia",3,1927.9,76.0,Heirloom,Washed,2,569.79,9.97
+Wellega,"Wellega Zone, Oromia",2,1653.2,101.1,74112,Natural,1,542.28,9.49
+Wellega,"Wellega Zone, Oromia",10,1886.3,44.3,Typica,Washed,3,271.9,4.76
+Yirgacheffe,"Gedeo Zone, SNNPR",4,2024.7,113.6,Heirloom,Washed,2,596.2,10.43
+Limu,"Jimma Zone, Oromia",7,1765.0,271.2,Typica,Natural,1,368.83,6.45
+Limu,"Jimma Zone, Oromia",10,1583.4,12.3,Bourbon,Washed,2,372.14,6.51
+Harar,Harari Region,5,1582.9,134.5,74110,Natural,2,512.67,8.97
+Bench Maji,"Bench Sheko Zone, SNNPR",9,1656.0,196.9,Gesha,Washed,5,150.48,2.63
+Guji,"Guji Zone, Oromia",10,2190.9,47.1,Heirloom,Washed,3,407.09,7.12
+Wellega,"Wellega Zone, Oromia",1,1591.2,58.1,Typica,Natural,2,355.82,6.23
+Sidamo,Sidama Region,11,1840.3,46.0,Bourbon,Washed,1,590.77,10.34
+Guji,"Guji Zone, Oromia",8,2212.6,269.3,Gesha,Honey,4,372.14,6.51
+Yirgacheffe,"Gedeo Zone, SNNPR",6,1754.5,187.3,Gesha,Natural,3,520.39,9.11
+Yirgacheffe,"Gedeo Zone, SNNPR",7,2128.6,264.7,Heirloom,Honey,1,630.0,11.02
+Wellega,"Wellega Zone, Oromia",1,1834.7,17.7,Bourbon,Washed,1,545.39,9.54
+Harar,Harari Region,6,1503.1,216.8,74110,Natural,2,463.63,8.11
+Wellega,"Wellega Zone, Oromia",9,1993.3,239.7,74112,Washed,4,197.55,3.46
+Guji,"Guji Zone, Oromia",8,2229.8,293.9,74112,Washed,2,479.19,8.39
+Yirgacheffe,"Gedeo Zone, SNNPR",2,1900.9,103.6,Bourbon,Natural,3,517.49,9.06
+Limu,"Jimma Zone, Oromia",3,1783.8,51.6,Gesha,Washed,4,325.13,5.69
+Sidamo,Sidama Region,2,1687.8,75.9,74112,Washed,4,270.41,4.73
+Wellega,"Wellega Zone, Oromia",8,1847.6,244.4,74110,Washed,4,181.02,3.17
+Guji,"Guji Zone, Oromia",4,2072.1,147.3,74112,Washed,3,440.23,7.7
+Limu,"Jimma Zone, Oromia",2,1567.0,90.9,74110,Washed,1,533.86,9.34
+Limu,"Jimma Zone, Oromia",9,1738.1,212.3,74110,Washed,4,171.62,3.0
+Limu,"Jimma Zone, Oromia",2,1759.5,86.1,Heirloom,Washed,1,570.65,9.99
+Guji,"Guji Zone, Oromia",6,1955.8,276.8,74110,Honey,3,392.03,6.86
+Yirgacheffe,"Gedeo Zone, SNNPR",5,1802.1,86.1,Heirloom,Washed,3,390.96,6.84
+Sidamo,Sidama Region,7,1888.8,259.9,Heirloom,Natural,5,158.65,2.78
+Yirgacheffe,"Gedeo Zone, SNNPR",1,1759.6,33.2,Typica,Washed,4,285.15,4.99
+Wellega,"Wellega Zone, Oromia",4,1958.9,51.9,Typica,Washed,2,401.54,7.03
+Bench Maji,"Bench Sheko Zone, SNNPR",1,1435.1,49.1,74110,Natural,4,195.76,3.43
+Sidamo,Sidama Region,7,1852.2,154.8,Typica,Washed,5,166.93,2.92
+Bench Maji,"Bench Sheko Zone, SNNPR",2,1792.1,123.0,74112,Natural,5,171.49,3.0
+Limu,"Jimma Zone, Oromia",5,1713.9,134.5,Gesha,Honey,2,604.34,10.58
+Guji,"Guji Zone, Oromia",4,2213.8,40.1,Heirloom,Honey,2,592.2,10.36
+Guji,"Guji Zone, Oromia",9,1945.7,212.6,74112,Washed,5,189.23,3.31
+Guji,"Guji Zone, Oromia",3,1965.1,51.7,74112,Washed,2,539.7,9.44
+Yirgacheffe,"Gedeo Zone, SNNPR",8,1761.2,245.2,Bourbon,Washed,1,595.45,10.42
+Sidamo,Sidama Region,1,1919.6,35.0,74110,Washed,3,373.99,6.54
+Harar,Harari Region,6,1507.9,226.8,Heirloom,Natural,3,352.41,6.17
+Yirgacheffe,"Gedeo Zone, SNNPR",9,2101.5,297.1,74110,Washed,2,455.15,7.97
+Guji,"Guji Zone, Oromia",7,2096.1,255.1,Typica,Washed,3,313.92,5.49
+Guji,"Guji Zone, Oromia",6,2169.7,246.8,74112,Washed,3,393.08,6.88
+Yirgacheffe,"Gedeo Zone, SNNPR",7,2175.4,181.5,Gesha,Honey,4,449.61,7.87
+Jimma,"Jimma Zone, Oromia",7,1556.9,292.2,74110,Natural,4,187.35,3.28
+Bench Maji,"Bench Sheko Zone, SNNPR",10,1660.8,39.6,74110,Washed,5,113.35,1.98
+Wellega,"Wellega Zone, Oromia",7,1943.7,243.8,Typica,Honey,4,238.82,4.18
+Guji,"Guji Zone, Oromia",7,2109.6,273.7,74112,Natural,3,384.86,6.74
+Yirgacheffe,"Gedeo Zone, SNNPR",1,1798.3,18.1,Typica,Natural,5,222.72,3.9
+Guji,"Guji Zone, Oromia",11,2156.3,15.6,Bourbon,Natural,2,634.53,11.1
+Jimma,"Jimma Zone, Oromia",2,1753.5,77.7,Gesha,Washed,4,292.47,5.12
+Limu,"Jimma Zone, Oromia",11,1534.8,16.1,74112,Washed,1,456.59,7.99
+Limu,"Jimma Zone, Oromia",9,1502.4,222.6,74112,Natural,3,273.72,4.79
+Guji,"Guji Zone, Oromia",8,2157.3,186.0,Typica,Honey,3,382.29,6.69
+Limu,"Jimma Zone, Oromia",1,1578.2,14.1,74110,Natural,2,431.67,7.55
+Bench Maji,"Bench Sheko Zone, SNNPR",8,1547.4,158.2,74110,Washed,3,215.16,3.77
+Limu,"Jimma Zone, Oromia",7,1797.6,287.9,Heirloom,Natural,2,360.37,6.31
+Harar,Harari Region,2,2050.3,100.9,Gesha,Natural,4,471.95,8.26
+Wellega,"Wellega Zone, Oromia",3,1716.8,133.3,Bourbon,Honey,4,253.44,4.44
+Jimma,"Jimma Zone, Oromia",8,1738.0,209.3,Heirloom,Washed,1,388.6,6.8
+Bench Maji,"Bench Sheko Zone, SNNPR",10,1550.1,30.5,74112,Natural,2,295.21,5.17
+Sidamo,Sidama Region,7,1768.1,154.0,Gesha,Washed,5,253.46,4.44
+Limu,"Jimma Zone, Oromia",10,1882.9,28.5,74112,Washed,5,183.78,3.22
+Guji,"Guji Zone, Oromia",2,2133.4,96.2,Gesha,Washed,1,700.0,12.25
+Wellega,"Wellega Zone, Oromia",7,1693.8,170.8,Typica,Washed,4,217.67,3.81
+Sidamo,Sidama Region,4,1738.2,74.0,Gesha,Natural,1,700.0,12.25
+Bench Maji,"Bench Sheko Zone, SNNPR",4,1271.6,76.1,Bourbon,Natural,3,246.99,4.32
+Harar,Harari Region,6,1624.2,277.7,74110,Natural,4,223.09,3.9
+Harar,Harari Region,3,1599.3,117.7,74110,Washed,2,519.63,9.09
+Bench Maji,"Bench Sheko Zone, SNNPR",5,1701.9,117.5,Typica,Natural,3,231.99,4.06
+Guji,"Guji Zone, Oromia",7,2159.6,289.5,Gesha,Washed,3,495.77,8.68
+Yirgacheffe,"Gedeo Zone, SNNPR",12,1728.7,14.6,Typica,Washed,3,395.08,6.91
+Jimma,"Jimma Zone, Oromia",2,1691.1,141.5,Heirloom,Natural,2,419.87,7.35
+Yirgacheffe,"Gedeo Zone, SNNPR",12,1944.9,34.1,Bourbon,Washed,4,303.47,5.31
+Limu,"Jimma Zone, Oromia",4,1603.0,125.2,Typica,Washed,4,207.82,3.64
+Limu,"Jimma Zone, Oromia",12,1638.8,56.3,Heirloom,Washed,4,225.51,3.95
+Guji,"Guji Zone, Oromia",12,1958.0,51.9,74112,Washed,3,414.05,7.25
+Sidamo,Sidama Region,8,1987.6,227.7,74110,Washed,3,358.58,6.28
+Yirgacheffe,"Gedeo Zone, SNNPR",11,2091.5,46.3,Gesha,Natural,2,700.0,12.25
+Jimma,"Jimma Zone, Oromia",10,1424.8,36.7,Bourbon,Natural,3,224.75,3.93
+Bench Maji,"Bench Sheko Zone, SNNPR",7,1270.8,156.8,Heirloom,Natural,2,264.8,4.63
+Harar,Harari Region,3,1846.6,102.8,74112,Washed,3,416.38,7.29
+Guji,"Guji Zone, Oromia",12,1915.7,27.2,Heirloom,Honey,5,226.83,3.97
+Bench Maji,"Bench Sheko Zone, SNNPR",9,1371.1,244.6,74110,Washed,2,259.26,4.54
+Harar,Harari Region,6,1601.9,164.3,Typica,Washed,3,342.36,5.99
+Guji,"Guji Zone, Oromia",6,1924.9,201.5,Typica,Natural,1,622.74,10.9
+Wellega,"Wellega Zone, Oromia",12,1953.1,45.9,Typica,Washed,3,303.02,5.3
+Sidamo,Sidama Region,10,1809.0,11.9,74112,Natural,3,342.31,5.99
+Limu,"Jimma Zone, Oromia",5,1576.8,119.1,Heirloom,Washed,3,321.6,5.63
+Wellega,"Wellega Zone, Oromia",4,1878.2,92.2,Bourbon,Natural,5,198.41,3.47
+Wellega,"Wellega Zone, Oromia",5,1734.3,56.3,Bourbon,Natural,2,403.19,7.06
+Wellega,"Wellega Zone, Oromia",4,1919.3,128.9,Typica,Washed,3,321.79,5.63
+Limu,"Jimma Zone, Oromia",1,1534.7,34.6,74112,Natural,4,242.82,4.25
+Limu,"Jimma Zone, Oromia",10,1645.4,56.6,Gesha,Natural,2,497.24,8.7
+Yirgacheffe,"Gedeo Zone, SNNPR",8,2161.8,299.6,Bourbon,Natural,4,301.0,5.27
+Harar,Harari Region,10,1682.7,59.1,Typica,Washed,3,317.06,5.55
+Wellega,"Wellega Zone, Oromia",12,1619.5,39.6,Heirloom,Honey,2,422.33,7.39
+Jimma,"Jimma Zone, Oromia",9,1453.3,186.4,Gesha,Washed,1,451.2,7.9
+Limu,"Jimma Zone, Oromia",2,1689.7,58.5,Typica,Washed,5,159.71,2.79
+Guji,"Guji Zone, Oromia",7,1808.3,200.8,74112,Washed,2,487.33,8.53
+Jimma,"Jimma Zone, Oromia",7,1502.6,290.1,74112,Washed,3,187.39,3.28
+Sidamo,Sidama Region,7,1959.5,257.6,Heirloom,Natural,4,245.08,4.29
+Jimma,"Jimma Zone, Oromia",12,1590.2,46.6,Heirloom,Washed,4,188.17,3.29
+Wellega,"Wellega Zone, Oromia",5,1708.6,136.6,Typica,Natural,3,299.42,5.24
+Wellega,"Wellega Zone, Oromia",7,1985.9,226.9,Heirloom,Washed,4,193.4,3.38
+Guji,"Guji Zone, Oromia",4,1948.9,125.8,74110,Washed,1,686.8,12.02
+Limu,"Jimma Zone, Oromia",4,1650.3,130.3,Typica,Washed,3,313.4,5.48
+Sidamo,Sidama Region,6,1708.3,255.8,74110,Washed,4,212.1,3.71
+Wellega,"Wellega Zone, Oromia",5,1882.9,48.7,Heirloom,Natural,2,437.41,7.65
+Guji,"Guji Zone, Oromia",11,1813.6,48.1,Heirloom,Washed,3,378.34,6.62
+Guji,"Guji Zone, Oromia",11,2067.8,31.2,Typica,Natural,5,203.21,3.56
+Jimma,"Jimma Zone, Oromia",8,1772.4,157.6,74112,Washed,5,150.33,2.63
+Bench Maji,"Bench Sheko Zone, SNNPR",5,1547.9,71.1,74110,Natural,4,197.91,3.46
+Harar,Harari Region,9,1768.5,259.5,74110,Natural,2,427.52,7.48
+Jimma,"Jimma Zone, Oromia",12,1434.8,21.7,74112,Washed,3,254.47,4.45
+Yirgacheffe,"Gedeo Zone, SNNPR",11,1828.8,29.7,Gesha,Natural,2,700.0,12.25
+Sidamo,Sidama Region,5,1980.1,66.0,Gesha,Washed,1,700.0,12.25
+Limu,"Jimma Zone, Oromia",2,1536.2,113.5,Typica,Washed,4,235.57,4.12
+Harar,Harari Region,7,1730.7,202.0,Gesha,Washed,1,700.0,12.25
+Harar,Harari Region,3,1702.8,117.6,74110,Washed,3,374.71,6.56
+Wellega,"Wellega Zone, Oromia",11,1504.5,40.7,Gesha,Natural,4,284.43,4.98
+Harar,Harari Region,7,2023.5,186.6,74112,Honey,4,284.66,4.98
+Jimma,"Jimma Zone, Oromia",2,1452.6,68.9,Heirloom,Honey,2,368.11,6.44
+Jimma,"Jimma Zone, Oromia",7,1786.6,216.5,Gesha,Washed,2,404.18,7.07
+Wellega,"Wellega Zone, Oromia",7,1559.8,184.5,Gesha,Natural,2,448.6,7.85
+Sidamo,Sidama Region,6,1893.7,227.1,Typica,Washed,3,325.98,5.7
+Sidamo,Sidama Region,1,1658.7,42.5,Bourbon,Natural,1,632.9,11.08
+Guji,"Guji Zone, Oromia",10,1939.1,26.7,74112,Natural,3,406.12,7.11
+Bench Maji,"Bench Sheko Zone, SNNPR",3,1762.7,114.5,Bourbon,Washed,2,415.31,7.27
+Bench Maji,"Bench Sheko Zone, SNNPR",2,1275.4,71.9,Heirloom,Washed,4,154.12,2.7
+Bench Maji,"Bench Sheko Zone, SNNPR",10,1204.4,33.0,74110,Washed,5,100.0,1.75
+Jimma,"Jimma Zone, Oromia",9,1711.1,278.7,74112,Washed,4,140.29,2.46
+Jimma,"Jimma Zone, Oromia",8,1493.0,245.3,Typica,Washed,3,221.07,3.87
+Sidamo,Sidama Region,6,1686.8,271.7,Bourbon,Natural,5,145.89,2.55
+Limu,"Jimma Zone, Oromia",4,1840.7,45.8,Heirloom,Natural,3,348.9,6.11
+Limu,"Jimma Zone, Oromia",3,1689.8,76.7,Bourbon,Natural,2,489.39,8.56
+Sidamo,Sidama Region,10,1871.5,29.5,Bourbon,Washed,2,455.61,7.97
+Bench Maji,"Bench Sheko Zone, SNNPR",9,1532.4,194.7,74110,Honey,4,164.79,2.88
+Harar,Harari Region,6,1681.1,285.0,Gesha,Washed,4,321.55,5.63
+Jimma,"Jimma Zone, Oromia",1,1583.3,34.1,Typica,Natural,1,459.46,8.04
+Guji,"Guji Zone, Oromia",3,1946.3,100.0,Typica,Washed,5,207.49,3.63
+Guji,"Guji Zone, Oromia",3,2044.3,97.7,74110,Washed,2,586.61,10.27
+Wellega,"Wellega Zone, Oromia",12,1934.0,50.6,74110,Washed,2,401.74,7.03
+Guji,"Guji Zone, Oromia",5,2271.5,107.1,Typica,Natural,3,435.35,7.62
+Bench Maji,"Bench Sheko Zone, SNNPR",6,1583.5,201.1,Gesha,Washed,4,243.23,4.26
+Guji,"Guji Zone, Oromia",10,1837.5,17.3,74112,Honey,1,666.31,11.66
+Harar,Harari Region,2,2027.6,96.6,Bourbon,Natural,5,238.58,4.18
+Harar,Harari Region,3,1558.2,47.1,74110,Washed,1,612.12,10.71
+Sidamo,Sidama Region,2,1761.1,142.1,Typica,Washed,3,372.13,6.51
+Bench Maji,"Bench Sheko Zone, SNNPR",1,1788.6,41.4,Typica,Natural,4,212.32,3.72
+Guji,"Guji Zone, Oromia",12,1828.5,23.9,Bourbon,Washed,1,687.31,12.03
+Limu,"Jimma Zone, Oromia",8,1893.2,224.1,Typica,Natural,4,202.81,3.55
+Sidamo,Sidama Region,11,1611.8,56.6,Heirloom,Natural,2,462.74,8.1
+Jimma,"Jimma Zone, Oromia",8,1737.5,215.7,Heirloom,Natural,3,254.85,4.46
+Guji,"Guji Zone, Oromia",10,2176.6,45.0,Gesha,Washed,2,700.0,12.25
+Bench Maji,"Bench Sheko Zone, SNNPR",6,1229.4,235.9,74112,Honey,3,192.95,3.38
+Yirgacheffe,"Gedeo Zone, SNNPR",11,1837.1,6.5,Bourbon,Washed,4,330.48,5.78
+Sidamo,Sidama Region,7,1860.2,192.6,Typica,Washed,4,249.85,4.37
+Limu,"Jimma Zone, Oromia",11,1885.1,39.6,Gesha,Washed,3,400.44,7.01
+Limu,"Jimma Zone, Oromia",2,1528.3,112.6,Typica,Washed,4,253.72,4.44
+Wellega,"Wellega Zone, Oromia",8,1643.1,246.1,Heirloom,Washed,1,402.55,7.04
+Bench Maji,"Bench Sheko Zone, SNNPR",6,1572.7,157.2,74110,Washed,2,315.62,5.52
+Harar,Harari Region,8,1800.4,286.8,Bourbon,Natural,2,448.56,7.85
+Harar,Harari Region,1,1952.9,22.0,Bourbon,Honey,2,585.59,10.25
+Harar,Harari Region,2,2090.4,139.7,Typica,Natural,2,568.95,9.96
+Sidamo,Sidama Region,1,1596.6,41.1,Heirloom,Natural,2,493.96,8.64
+Jimma,"Jimma Zone, Oromia",2,1673.6,60.9,74110,Washed,2,365.65,6.4
+Yirgacheffe,"Gedeo Zone, SNNPR",7,1752.3,213.4,Heirloom,Washed,3,364.06,6.37
+Bench Maji,"Bench Sheko Zone, SNNPR",11,1640.2,51.2,Gesha,Washed,5,151.45,2.65
+Yirgacheffe,"Gedeo Zone, SNNPR",2,1968.6,114.5,Gesha,Natural,2,700.0,12.25
+Guji,"Guji Zone, Oromia",10,2027.8,54.0,Bourbon,Natural,5,223.17,3.91
+Guji,"Guji Zone, Oromia",11,2142.8,17.4,Typica,Washed,4,282.81,4.95
+Harar,Harari Region,9,1968.4,286.5,Gesha,Natural,3,434.07,7.6
+Yirgacheffe,"Gedeo Zone, SNNPR",10,2168.1,56.7,Heirloom,Honey,2,570.11,9.98
+Yirgacheffe,"Gedeo Zone, SNNPR",1,1937.0,53.2,74112,Honey,4,337.92,5.91
+Bench Maji,"Bench Sheko Zone, SNNPR",10,1216.9,25.6,Typica,Washed,1,296.35,5.19
+Wellega,"Wellega Zone, Oromia",11,1826.1,27.3,74112,Washed,1,476.43,8.34
+Jimma,"Jimma Zone, Oromia",10,1402.8,49.3,74110,Washed,4,168.29,2.95
+Jimma,"Jimma Zone, Oromia",4,1766.3,95.3,Gesha,Natural,5,205.23,3.59
+Yirgacheffe,"Gedeo Zone, SNNPR",3,1750.1,69.9,Bourbon,Washed,2,570.58,9.99
+Yirgacheffe,"Gedeo Zone, SNNPR",10,1899.7,28.0,Gesha,Washed,2,681.08,11.92
+Yirgacheffe,"Gedeo Zone, SNNPR",12,1760.2,36.9,Typica,Washed,2,503.54,8.81
+Limu,"Jimma Zone, Oromia",10,1525.3,38.6,Bourbon,Washed,4,197.13,3.45
+Guji,"Guji Zone, Oromia",7,1949.9,155.2,Heirloom,Natural,3,413.72,7.24
+Harar,Harari Region,12,1857.2,53.8,Heirloom,Natural,2,524.52,9.18
+Jimma,"Jimma Zone, Oromia",6,1510.9,217.5,Bourbon,Natural,3,254.65,4.46
+Bench Maji,"Bench Sheko Zone, SNNPR",2,1297.5,145.6,Gesha,Natural,4,279.01,4.88
+Bench Maji,"Bench Sheko Zone, SNNPR",10,1461.2,33.9,Typica,Washed,3,197.7,3.46
+Yirgacheffe,"Gedeo Zone, SNNPR",1,1921.3,45.3,Typica,Washed,3,400.9,7.02
+Yirgacheffe,"Gedeo Zone, SNNPR",10,1998.8,45.6,Gesha,Natural,3,563.91,9.87
+Harar,Harari Region,2,1622.6,108.9,74110,Honey,3,477.64,8.36
+Yirgacheffe,"Gedeo Zone, SNNPR",6,2100.4,217.7,Typica,Natural,3,397.11,6.95
+Sidamo,Sidama Region,1,1758.8,18.5,74112,Natural,3,400.4,7.01
+Guji,"Guji Zone, Oromia",6,2249.3,218.5,Typica,Honey,3,419.24,7.34
+Sidamo,Sidama Region,5,1686.1,45.6,Gesha,Washed,5,219.12,3.83
+Guji,"Guji Zone, Oromia",3,1842.1,148.3,74112,Washed,4,352.99,6.18
+Harar,Harari Region,3,1757.9,73.7,Gesha,Natural,2,700.0,12.25
+Harar,Harari Region,12,1868.7,54.1,74110,Natural,1,663.65,11.61
+Bench Maji,"Bench Sheko Zone, SNNPR",8,1433.6,259.9,Typica,Washed,2,186.2,3.26
+Sidamo,Sidama Region,9,1558.8,281.9,Bourbon,Washed,1,434.1,7.6
+Guji,"Guji Zone, Oromia",3,2004.0,147.8,Typica,Natural,3,451.07,7.89
+Sidamo,Sidama Region,2,1715.9,124.7,Heirloom,Washed,4,286.42,5.01
+Harar,Harari Region,6,1812.1,155.6,Gesha,Honey,5,279.98,4.9
+Bench Maji,"Bench Sheko Zone, SNNPR",6,1780.9,172.2,74110,Honey,1,442.76,7.75
+Yirgacheffe,"Gedeo Zone, SNNPR",2,1968.8,103.3,74112,Washed,5,234.24,4.1
+Yirgacheffe,"Gedeo Zone, SNNPR",2,2050.7,41.6,Typica,Natural,4,383.59,6.71
+Limu,"Jimma Zone, Oromia",4,1716.8,90.6,74110,Washed,4,276.15,4.83
+Guji,"Guji Zone, Oromia",9,1874.7,247.2,Bourbon,Honey,2,542.79,9.5
+Bench Maji,"Bench Sheko Zone, SNNPR",9,1250.3,246.5,74112,Washed,4,145.06,2.54
+Harar,Harari Region,12,2087.4,32.6,74112,Honey,3,429.1,7.51
+Jimma,"Jimma Zone, Oromia",12,1726.0,19.3,74110,Honey,4,233.21,4.08
+Yirgacheffe,"Gedeo Zone, SNNPR",8,2060.0,165.2,74110,Honey,5,215.2,3.77
+Wellega,"Wellega Zone, Oromia",4,1548.3,70.2,Heirloom,Natural,4,203.14,3.55
+Limu,"Jimma Zone, Oromia",12,1615.7,29.8,Typica,Natural,4,203.17,3.56
+Guji,"Guji Zone, Oromia",1,1839.5,15.5,Heirloom,Washed,3,454.34,7.95
+Limu,"Jimma Zone, Oromia",7,1636.4,270.8,74112,Natural,4,201.06,3.52
+Sidamo,Sidama Region,9,1700.0,223.8,Heirloom,Honey,5,179.09,3.13
+Yirgacheffe,"Gedeo Zone, SNNPR",4,2189.2,125.0,Bourbon,Washed,2,669.42,11.71
+Limu,"Jimma Zone, Oromia",1,1514.1,22.8,Typica,Washed,1,488.41,8.55
+Harar,Harari Region,4,1666.9,60.3,74112,Washed,4,261.11,4.57
+Sidamo,Sidama Region,9,1869.2,153.2,Bourbon,Washed,2,476.14,8.33
+Limu,"Jimma Zone, Oromia",2,1733.4,90.9,Heirloom,Washed,4,265.37,4.64
+Guji,"Guji Zone, Oromia",10,2014.4,15.4,74110,Washed,2,494.52,8.65
+Bench Maji,"Bench Sheko Zone, SNNPR",8,1766.3,296.5,Heirloom,Washed,1,296.27,5.18
+Guji,"Guji Zone, Oromia",2,2257.3,94.3,Bourbon,Honey,2,693.96,12.14
+Limu,"Jimma Zone, Oromia",12,1501.6,60.0,Heirloom,Natural,3,316.26,5.53
+Wellega,"Wellega Zone, Oromia",3,1575.6,71.3,74110,Washed,5,138.95,2.43
+Jimma,"Jimma Zone, Oromia",4,1564.2,142.7,Bourbon,Natural,3,298.44,5.22
+Bench Maji,"Bench Sheko Zone, SNNPR",2,1265.0,136.4,74110,Natural,1,427.6,7.48
+Yirgacheffe,"Gedeo Zone, SNNPR",3,1787.4,114.0,Bourbon,Washed,1,700.0,12.25
+Jimma,"Jimma Zone, Oromia",11,1413.0,45.9,Bourbon,Honey,4,213.85,3.74
+Bench Maji,"Bench Sheko Zone, SNNPR",2,1638.0,137.8,Gesha,Washed,3,384.61,6.73
+Harar,Harari Region,3,1533.6,55.6,Heirloom,Washed,2,468.73,8.2
+Guji,"Guji Zone, Oromia",6,1805.0,282.4,Gesha,Washed,3,457.55,8.01
+Wellega,"Wellega Zone, Oromia",1,1749.6,11.1,74112,Washed,4,222.24,3.89
+Guji,"Guji Zone, Oromia",11,1872.8,43.4,74112,Natural,5,221.28,3.87
+Harar,Harari Region,6,1593.5,186.5,Gesha,Washed,5,227.93,3.99
+Sidamo,Sidama Region,3,1895.3,141.9,Bourbon,Washed,3,436.26,7.63
+Bench Maji,"Bench Sheko Zone, SNNPR",8,1497.9,168.5,Gesha,Washed,4,210.03,3.68
+Wellega,"Wellega Zone, Oromia",10,1575.7,48.9,Gesha,Natural,3,367.21,6.43
+Wellega,"Wellega Zone, Oromia",5,1560.7,148.5,Typica,Washed,3,271.75,4.76
+Jimma,"Jimma Zone, Oromia",10,1788.8,13.8,Gesha,Natural,4,267.98,4.69
+Wellega,"Wellega Zone, Oromia",7,1959.9,164.2,Typica,Natural,3,276.13,4.83
+Limu,"Jimma Zone, Oromia",10,1504.2,10.0,Heirloom,Washed,2,345.54,6.05
+Bench Maji,"Bench Sheko Zone, SNNPR",11,1210.8,27.0,Bourbon,Washed,5,104.37,1.83
+Guji,"Guji Zone, Oromia",3,1895.3,90.8,Typica,Washed,4,330.03,5.78
+Harar,Harari Region,8,2039.7,291.1,Typica,Honey,1,570.18,9.98
+Wellega,"Wellega Zone, Oromia",8,1627.8,204.7,74112,Washed,4,201.16,3.52
+Harar,Harari Region,11,1537.5,26.1,74112,Natural,4,280.45,4.91
+Sidamo,Sidama Region,9,1614.3,208.4,74110,Honey,4,247.75,4.34
+Harar,Harari Region,12,1903.2,43.6,Typica,Washed,4,267.87,4.69
+Yirgacheffe,"Gedeo Zone, SNNPR",6,1982.8,225.6,Gesha,Washed,3,494.35,8.65
+Jimma,"Jimma Zone, Oromia",1,1755.5,31.6,74112,Washed,2,379.72,6.65
+Limu,"Jimma Zone, Oromia",10,1759.1,6.6,Bourbon,Natural,3,323.64,5.66
+Yirgacheffe,"Gedeo Zone, SNNPR",8,1796.7,292.6,Bourbon,Natural,4,257.4,4.5
+Limu,"Jimma Zone, Oromia",10,1537.8,11.9,Heirloom,Washed,3,261.35,4.57
+Guji,"Guji Zone, Oromia",12,1923.7,40.5,74112,Natural,3,430.95,7.54
+Harar,Harari Region,8,1857.8,256.5,Bourbon,Washed,1,520.3,9.11
+Harar,Harari Region,7,1965.5,217.0,Typica,Natural,3,356.7,6.24
+Jimma,"Jimma Zone, Oromia",9,1586.3,186.0,74110,Natural,2,312.99,5.48
+Jimma,"Jimma Zone, Oromia",11,1652.8,32.7,Heirloom,Natural,4,209.41,3.66
+Bench Maji,"Bench Sheko Zone, SNNPR",11,1515.5,44.5,74110,Natural,5,115.42,2.02
+Harar,Harari Region,6,1860.3,229.5,Heirloom,Natural,5,188.8,3.3
+Guji,"Guji Zone, Oromia",7,1939.9,234.7,74112,Natural,4,320.1,5.6
+Yirgacheffe,"Gedeo Zone, SNNPR",1,2195.3,20.3,74112,Natural,3,476.66,8.34
+Bench Maji,"Bench Sheko Zone, SNNPR",11,1677.8,37.1,Heirloom,Natural,3,262.28,4.59
+Bench Maji,"Bench Sheko Zone, SNNPR",6,1448.2,194.9,Gesha,Washed,3,271.98,4.76
+Yirgacheffe,"Gedeo Zone, SNNPR",7,1912.4,207.8,Heirloom,Natural,4,315.75,5.53
+Guji,"Guji Zone, Oromia",10,2243.7,12.6,Typica,Washed,3,376.49,6.59
+Sidamo,Sidama Region,4,1874.7,143.5,Heirloom,Natural,4,319.66,5.59
+Harar,Harari Region,4,1831.6,52.6,Bourbon,Honey,4,313.09,5.48
+Jimma,"Jimma Zone, Oromia",3,1479.3,55.8,Typica,Honey,3,288.07,5.04
+Wellega,"Wellega Zone, Oromia",11,1775.8,51.3,Typica,Washed,3,250.88,4.39
+Guji,"Guji Zone, Oromia",4,1973.6,69.2,Gesha,Honey,5,329.48,5.77
+Harar,Harari Region,4,1921.4,133.7,Bourbon,Washed,5,227.27,3.98
+Sidamo,Sidama Region,11,1841.4,58.3,74112,Natural,4,294.52,5.15
+Yirgacheffe,"Gedeo Zone, SNNPR",8,1970.0,262.4,Bourbon,Natural,3,393.62,6.89
+Bench Maji,"Bench Sheko Zone, SNNPR",8,1361.1,223.9,Bourbon,Washed,4,142.83,2.5
+Jimma,"Jimma Zone, Oromia",10,1682.4,18.1,Heirloom,Honey,2,338.14,5.92
+Wellega,"Wellega Zone, Oromia",10,1890.2,16.1,Heirloom,Honey,4,225.93,3.95
+Yirgacheffe,"Gedeo Zone, SNNPR",12,2029.2,20.8,Gesha,Honey,4,466.61,8.17
+Bench Maji,"Bench Sheko Zone, SNNPR",1,1707.3,48.9,74110,Washed,4,201.99,3.53
+Sidamo,Sidama Region,7,1991.3,173.4,Gesha,Washed,4,355.42,6.22
+Limu,"Jimma Zone, Oromia",5,1721.8,139.2,74112,Washed,1,530.67,9.29
+Wellega,"Wellega Zone, Oromia",3,1834.7,137.7,Typica,Natural,2,436.1,7.63
+Yirgacheffe,"Gedeo Zone, SNNPR",1,1979.6,32.7,Typica,Natural,4,301.62,5.28
+Yirgacheffe,"Gedeo Zone, SNNPR",5,1992.8,40.9,Typica,Washed,2,520.01,9.1
+Yirgacheffe,"Gedeo Zone, SNNPR",6,2003.9,210.5,74112,Washed,3,393.95,6.89
+Jimma,"Jimma Zone, Oromia",5,1624.0,82.5,Heirloom,Natural,3,268.76,4.7
+Yirgacheffe,"Gedeo Zone, SNNPR",5,2187.4,130.8,Gesha,Washed,5,300.35,5.26
+Harar,Harari Region,9,1897.3,286.9,74112,Washed,4,227.82,3.99
+Yirgacheffe,"Gedeo Zone, SNNPR",5,1795.5,127.0,74112,Washed,3,380.82,6.66
+Wellega,"Wellega Zone, Oromia",1,1874.5,20.0,74112,Washed,4,238.14,4.17
+Limu,"Jimma Zone, Oromia",9,1877.8,181.8,Heirloom,Natural,2,407.06,7.12
+Harar,Harari Region,12,1822.1,56.5,Bourbon,Washed,1,637.48,11.16
+Yirgacheffe,"Gedeo Zone, SNNPR",6,1965.2,249.4,Heirloom,Washed,3,398.34,6.97
+Harar,Harari Region,8,1567.9,211.0,74112,Natural,4,248.47,4.35
+Sidamo,Sidama Region,7,1747.2,272.7,Heirloom,Honey,5,146.82,2.57
+Bench Maji,"Bench Sheko Zone, SNNPR",8,1473.8,241.5,74110,Washed,3,203.17,3.56
+Wellega,"Wellega Zone, Oromia",6,1947.4,190.2,74110,Honey,5,163.6,2.86
+Wellega,"Wellega Zone, Oromia",9,1929.5,163.3,Typica,Washed,3,306.05,5.36
+Harar,Harari Region,10,1589.9,8.6,74110,Washed,3,312.69,5.47
+Yirgacheffe,"Gedeo Zone, SNNPR",3,1873.4,122.1,74110,Natural,3,462.47,8.09
+Guji,"Guji Zone, Oromia",1,2123.2,53.0,Bourbon,Washed,2,607.31,10.63
+Limu,"Jimma Zone, Oromia",8,1709.3,281.2,Typica,Natural,4,187.82,3.29
+Harar,Harari Region,5,1817.7,84.1,Typica,Washed,3,364.3,6.38
+Jimma,"Jimma Zone, Oromia",10,1716.1,17.0,Typica,Natural,3,258.01,4.52
+Bench Maji,"Bench Sheko Zone, SNNPR",10,1429.5,21.7,Gesha,Washed,3,292.9,5.13
+Guji,"Guji Zone, Oromia",1,2199.2,19.7,Bourbon,Natural,5,242.68,4.25
+Guji,"Guji Zone, Oromia",2,2211.9,134.3,Heirloom,Washed,4,348.52,6.1
+Wellega,"Wellega Zone, Oromia",7,1734.3,238.7,Bourbon,Washed,4,230.81,4.04
+Sidamo,Sidama Region,6,1701.8,163.5,Heirloom,Honey,3,351.22,6.15
+Jimma,"Jimma Zone, Oromia",2,1404.4,85.8,Gesha,Natural,4,287.59,5.03
+Sidamo,Sidama Region,3,1905.5,110.3,74110,Natural,5,208.53,3.65
+Yirgacheffe,"Gedeo Zone, SNNPR",12,2073.8,60.0,74110,Washed,3,426.82,7.47
+Wellega,"Wellega Zone, Oromia",12,1724.8,51.0,Typica,Honey,2,392.29,6.87
+Yirgacheffe,"Gedeo Zone, SNNPR",1,1779.9,14.0,Typica,Natural,5,205.45,3.6
+Bench Maji,"Bench Sheko Zone, SNNPR",5,1722.0,110.0,74112,Natural,4,217.7,3.81
+Guji,"Guji Zone, Oromia",10,1807.5,22.2,Typica,Washed,3,364.22,6.37
+Jimma,"Jimma Zone, Oromia",12,1691.7,53.1,Heirloom,Honey,4,168.48,2.95
+Yirgacheffe,"Gedeo Zone, SNNPR",2,1905.1,76.6,Gesha,Washed,3,562.05,9.84
+Wellega,"Wellega Zone, Oromia",7,1656.4,164.7,Heirloom,Washed,3,266.41,4.66
+Jimma,"Jimma Zone, Oromia",10,1546.1,34.4,Heirloom,Natural,3,225.69,3.95
+Limu,"Jimma Zone, Oromia",6,1520.8,151.9,Gesha,Natural,3,395.14,6.91
+Yirgacheffe,"Gedeo Zone, SNNPR",4,1967.7,142.9,Bourbon,Natural,3,498.87,8.73
+Guji,"Guji Zone, Oromia",6,1907.6,271.7,Typica,Natural,2,456.24,7.98
+Yirgacheffe,"Gedeo Zone, SNNPR",5,1845.0,133.8,74110,Washed,5,191.57,3.35
+Guji,"Guji Zone, Oromia",11,2135.2,20.9,Gesha,Honey,2,700.0,12.25
+Sidamo,Sidama Region,2,1588.4,140.0,Bourbon,Natural,3,382.07,6.69
+Jimma,"Jimma Zone, Oromia",10,1572.8,26.2,Bourbon,Natural,1,417.12,7.3
+Wellega,"Wellega Zone, Oromia",11,1867.7,59.6,Bourbon,Natural,1,518.53,9.07
+Wellega,"Wellega Zone, Oromia",9,1589.8,236.7,Gesha,Washed,3,318.84,5.58
+Wellega,"Wellega Zone, Oromia",5,1668.2,76.1,Bourbon,Washed,2,387.52,6.78
+Jimma,"Jimma Zone, Oromia",5,1706.9,62.6,Gesha,Washed,5,165.76,2.9
+Harar,Harari Region,6,1563.8,276.3,Bourbon,Natural,3,332.71,5.82
+Guji,"Guji Zone, Oromia",10,1857.7,49.1,Typica,Washed,2,430.26,7.53
+Harar,Harari Region,8,1522.7,246.5,Bourbon,Natural,3,360.97,6.32
+Yirgacheffe,"Gedeo Zone, SNNPR",5,1734.8,46.4,Gesha,Washed,2,679.75,11.9
+Harar,Harari Region,4,1727.6,140.2,74112,Washed,5,228.59,4.0
+Limu,"Jimma Zone, Oromia",9,1652.9,192.3,Typica,Washed,1,427.88,7.49
+Jimma,"Jimma Zone, Oromia",10,1451.5,57.1,74110,Washed,3,245.73,4.3
+Limu,"Jimma Zone, Oromia",10,1737.2,34.6,Gesha,Washed,2,496.0,8.68
+Bench Maji,"Bench Sheko Zone, SNNPR",11,1784.0,48.5,Heirloom,Washed,3,256.02,4.48
+Limu,"Jimma Zone, Oromia",1,1781.1,57.6,Bourbon,Washed,5,142.58,2.5
+Jimma,"Jimma Zone, Oromia",2,1519.3,53.9,74112,Honey,4,209.12,3.66
+Sidamo,Sidama Region,6,1839.2,277.5,Gesha,Washed,4,306.85,5.37
+Yirgacheffe,"Gedeo Zone, SNNPR",4,2085.6,44.3,Typica,Natural,4,305.78,5.35
+Yirgacheffe,"Gedeo Zone, SNNPR",7,2138.7,156.0,74112,Washed,5,192.41,3.37
+Wellega,"Wellega Zone, Oromia",1,1620.0,9.6,74112,Honey,3,350.82,6.14
+Wellega,"Wellega Zone, Oromia",1,1519.4,15.3,Heirloom,Washed,4,212.77,3.72
+Bench Maji,"Bench Sheko Zone, SNNPR",3,1701.5,51.1,74112,Washed,2,336.62,5.89
+Sidamo,Sidama Region,7,1776.9,279.8,Heirloom,Honey,1,514.35,9.0
+Bench Maji,"Bench Sheko Zone, SNNPR",4,1336.9,121.4,Typica,Honey,4,186.85,3.27
+Harar,Harari Region,12,2090.6,26.1,Gesha,Washed,4,448.84,7.85
+Jimma,"Jimma Zone, Oromia",4,1654.5,90.0,Bourbon,Natural,2,443.06,7.75
+Jimma,"Jimma Zone, Oromia",9,1713.6,209.2,Heirloom,Washed,5,100.0,1.75
+Yirgacheffe,"Gedeo Zone, SNNPR",3,2064.8,42.2,Heirloom,Washed,3,437.24,7.65
+Harar,Harari Region,7,1663.7,219.5,Heirloom,Washed,3,344.34,6.03
+Sidamo,Sidama Region,10,1757.1,5.8,Gesha,Washed,4,303.88,5.32
+Bench Maji,"Bench Sheko Zone, SNNPR",2,1345.4,141.7,Heirloom,Washed,1,409.43,7.17
+Guji,"Guji Zone, Oromia",5,2051.8,60.1,Heirloom,Natural,4,338.93,5.93
+Wellega,"Wellega Zone, Oromia",12,1648.8,6.8,74110,Natural,4,218.23,3.82
+Wellega,"Wellega Zone, Oromia",10,1542.9,10.0,Gesha,Natural,3,356.66,6.24
+Limu,"Jimma Zone, Oromia",2,1761.7,70.3,74112,Washed,2,432.62,7.57
+Jimma,"Jimma Zone, Oromia",7,1645.4,189.3,Typica,Natural,3,225.42,3.94
+Harar,Harari Region,5,1810.3,139.9,Gesha,Washed,1,700.0,12.25
+Limu,"Jimma Zone, Oromia",12,1545.3,47.5,Gesha,Natural,3,430.6,7.54
+Guji,"Guji Zone, Oromia",1,2039.4,14.5,Typica,Washed,3,408.91,7.16
+Guji,"Guji Zone, Oromia",7,2182.0,150.8,Bourbon,Honey,4,338.73,5.93
+Harar,Harari Region,3,1579.5,125.2,Gesha,Washed,4,406.8,7.12
+Wellega,"Wellega Zone, Oromia",8,1945.6,225.8,74110,Natural,4,207.56,3.63
+Guji,"Guji Zone, Oromia",3,2059.2,90.8,Gesha,Washed,4,468.54,8.2
+Guji,"Guji Zone, Oromia",10,2232.3,32.5,Bourbon,Natural,1,700.0,12.25
+Jimma,"Jimma Zone, Oromia",10,1496.7,31.6,Gesha,Washed,4,248.52,4.35
+Sidamo,Sidama Region,3,1595.4,145.8,74112,Natural,2,491.64,8.6
+Jimma,"Jimma Zone, Oromia",11,1708.5,17.5,Bourbon,Natural,3,287.53,5.03
+Yirgacheffe,"Gedeo Zone, SNNPR",6,2002.5,234.0,Heirloom,Natural,4,316.62,5.54
+Jimma,"Jimma Zone, Oromia",9,1489.8,219.8,74112,Honey,3,236.38,4.14
+Sidamo,Sidama Region,7,1783.3,166.9,Heirloom,Washed,3,363.78,6.37
+Jimma,"Jimma Zone, Oromia",10,1777.4,54.6,74110,Natural,2,337.43,5.91
+Jimma,"Jimma Zone, Oromia",11,1626.3,44.3,Gesha,Washed,3,342.21,5.99
+Jimma,"Jimma Zone, Oromia",10,1758.0,58.5,Heirloom,Natural,3,268.53,4.7
+Bench Maji,"Bench Sheko Zone, SNNPR",2,1537.0,48.0,Gesha,Washed,5,158.77,2.78
+Guji,"Guji Zone, Oromia",7,1882.3,263.1,Typica,Natural,5,163.45,2.86
+Wellega,"Wellega Zone, Oromia",4,1766.0,71.3,74112,Washed,3,281.24,4.92
+Jimma,"Jimma Zone, Oromia",9,1765.7,189.8,74112,Natural,3,253.28,4.43
+Yirgacheffe,"Gedeo Zone, SNNPR",4,2191.1,148.1,74110,Washed,2,612.08,10.71
+Limu,"Jimma Zone, Oromia",6,1822.4,161.9,Bourbon,Washed,3,315.02,5.51
+Wellega,"Wellega Zone, Oromia",10,1660.4,58.0,Typica,Washed,1,401.12,7.02
+Limu,"Jimma Zone, Oromia",12,1805.4,59.6,Heirloom,Natural,1,534.96,9.36
+Harar,Harari Region,12,1873.5,16.4,74112,Honey,5,211.13,3.69
+Jimma,"Jimma Zone, Oromia",5,1784.7,100.2,Heirloom,Washed,2,382.15,6.69
+Sidamo,Sidama Region,3,1621.3,93.6,74110,Honey,4,286.09,5.01
+Limu,"Jimma Zone, Oromia",1,1768.0,9.0,Typica,Natural,2,443.28,7.76
+Jimma,"Jimma Zone, Oromia",1,1412.5,58.2,Heirloom,Washed,3,264.59,4.63
+Yirgacheffe,"Gedeo Zone, SNNPR",8,2174.5,186.9,Heirloom,Natural,3,413.07,7.23
+Wellega,"Wellega Zone, Oromia",3,1596.9,63.6,Typica,Washed,1,474.96,8.31
+Harar,Harari Region,3,1811.1,78.8,Typica,Natural,5,228.73,4.0
+Jimma,"Jimma Zone, Oromia",7,1784.2,171.4,Gesha,Washed,4,306.26,5.36
+Guji,"Guji Zone, Oromia",3,2027.5,91.8,Bourbon,Natural,3,462.67,8.1
+Guji,"Guji Zone, Oromia",1,1806.8,13.9,74110,Washed,4,315.32,5.52
+Bench Maji,"Bench Sheko Zone, SNNPR",12,1472.3,34.7,74110,Washed,4,174.01,3.05
+Limu,"Jimma Zone, Oromia",9,1731.7,178.4,Bourbon,Natural,4,248.5,4.35
+Yirgacheffe,"Gedeo Zone, SNNPR",1,1739.3,34.0,Gesha,Washed,4,411.74,7.21
+Harar,Harari Region,6,1604.9,298.1,Typica,Natural,3,297.67,5.21
+Bench Maji,"Bench Sheko Zone, SNNPR",12,1643.4,49.7,Heirloom,Honey,4,177.76,3.11
+Yirgacheffe,"Gedeo Zone, SNNPR",9,1732.8,253.6,74112,Washed,3,346.58,6.07
+Sidamo,Sidama Region,8,1629.1,239.6,Typica,Washed,3,272.53,4.77
+Yirgacheffe,"Gedeo Zone, SNNPR",5,1852.4,115.7,Bourbon,Washed,2,579.94,10.15
+Bench Maji,"Bench Sheko Zone, SNNPR",5,1312.8,111.8,Gesha,Washed,3,302.13,5.29
+Yirgacheffe,"Gedeo Zone, SNNPR",12,1854.8,41.5,Typica,Washed,2,534.73,9.36
+Yirgacheffe,"Gedeo Zone, SNNPR",3,1960.2,134.7,Heirloom,Washed,2,589.69,10.32
+Sidamo,Sidama Region,10,1583.8,12.4,Bourbon,Honey,4,275.55,4.82
+Jimma,"Jimma Zone, Oromia",5,1733.4,61.5,Typica,Washed,2,333.65,5.84
+Bench Maji,"Bench Sheko Zone, SNNPR",11,1722.8,59.9,Gesha,Honey,5,181.48,3.18
+Harar,Harari Region,12,1724.1,26.1,Heirloom,Natural,4,313.0,5.48
+Wellega,"Wellega Zone, Oromia",1,1645.7,23.5,Heirloom,Natural,4,234.25,4.1
+Harar,Harari Region,2,1532.5,119.8,Bourbon,Washed,3,416.73,7.29
+Yirgacheffe,"Gedeo Zone, SNNPR",2,1910.4,145.8,Bourbon,Honey,5,265.46,4.65
+Wellega,"Wellega Zone, Oromia",12,1930.6,9.3,Heirloom,Honey,2,452.02,7.91
+Bench Maji,"Bench Sheko Zone, SNNPR",4,1503.8,146.9,Heirloom,Washed,3,257.57,4.51
+Guji,"Guji Zone, Oromia",10,2080.7,15.2,74110,Washed,5,206.84,3.62
+Sidamo,Sidama Region,7,1769.7,200.7,Typica,Washed,4,225.35,3.94
+Yirgacheffe,"Gedeo Zone, SNNPR",10,1980.2,45.1,74112,Natural,4,304.92,5.34
+Sidamo,Sidama Region,8,1930.7,214.1,74110,Washed,2,445.59,7.8
+Bench Maji,"Bench Sheko Zone, SNNPR",5,1673.4,78.6,Typica,Natural,2,308.47,5.4
+Yirgacheffe,"Gedeo Zone, SNNPR",2,2085.9,86.0,Heirloom,Washed,1,700.0,12.25
+Guji,"Guji Zone, Oromia",4,2152.0,144.0,Typica,Natural,4,349.67,6.12
+Yirgacheffe,"Gedeo Zone, SNNPR",5,1924.8,60.7,74110,Washed,3,386.28,6.76
+Wellega,"Wellega Zone, Oromia",7,1696.3,201.3,Heirloom,Natural,1,445.13,7.79
+Harar,Harari Region,4,1825.4,56.3,Typica,Washed,3,400.36,7.01
+Yirgacheffe,"Gedeo Zone, SNNPR",3,1897.2,40.1,Heirloom,Natural,3,450.19,7.88
+Limu,"Jimma Zone, Oromia",8,1588.8,273.7,Heirloom,Washed,2,307.92,5.39
+Sidamo,Sidama Region,1,1602.9,59.5,74110,Washed,2,476.98,8.35
+Sidamo,Sidama Region,5,1687.1,59.4,Typica,Natural,5,186.35,3.26
+Bench Maji,"Bench Sheko Zone, SNNPR",6,1683.4,240.4,74110,Washed,5,100.0,1.75
+Guji,"Guji Zone, Oromia",6,1922.6,217.3,Gesha,Natural,5,287.81,5.04
+Limu,"Jimma Zone, Oromia",12,1562.9,43.0,Heirloom,Natural,3,316.4,5.54
+Yirgacheffe,"Gedeo Zone, SNNPR",9,1903.1,166.9,Bourbon,Washed,3,415.51,7.27
+Guji,"Guji Zone, Oromia",2,2111.7,46.2,74112,Honey,5,240.93,4.22
+Yirgacheffe,"Gedeo Zone, SNNPR",2,1877.9,63.4,74112,Natural,3,446.7,7.82
+Sidamo,Sidama Region,8,1559.0,283.6,Bourbon,Natural,4,206.84,3.62
+Yirgacheffe,"Gedeo Zone, SNNPR",12,2058.2,41.8,74110,Washed,4,336.39,5.89
+Limu,"Jimma Zone, Oromia",1,1626.6,41.9,Bourbon,Natural,4,272.07,4.76
+Bench Maji,"Bench Sheko Zone, SNNPR",5,1405.4,124.7,74110,Washed,5,118.34,2.07
+Sidamo,Sidama Region,1,1984.1,9.0,Bourbon,Washed,3,413.11,7.23
+Wellega,"Wellega Zone, Oromia",8,1869.8,224.9,Typica,Natural,3,275.93,4.83
+Sidamo,Sidama Region,12,1946.5,19.1,Gesha,Natural,2,683.05,11.95
+Harar,Harari Region,3,2006.9,138.7,Heirloom,Washed,5,226.35,3.96
+Guji,"Guji Zone, Oromia",8,1824.6,154.7,74112,Natural,3,418.17,7.32
+Wellega,"Wellega Zone, Oromia",9,1516.7,205.0,Gesha,Washed,3,311.23,5.45
+Limu,"Jimma Zone, Oromia",3,1721.6,142.4,74112,Natural,5,189.04,3.31
+Guji,"Guji Zone, Oromia",7,2012.3,290.1,Bourbon,Natural,2,498.52,8.72
+Sidamo,Sidama Region,6,1803.7,227.5,Bourbon,Natural,1,594.7,10.41
+Bench Maji,"Bench Sheko Zone, SNNPR",12,1298.4,45.5,Bourbon,Washed,3,242.03,4.24
+Sidamo,Sidama Region,10,1848.1,13.7,Heirloom,Natural,5,165.94,2.9
+Guji,"Guji Zone, Oromia",1,2082.5,41.8,Heirloom,Honey,5,242.69,4.25
+Bench Maji,"Bench Sheko Zone, SNNPR",7,1761.7,280.0,Heirloom,Natural,4,130.32,2.28
+Harar,Harari Region,9,1888.8,200.8,74112,Natural,2,458.98,8.03
+Wellega,"Wellega Zone, Oromia",10,1670.5,49.2,Bourbon,Washed,5,119.28,2.09
+Guji,"Guji Zone, Oromia",8,1944.1,245.8,74112,Washed,4,307.56,5.38
+Harar,Harari Region,3,1658.2,145.0,Typica,Natural,4,301.27,5.27
+Harar,Harari Region,12,2062.1,14.0,Gesha,Washed,2,700.0,12.25
+Sidamo,Sidama Region,12,1721.6,59.5,Gesha,Honey,2,697.04,12.2
+Harar,Harari Region,10,1633.9,8.1,Gesha,Washed,3,475.56,8.32
+Sidamo,Sidama Region,1,1844.0,8.9,Typica,Washed,3,331.72,5.81
+Sidamo,Sidama Region,6,1753.2,278.5,Bourbon,Washed,3,292.06,5.11
+Jimma,"Jimma Zone, Oromia",2,1725.4,43.9,74110,Washed,3,266.88,4.67
+Limu,"Jimma Zone, Oromia",6,1776.7,207.5,74112,Washed,2,368.92,6.46
+Bench Maji,"Bench Sheko Zone, SNNPR",3,1719.9,43.7,74110,Washed,2,353.81,6.19
+Yirgacheffe,"Gedeo Zone, SNNPR",7,2095.1,194.4,Bourbon,Washed,3,441.33,7.72
+Harar,Harari Region,11,1745.6,20.9,Typica,Washed,4,244.31,4.28
+Guji,"Guji Zone, Oromia",12,2286.6,15.7,Typica,Honey,2,610.01,10.68
+Wellega,"Wellega Zone, Oromia",9,1664.4,241.6,74112,Washed,3,258.59,4.53
+Guji,"Guji Zone, Oromia",4,1994.3,85.8,Typica,Washed,3,409.06,7.16
+Harar,Harari Region,2,1690.0,84.0,Heirloom,Natural,4,330.65,5.79
+Jimma,"Jimma Zone, Oromia",6,1593.2,284.5,74112,Washed,2,271.29,4.75
+Harar,Harari Region,3,1661.5,128.3,Gesha,Washed,3,558.38,9.77
+Bench Maji,"Bench Sheko Zone, SNNPR",9,1686.7,163.1,Bourbon,Natural,4,220.08,3.85
+Yirgacheffe,"Gedeo Zone, SNNPR",9,2040.3,168.2,Bourbon,Natural,2,579.06,10.13
+Wellega,"Wellega Zone, Oromia",12,1986.0,7.1,Bourbon,Washed,4,254.35,4.45
+Bench Maji,"Bench Sheko Zone, SNNPR",1,1257.0,45.1,74110,Honey,1,386.03,6.76
+Yirgacheffe,"Gedeo Zone, SNNPR",7,1756.6,202.7,74110,Washed,3,389.39,6.81
+Yirgacheffe,"Gedeo Zone, SNNPR",9,1782.0,207.2,Gesha,Honey,5,249.97,4.37
+Sidamo,Sidama Region,7,1848.6,201.9,Bourbon,Washed,3,372.73,6.52
+Jimma,"Jimma Zone, Oromia",7,1460.1,155.8,Gesha,Washed,2,417.5,7.31
+Jimma,"Jimma Zone, Oromia",12,1412.4,20.1,74112,Natural,5,129.39,2.26
+Limu,"Jimma Zone, Oromia",3,1862.3,96.8,74110,Washed,3,357.11,6.25
+Yirgacheffe,"Gedeo Zone, SNNPR",10,1835.3,49.3,74110,Washed,4,284.59,4.98
+Sidamo,Sidama Region,3,1684.0,112.6,Heirloom,Natural,5,180.12,3.15
+Harar,Harari Region,2,1835.9,145.7,Bourbon,Washed,3,456.3,7.99
+Limu,"Jimma Zone, Oromia",1,1869.0,36.3,Gesha,Natural,2,642.53,11.24
+Bench Maji,"Bench Sheko Zone, SNNPR",11,1233.9,42.0,Heirloom,Natural,2,293.22,5.13
+Sidamo,Sidama Region,6,1828.0,218.4,74110,Washed,2,446.55,7.81
+Bench Maji,"Bench Sheko Zone, SNNPR",4,1553.5,90.0,Bourbon,Washed,4,209.42,3.66
+Guji,"Guji Zone, Oromia",11,1976.7,40.3,Typica,Natural,4,277.64,4.86
+Limu,"Jimma Zone, Oromia",3,1608.6,134.1,Typica,Natural,1,550.78,9.64
+Sidamo,Sidama Region,3,1752.9,51.1,Bourbon,Washed,4,290.55,5.08
+Guji,"Guji Zone, Oromia",9,1856.4,255.9,Gesha,Natural,4,341.22,5.97
+Limu,"Jimma Zone, Oromia",9,1631.1,279.0,Gesha,Washed,5,153.59,2.69
+Harar,Harari Region,5,2079.4,41.6,Bourbon,Washed,4,297.42,5.2
+Harar,Harari Region,2,1929.3,47.6,Heirloom,Washed,3,397.14,6.95
+Wellega,"Wellega Zone, Oromia",10,1684.9,31.7,Bourbon,Washed,2,364.79,6.38
+Bench Maji,"Bench Sheko Zone, SNNPR",3,1770.4,120.3,Typica,Washed,2,349.97,6.12
+Limu,"Jimma Zone, Oromia",4,1734.3,147.4,Bourbon,Washed,5,199.81,3.5
+Wellega,"Wellega Zone, Oromia",1,1623.8,49.4,Gesha,Washed,1,639.52,11.19
+Jimma,"Jimma Zone, Oromia",12,1641.8,15.9,Typica,Washed,4,181.2,3.17
+Guji,"Guji Zone, Oromia",11,1809.0,31.6,Gesha,Washed,4,399.21,6.99
+Jimma,"Jimma Zone, Oromia",3,1468.7,98.3,Typica,Honey,4,209.97,3.67
+Harar,Harari Region,10,2003.3,6.8,Typica,Natural,3,363.7,6.36
+Limu,"Jimma Zone, Oromia",5,1816.2,54.7,Bourbon,Washed,5,135.33,2.37
+Sidamo,Sidama Region,10,1731.2,7.0,74112,Honey,1,570.89,9.99
+Wellega,"Wellega Zone, Oromia",11,1960.5,22.7,Heirloom,Washed,4,226.94,3.97
+Bench Maji,"Bench Sheko Zone, SNNPR",8,1623.9,224.9,Typica,Washed,3,192.72,3.37
+Bench Maji,"Bench Sheko Zone, SNNPR",11,1777.7,12.0,Heirloom,Washed,3,238.86,4.18
+Harar,Harari Region,3,2092.0,108.1,Gesha,Natural,3,617.68,10.81
+Wellega,"Wellega Zone, Oromia",7,1819.0,193.2,Heirloom,Natural,1,436.16,7.63
+Limu,"Jimma Zone, Oromia",10,1632.1,6.1,74112,Washed,3,270.64,4.74
+Guji,"Guji Zone, Oromia",10,1988.9,22.4,74110,Washed,3,397.97,6.96
+Limu,"Jimma Zone, Oromia",10,1765.6,19.0,Heirloom,Washed,2,375.24,6.57
+Sidamo,Sidama Region,4,1991.4,141.9,74110,Natural,3,461.15,8.07
+Sidamo,Sidama Region,12,1877.0,56.1,74110,Washed,1,595.13,10.41
+Harar,Harari Region,1,1601.0,37.0,Bourbon,Washed,3,375.46,6.57
+Limu,"Jimma Zone, Oromia",7,1818.8,238.6,74112,Washed,2,370.4,6.48
+Guji,"Guji Zone, Oromia",5,1850.9,45.4,Bourbon,Natural,4,323.2,5.66
+Guji,"Guji Zone, Oromia",5,1980.0,113.5,Bourbon,Honey,4,353.88,6.19
+Jimma,"Jimma Zone, Oromia",12,1791.4,5.6,Gesha,Washed,5,184.85,3.23
+Limu,"Jimma Zone, Oromia",8,1699.1,221.4,Gesha,Washed,4,261.05,4.57
+Wellega,"Wellega Zone, Oromia",10,1828.6,25.1,Heirloom,Natural,3,297.9,5.21
+Bench Maji,"Bench Sheko Zone, SNNPR",10,1505.8,28.2,Heirloom,Natural,2,324.03,5.67
+Bench Maji,"Bench Sheko Zone, SNNPR",9,1215.1,258.4,74112,Natural,4,109.28,1.91
+Limu,"Jimma Zone, Oromia",12,1704.2,58.3,Typica,Natural,1,502.65,8.8
+Limu,"Jimma Zone, Oromia",12,1836.6,39.0,74112,Washed,4,234.16,4.1
+Bench Maji,"Bench Sheko Zone, SNNPR",6,1328.9,156.0,Gesha,Natural,5,164.91,2.89
+Bench Maji,"Bench Sheko Zone, SNNPR",3,1505.1,92.4,Typica,Natural,4,191.75,3.36
+Sidamo,Sidama Region,12,1576.7,10.8,Heirloom,Natural,2,468.14,8.19
+Guji,"Guji Zone, Oromia",5,1832.5,130.8,Gesha,Natural,5,275.58,4.82
+Sidamo,Sidama Region,2,1729.3,71.3,Bourbon,Washed,3,388.01,6.79
+Sidamo,Sidama Region,11,1623.6,11.9,Typica,Honey,4,289.07,5.06
+Guji,"Guji Zone, Oromia",11,2217.1,31.9,Heirloom,Washed,3,414.32,7.25
+Harar,Harari Region,9,1818.5,157.8,Heirloom,Honey,4,316.3,5.54
+Jimma,"Jimma Zone, Oromia",6,1787.1,279.4,74112,Washed,3,235.5,4.12
+Wellega,"Wellega Zone, Oromia",9,1871.8,237.1,74112,Washed,2,329.42,5.76
+Harar,Harari Region,2,1694.4,104.6,Gesha,Natural,3,580.55,10.16
+Guji,"Guji Zone, Oromia",12,2151.5,21.0,Gesha,Washed,3,595.79,10.43
+Harar,Harari Region,4,1853.8,89.5,74110,Washed,5,213.96,3.74
+Limu,"Jimma Zone, Oromia",10,1642.5,50.8,74112,Washed,2,328.85,5.75
+Yirgacheffe,"Gedeo Zone, SNNPR",4,2190.3,78.5,Bourbon,Washed,1,700.0,12.25
+Jimma,"Jimma Zone, Oromia",8,1628.3,264.1,Bourbon,Washed,3,215.22,3.77
+Guji,"Guji Zone, Oromia",11,2191.7,19.8,Bourbon,Honey,2,621.78,10.88
+Yirgacheffe,"Gedeo Zone, SNNPR",6,1993.9,159.6,Gesha,Washed,3,565.5,9.9
+Wellega,"Wellega Zone, Oromia",11,1603.4,41.0,Heirloom,Washed,3,270.52,4.73
+Yirgacheffe,"Gedeo Zone, SNNPR",8,1854.9,186.3,Typica,Natural,2,474.72,8.31
+Yirgacheffe,"Gedeo Zone, SNNPR",8,1770.8,246.4,Bourbon,Natural,2,551.34,9.65
+Limu,"Jimma Zone, Oromia",7,1774.2,263.8,74112,Natural,5,125.14,2.19
+Harar,Harari Region,3,1509.2,64.2,Typica,Washed,1,539.65,9.44
+Bench Maji,"Bench Sheko Zone, SNNPR",8,1632.8,251.6,74112,Natural,4,139.67,2.44
+Wellega,"Wellega Zone, Oromia",4,1860.3,124.2,74110,Washed,5,162.64,2.85
+Jimma,"Jimma Zone, Oromia",4,1719.7,138.8,74110,Honey,2,397.64,6.96
+Yirgacheffe,"Gedeo Zone, SNNPR",3,1912.2,74.0,74112,Honey,4,353.86,6.19
+Harar,Harari Region,11,1972.2,11.4,Gesha,Honey,2,700.0,12.25
+Bench Maji,"Bench Sheko Zone, SNNPR",7,1612.8,197.9,74110,Honey,5,100.0,1.75
