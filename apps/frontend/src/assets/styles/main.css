@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --color-primary: #10b981;
+  --color-primary-dark: #059669;
+  --color-secondary: #f59e0b;
+  --color-dark: #1f2937;
+  --color-gray-bg: #f3f4f6;
+  --color-green-light: #d1fae5;
+  --color-green-dark: #065f46;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-800 font-sans antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-emerald-500 hover:bg-emerald-600 text-white font-medium py-3 px-6 rounded-lg shadow-md transition-colors duration-200 flex items-center justify-center gap-2;
+  }
+  
+  .btn-primary:disabled {
+    @apply bg-emerald-300 cursor-not-allowed shadow-none;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden;
+  }
+
+  .form-label {
+    @apply block text-sm font-medium text-gray-700 mb-1;
+  }
+
+  .form-input, .form-select {
+    @apply w-full border border-gray-300 rounded-lg py-2.5 px-3 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 bg-white transition-colors;
+  }
+
+  .section-panel {
+    @apply bg-white rounded-2xl shadow-sm border border-gray-100 p-6 md:p-8 mb-8;
+  }
+
+  .section-header {
+    @apply flex items-center gap-4 mb-6 pb-4 border-b border-gray-100;
+  }
+
+  .section-icon {
+    @apply w-12 h-12 rounded-xl flex items-center justify-center text-2xl shadow-sm;
+  }
+}
