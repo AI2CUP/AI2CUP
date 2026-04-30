@@ -50,4 +50,14 @@ export const authService = {
     })
     return response.data
   },
+
+  /**
+   * Update the user's profile.
+   */
+  async updateProfile(token, profileData) {
+    const response = await authApi.put('/auth/me', profileData, {
+      headers: { Authorization: `Bearer ${token}` },
+    })
+    return response.data
+  },
 }

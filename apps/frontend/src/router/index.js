@@ -38,6 +38,12 @@ const routes = [
     component: () => import('../views/MarketplaceView.vue'),
     meta: { title: 'Marketplace - AI2CUP', requiresAuth: true },
   },
+  {
+    path: '/profile',
+    name: 'profile',
+    component: () => import('../views/ProfileView.vue'),
+    meta: { title: 'My Profile - AI2CUP', requiresAuth: true },
+  },
 ]
 
 const router = createRouter({

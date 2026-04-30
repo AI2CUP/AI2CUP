@@ -12,7 +12,7 @@ from app.core.auth import (
     verify_password,
 )
 from app.models import User
-from app.schemas.auth import UserCreate, UserResponse, Token
+from app.schemas.auth import UserCreate, UserUpdate, UserResponse, Token
 from app.config import get_settings
 
 router = APIRouter()
@@ -74,4 +74,29 @@ async def login_for_access_token(
 
 @router.get("/me", response_model=UserResponse)
 async def read_users_me(current_user: User = Depends(get_current_user)):
+    return current_user
+
+@router.put("/me", response_model=UserResponse)
+async def update_users_me(
+    user_in: UserUpdate,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    # Check email uniqueness if email is changed
+    if user_in.email and user_in.email != current_user.email:
+        if db.query(User).filter(User.email == user_in.email).first():
+            raise HTTPException(status_code=400, detail="Email already registered")
+        current_user.email = user_in.email
+
+    # Check phone uniqueness if phone is changed
+    if user_in.phone_number and user_in.phone_number != current_user.phone_number:
+        if db.query(User).filter(User.phone_number == user_in.phone_number).first():
+            raise HTTPException(status_code=400, detail="Phone number already registered")
+        current_user.phone_number = user_in.phone_number
+
+    if user_in.full_name:
+        current_user.full_name = user_in.full_name
+
+    db.commit()
+    db.refresh(current_user)
     return current_user

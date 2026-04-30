@@ -15,16 +15,6 @@ dev-backend:
 	@echo "Starting backend dev server..."
 	cd apps/backend && uvicorn app.main:app --reload --port 8000
 
-# stop backend
-stop-backend:
-	@echo "Stopping backend dev server..."
-	kill $(pgrep -f uvicorn)
-
-# stop frontend
-stop-frontend:
-	@echo "Stopping frontend dev server..."
-	kill $(pgrep -f node)
-
 
 dev-frontend:
 	@echo "Starting frontend dev server..."
