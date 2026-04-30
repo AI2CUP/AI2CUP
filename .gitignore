@@ -28,3 +28,11 @@ Thumbs.db
 # Environment variables
 .env
 .env.local
+
+
+
+# SQLite database
+*.db
+
+# cloudflared
+*.deb*

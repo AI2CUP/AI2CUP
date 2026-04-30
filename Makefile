@@ -5,6 +5,12 @@ install:
 	cd apps/backend && pip install -r requirements.txt
 	cd apps/frontend && npm install
 
+dev:
+	@echo "Starting both servers..."
+	make dev-backend &
+	make dev-frontend &
+
+
 dev-backend:
 	@echo "Starting backend dev server..."
 	cd apps/backend && uvicorn app.main:app --reload --port 8000
@@ -24,6 +30,11 @@ lint:
 format:
 	@echo "Formatting code..."
 	cd apps/backend && ruff format .
+
+dev-docker:
+	@echo "Starting both servers with docker..."
+	make build &
+	make up &
 
 build:
 	@echo "Building docker images..."
