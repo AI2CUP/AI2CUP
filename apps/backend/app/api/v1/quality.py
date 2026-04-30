@@ -14,7 +14,7 @@ from app.dependencies import get_quality_service
 from app.schemas.quality import QualityAnalysisResult
 from app.services.quality_service import QualityService
 
-router = APIRouter(prefix="/quality", tags=["Quality Analysis"])
+router = APIRouter()
 
 
 @router.post("/analyze", response_model=QualityAnalysisResult)

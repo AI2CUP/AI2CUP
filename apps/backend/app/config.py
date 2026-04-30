@@ -27,10 +27,10 @@ class Settings(BaseSettings):
     # ── API ──
     api_prefix: str = "/api/v1"
     cors_origins: list[str] = [
-        "http://localhost:5173",
-        "http://localhost:3000",
-        "http://127.0.0.1:5173",
-    ]
+        "*", 
+        "http://localhost:8000", 
+        "http://localhost:5173", 
+        "http://127.0.0.1:5173"]
 
     # ── ML ──
     model_dir: Path = Path("app/data/storage")
@@ -43,13 +43,13 @@ class Settings(BaseSettings):
     # ── Currency ──
     usd_to_etb: float = 57.0
 
-    # ── Future: Database ──
-    # database_url: str = "sqlite:///./ai2cup.db"
+    # ── Database ──
+    database_url: str = "sqlite:///./ai2cup.db"
 
-    # ── Future: Auth ──
-    # jwt_secret: str = "change-me-in-production"
-    # jwt_algorithm: str = "HS256"
-    # jwt_expiry_minutes: int = 60
+    # ── Auth ──
+    jwt_secret: str = "8d5a0139-d6be-4d56-bee5-fd52bc0d4fb5-secret-key"
+    jwt_algorithm: str = "HS256"
+    jwt_expiry_minutes: int = 60
 
     model_config = {
         "env_file": ".env",

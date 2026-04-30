@@ -22,6 +22,7 @@ from app.config import get_settings
 from app.core.exceptions import AI2CUPError
 from app.core.middleware import setup_middleware
 from app.dependencies import get_model_registry
+from app.models import init_db
 
 
 @asynccontextmanager
@@ -41,6 +42,10 @@ async def lifespan(app: FastAPI):
     # Initialize ML models
     registry = get_model_registry()
     registry.initialize()
+
+    # Initialize Database
+    print("Initializing database...")
+    init_db()
 
     print(f"{settings.app_name} is ready!\n")
 

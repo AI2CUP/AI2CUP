@@ -14,7 +14,7 @@ from app.dependencies import get_price_service
 from app.schemas.price import PricePredictionRequest, PricePredictionResponse
 from app.services.price_service import PriceService
 
-router = APIRouter(prefix="/price", tags=["Price Prediction"])
+router = APIRouter()
 
 
 @router.post("/predict", response_model=PricePredictionResponse)

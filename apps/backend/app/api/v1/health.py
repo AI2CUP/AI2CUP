@@ -13,10 +13,10 @@ from app.config import get_settings, Settings
 from app.dependencies import get_model_registry
 from app.ml.registry import ModelRegistry
 
-router = APIRouter(tags=["Health"])
+router = APIRouter()
 
 
-@router.get("/health")
+@router.get("")
 async def health_check(
     settings: Settings = Depends(get_settings),
     registry: ModelRegistry = Depends(get_model_registry),
