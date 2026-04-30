@@ -2,7 +2,9 @@
   <div class="section-panel bg-gradient-to-br from-white to-gray-50 !mb-0">
     <div class="flex items-center gap-3 mb-6">
       <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center">
-        🔍
+        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
       </div>
       <h3 class="font-bold text-gray-900 text-lg">Find {{ oppositeRoleText }}s</h3>
     </div>

@@ -20,21 +20,21 @@
               class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors"
               :class="[ $route.path === '/price' ? 'border-emerald-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700' ]"
             >
-              📈 Price
+              Price
             </router-link>
             <router-link 
               to="/quality" 
               class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors"
               :class="[ $route.path === '/quality' ? 'border-emerald-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700' ]"
             >
-              🔬 Quality
+              Quality
             </router-link>
             <router-link 
               to="/marketplace" 
               class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors"
               :class="[ $route.path === '/marketplace' ? 'border-emerald-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700' ]"
             >
-              🏪 Market
+              Market
             </router-link>
           </div>
 
@@ -119,15 +119,15 @@
         <div class="px-4 py-4 space-y-2">
           <router-link @click="mobileOpen = false" to="/price" class="block px-4 py-2.5 rounded-lg text-sm font-medium hover:bg-gray-50 transition-colors"
             :class="$route.path === '/price' ? 'bg-emerald-50 text-emerald-700' : 'text-gray-700'">
-            📈 Price Prediction
+            Price Prediction
           </router-link>
           <router-link @click="mobileOpen = false" to="/quality" class="block px-4 py-2.5 rounded-lg text-sm font-medium hover:bg-gray-50 transition-colors"
             :class="$route.path === '/quality' ? 'bg-emerald-50 text-emerald-700' : 'text-gray-700'">
-            🔬 Quality Detection
+            Quality Detection
           </router-link>
           <router-link @click="mobileOpen = false" to="/marketplace" class="block px-4 py-2.5 rounded-lg text-sm font-medium hover:bg-gray-50 transition-colors"
             :class="$route.path === '/marketplace' ? 'bg-emerald-50 text-emerald-700' : 'text-gray-700'">
-            🏪 Marketplace
+            Marketplace
           </router-link>
 
           <div class="border-t border-gray-100 pt-3 mt-3">

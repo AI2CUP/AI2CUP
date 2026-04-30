@@ -1,8 +1,7 @@
 <template>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
     <div class="mb-8">
-      <h1 class="text-3xl font-bold text-gray-900 mb-2 flex items-center gap-3">
-        <span class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center shadow-sm">📈</span>
+      <h1 class="text-3xl font-bold text-gray-900 mb-2">
         Coffee Price Prediction · የቡና ዋጋ ትንበያ
       </h1>
       <p class="text-gray-600 text-lg max-w-3xl">
@@ -26,8 +25,8 @@
             <PriceResult :result="result" />
             
             <div class="mt-8 section-panel">
-              <h3 class="font-semibold text-gray-800 mb-4 flex items-center gap-2">
-                <span>💡</span> Price Factors Analysis
+              <h3 class="font-semibold text-gray-800 mb-4">
+                Price Factors Analysis
               </h3>
               <p class="text-gray-600 text-sm mb-4">
                 The ML model determined this price based on historical Ethiopian Commodity Exchange (ECX) data. 
@@ -51,7 +50,11 @@
           </div>
           
           <div v-else :key="'empty'" class="h-full min-h-[400px] flex flex-col items-center justify-center border-2 border-dashed border-gray-200 rounded-2xl bg-gray-50/50 p-8 text-center text-gray-500">
-            <span class="text-5xl mb-4 opacity-50">🔮</span>
+            <div class="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mb-6">
+              <svg class="w-10 h-10 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+            </div>
             <h3 class="text-lg font-medium text-gray-700 mb-2">Awaiting Prediction Parameters</h3>
             <p class="max-w-md text-sm">Adjust the region, variety, and grade settings and click Predict to see the AI estimated market value.</p>
           </div>

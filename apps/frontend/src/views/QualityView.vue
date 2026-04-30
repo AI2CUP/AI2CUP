@@ -1,8 +1,7 @@
 <template>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
     <div class="mb-8">
-      <h1 class="text-3xl font-bold text-gray-900 mb-2 flex items-center gap-3">
-        <span class="w-12 h-12 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center shadow-sm">🔬</span>
+      <h1 class="text-3xl font-bold text-gray-900 mb-2">
         Quality Detection · የጥራት ምርመራ
       </h1>
       <p class="text-gray-600 text-lg max-w-3xl">
@@ -26,7 +25,7 @@
             class="w-full"
             :disabled="!selectedFile"
             :loading="isLoading"
-            text="🔍 Analyze Quality · ጥራት መርምር"
+            text="Analyze Quality · ጥራት መርምር"
             @click="handleAnalyze"
           />
         </div>
@@ -41,11 +40,17 @@
           
           <div v-else :key="'empty'" class="h-full min-h-[400px] flex flex-col items-center justify-center border-2 border-dashed border-gray-200 rounded-2xl bg-white p-8 text-center text-gray-500 shadow-sm relative overflow-hidden">
             <!-- Decorative background elements -->
-            <div class="absolute -right-10 -top-10 text-9xl opacity-5 pointer-events-none">☕</div>
-            <div class="absolute -left-10 -bottom-10 text-9xl opacity-5 pointer-events-none">🔬</div>
+            <div class="absolute -right-10 -top-10 opacity-5 pointer-events-none">
+              <svg class="w-40 h-40" fill="currentColor" viewBox="0 0 24 24"><path d="M20,3H4A2,2 0 0,0 2,5V19A2,2 0 0,0 4,21H20A2,2 0 0,0 22,19V5A2,2 0 0,0 20,3M20,19H4V5H20V19M13,10V12H11V10H13M13,14V16H11V14H13M17,10V12H15V10H17M17,14V16H15V14H17M9,10V12H7V10H9M9,14V16H7V14H9Z" /></svg>
+            </div>
             
             <div class="relative z-10 flex flex-col items-center max-w-sm mx-auto">
-              <span class="text-5xl mb-6 opacity-30 drop-shadow-sm">📷</span>
+              <div class="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mb-6">
+                <svg class="w-10 h-10 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
               <h3 class="text-xl font-semibold text-gray-800 mb-3">ECX Quality Analysis</h3>
               <p class="text-gray-500 text-sm leading-relaxed mb-6">
                 Our AI model evaluates color uniformity, brightness, warmth, and defect indicators to estimate structural bean quality.
