@@ -23,23 +23,21 @@
       <div class="bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl shadow-black/20 border border-white/20 p-8">
         <div class="text-center mb-8">
           <h1 class="text-2xl font-bold text-gray-900 mb-1">Welcome back</h1>
-          <p class="text-gray-500 text-sm">Sign in to access your dashboard</p>
+          <p class="text-gray-500 text-sm">Sign in with your email or phone number</p>
         </div>
 
         <!-- Error Alert -->
         <transition name="slide-fade">
           <div v-if="authStore.error" class="mb-6 p-3.5 bg-red-50 border border-red-200 rounded-xl flex items-start gap-3">
             <span class="text-red-500 text-lg leading-none mt-0.5">⚠️</span>
-            <div>
-              <p class="text-red-700 text-sm font-medium">{{ authStore.error }}</p>
-            </div>
+            <p class="text-red-700 text-sm font-medium">{{ authStore.error }}</p>
           </div>
         </transition>
 
         <form @submit.prevent="handleLogin" class="space-y-5">
-          <!-- Username -->
+          <!-- Email or Phone -->
           <div>
-            <label for="login-username" class="block text-sm font-semibold text-gray-700 mb-1.5">Username</label>
+            <label for="login-identifier" class="block text-sm font-semibold text-gray-700 mb-1.5">Email or Phone Number</label>
             <div class="relative">
               <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none">
                 <svg class="w-5 h-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -47,12 +45,12 @@
                 </svg>
               </div>
               <input
-                id="login-username"
-                v-model="username"
+                id="login-identifier"
+                v-model="identifier"
                 type="text"
                 required
                 autocomplete="username"
-                placeholder="Enter your username"
+                placeholder="email@example.com or 09xxxxxxxx"
                 class="w-full pl-11 pr-4 py-3 border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 transition-all bg-gray-50/50 hover:bg-white"
               />
             </div>
@@ -144,14 +142,13 @@ import { useAuthStore } from '../stores/auth'
 const router = useRouter()
 const authStore = useAuthStore()
 
-const username = ref('')
+const identifier = ref('')
 const password = ref('')
 const showPassword = ref(false)
 
 async function handleLogin() {
-  const success = await authStore.login(username.value, password.value)
+  const success = await authStore.login(identifier.value, password.value)
   if (success) {
-    // Redirect to the page they were trying to visit, or home
     const redirect = router.currentRoute.value.query.redirect || '/'
     router.push(redirect)
   }
@@ -159,18 +156,8 @@ async function handleLogin() {
 </script>
 
 <style scoped>
-.slide-fade-enter-active {
-  transition: all 0.3s ease-out;
-}
-.slide-fade-leave-active {
-  transition: all 0.2s ease-in;
-}
-.slide-fade-enter-from {
-  transform: translateY(-8px);
-  opacity: 0;
-}
-.slide-fade-leave-to {
-  transform: translateY(-4px);
-  opacity: 0;
-}
+.slide-fade-enter-active { transition: all 0.3s ease-out; }
+.slide-fade-leave-active { transition: all 0.2s ease-in; }
+.slide-fade-enter-from { transform: translateY(-8px); opacity: 0; }
+.slide-fade-leave-to { transform: translateY(-4px); opacity: 0; }
 </style>

@@ -13,12 +13,13 @@ const authApi = axios.create({
 
 export const authService = {
   /**
-   * Login with username and password.
+   * Login with email or phone number + password.
    * FastAPI OAuth2 expects form-data, not JSON.
+   * The `username` field accepts either email or phone.
    */
-  async login(username, password) {
+  async login(identifier, password) {
     const formData = new URLSearchParams()
-    formData.append('username', username)
+    formData.append('username', identifier)
     formData.append('password', password)
 
     const response = await authApi.post('/auth/token', formData, {
@@ -30,10 +31,11 @@ export const authService = {
   /**
    * Register a new user account.
    */
-  async register(username, email, password) {
+  async register(fullName, email, phoneNumber, password) {
     const response = await authApi.post('/auth/register', {
-      username,
+      full_name: fullName,
       email,
+      phone_number: phoneNumber,
       password,
     })
     return response.data

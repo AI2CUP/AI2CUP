@@ -7,7 +7,7 @@
       <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-emerald-600/5 rounded-full blur-3xl"></div>
     </div>
 
-    <div class="relative z-10 w-full max-w-md mx-4">
+    <div class="relative z-10 w-full max-w-md mx-4 py-8">
       <!-- Logo -->
       <div class="text-center mb-8">
         <router-link to="/" class="inline-flex items-center gap-3 group">
@@ -30,16 +30,14 @@
         <transition name="slide-fade">
           <div v-if="authStore.error" class="mb-6 p-3.5 bg-red-50 border border-red-200 rounded-xl flex items-start gap-3">
             <span class="text-red-500 text-lg leading-none mt-0.5">⚠️</span>
-            <div>
-              <p class="text-red-700 text-sm font-medium">{{ authStore.error }}</p>
-            </div>
+            <p class="text-red-700 text-sm font-medium">{{ authStore.error }}</p>
           </div>
         </transition>
 
-        <form @submit.prevent="handleRegister" class="space-y-5">
-          <!-- Username -->
+        <form @submit.prevent="handleRegister" class="space-y-4">
+          <!-- Full Name -->
           <div>
-            <label for="reg-username" class="block text-sm font-semibold text-gray-700 mb-1.5">Username</label>
+            <label for="reg-fullname" class="block text-sm font-semibold text-gray-700 mb-1.5">Full Name</label>
             <div class="relative">
               <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none">
                 <svg class="w-5 h-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -47,13 +45,12 @@
                 </svg>
               </div>
               <input
-                id="reg-username"
-                v-model="username"
+                id="reg-fullname"
+                v-model="fullName"
                 type="text"
                 required
-                autocomplete="username"
-                minlength="3"
-                placeholder="Choose a username"
+                autocomplete="name"
+                placeholder="e.g. Abebe Kebede"
                 class="w-full pl-11 pr-4 py-3 border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 transition-all bg-gray-50/50 hover:bg-white"
               />
             </div>
@@ -75,6 +72,27 @@
                 required
                 autocomplete="email"
                 placeholder="you@example.com"
+                class="w-full pl-11 pr-4 py-3 border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 transition-all bg-gray-50/50 hover:bg-white"
+              />
+            </div>
+          </div>
+
+          <!-- Phone Number -->
+          <div>
+            <label for="reg-phone" class="block text-sm font-semibold text-gray-700 mb-1.5">Phone Number</label>
+            <div class="relative">
+              <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none">
+                <svg class="w-5 h-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+              </div>
+              <input
+                id="reg-phone"
+                v-model="phoneNumber"
+                type="tel"
+                required
+                autocomplete="tel"
+                placeholder="e.g. 0911234567"
                 class="w-full pl-11 pr-4 py-3 border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 transition-all bg-gray-50/50 hover:bg-white"
               />
             </div>
@@ -145,7 +163,7 @@
           <button
             type="submit"
             :disabled="authStore.loading || (confirmPassword && password !== confirmPassword)"
-            class="w-full py-3.5 px-6 bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 text-white font-semibold rounded-xl shadow-lg shadow-emerald-500/25 hover:shadow-xl hover:shadow-emerald-500/30 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:shadow-none flex items-center justify-center gap-2"
+            class="w-full py-3.5 px-6 bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 text-white font-semibold rounded-xl shadow-lg shadow-emerald-500/25 hover:shadow-xl hover:shadow-emerald-500/30 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:shadow-none flex items-center justify-center gap-2 mt-6"
           >
             <svg v-if="authStore.loading" class="animate-spin w-5 h-5" fill="none" viewBox="0 0 24 24">
               <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" />
@@ -193,8 +211,9 @@ import { useAuthStore } from '../stores/auth'
 const router = useRouter()
 const authStore = useAuthStore()
 
-const username = ref('')
+const fullName = ref('')
 const email = ref('')
+const phoneNumber = ref('')
 const password = ref('')
 const confirmPassword = ref('')
 const showPassword = ref(false)
@@ -204,7 +223,12 @@ async function handleRegister() {
     authStore.error = 'Passwords do not match'
     return
   }
-  const success = await authStore.register(username.value, email.value, password.value)
+  const success = await authStore.register(
+    fullName.value,
+    email.value,
+    phoneNumber.value,
+    password.value,
+  )
   if (success) {
     router.push('/')
   }
@@ -212,18 +236,8 @@ async function handleRegister() {
 </script>
 
 <style scoped>
-.slide-fade-enter-active {
-  transition: all 0.3s ease-out;
-}
-.slide-fade-leave-active {
-  transition: all 0.2s ease-in;
-}
-.slide-fade-enter-from {
-  transform: translateY(-8px);
-  opacity: 0;
-}
-.slide-fade-leave-to {
-  transform: translateY(-4px);
-  opacity: 0;
-}
+.slide-fade-enter-active { transition: all 0.3s ease-out; }
+.slide-fade-leave-active { transition: all 0.2s ease-in; }
+.slide-fade-enter-from { transform: translateY(-8px); opacity: 0; }
+.slide-fade-leave-to { transform: translateY(-4px); opacity: 0; }
 </style>

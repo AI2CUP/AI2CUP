@@ -11,35 +11,37 @@ export const useAuthStore = defineStore('auth', () => {
 
   // ── Getters ──
   const isAuthenticated = computed(() => !!token.value)
-  const displayName = computed(() => user.value?.username || '')
+  const displayName = computed(() => user.value?.full_name || '')
 
   // ── Actions ──
-  async function login(username, password) {
+  async function login(identifier, password) {
     loading.value = true
     error.value = null
     try {
-      const data = await authService.login(username, password)
+      const data = await authService.login(identifier, password)
       token.value = data.access_token
       localStorage.setItem('ai2cup_token', data.access_token)
       await fetchUser()
       return true
     } catch (err) {
-      error.value = err.message || 'Login failed'
+      const detail = err.response?.data?.detail
+      error.value = detail || err.message || 'Login failed'
       return false
     } finally {
       loading.value = false
     }
   }
 
-  async function register(username, email, password) {
+  async function register(fullName, email, phoneNumber, password) {
     loading.value = true
     error.value = null
     try {
-      await authService.register(username, email, password)
+      await authService.register(fullName, email, phoneNumber, password)
       // Auto-login after successful registration
-      return await login(username, password)
+      return await login(email, password)
     } catch (err) {
-      error.value = err.message || 'Registration failed'
+      const detail = err.response?.data?.detail
+      error.value = detail || err.message || 'Registration failed'
       return false
     } finally {
       loading.value = false
@@ -52,7 +54,6 @@ export const useAuthStore = defineStore('auth', () => {
       const userData = await authService.getMe(token.value)
       user.value = userData
     } catch {
-      // Token is invalid/expired — clear everything
       logout()
     }
   }
@@ -63,7 +64,6 @@ export const useAuthStore = defineStore('auth', () => {
     localStorage.removeItem('ai2cup_token')
   }
 
-  // Hydrate user on app start if we have a token
   async function initialize() {
     if (token.value) {
       await fetchUser()
