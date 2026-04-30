@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import { useAuthStore } from '../stores/auth'
 
 const routes = [
   {
@@ -6,6 +7,18 @@ const routes = [
     name: 'home',
     component: () => import('../views/HomeView.vue'),
     meta: { title: 'AI2CUP - Ethiopian Coffee Trade Platform' },
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: () => import('../views/LoginView.vue'),
+    meta: { title: 'Sign In - AI2CUP', guest: true },
+  },
+  {
+    path: '/register',
+    name: 'register',
+    component: () => import('../views/RegisterView.vue'),
+    meta: { title: 'Create Account - AI2CUP', guest: true },
   },
   {
     path: '/price',
@@ -23,7 +36,7 @@ const routes = [
     path: '/marketplace',
     name: 'marketplace',
     component: () => import('../views/MarketplaceView.vue'),
-    meta: { title: 'Marketplace - AI2CUP' },
+    meta: { title: 'Marketplace - AI2CUP', requiresAuth: true },
   },
 ]
 
@@ -37,6 +50,28 @@ const router = createRouter({
       return { top: 0, behavior: 'smooth' }
     }
   },
+})
+
+// ── Navigation Guards ──
+router.beforeEach(async (to, from, next) => {
+  const authStore = useAuthStore()
+
+  // Hydrate auth state on first navigation if token exists
+  if (authStore.token && !authStore.user) {
+    await authStore.initialize()
+  }
+
+  // Protected route — redirect to login if not authenticated
+  if (to.meta.requiresAuth && !authStore.isAuthenticated) {
+    return next({ name: 'login', query: { redirect: to.fullPath } })
+  }
+
+  // Guest-only routes (login/register) — redirect home if already authenticated
+  if (to.meta.guest && authStore.isAuthenticated) {
+    return next({ name: 'home' })
+  }
+
+  next()
 })
 
 // Update page title
