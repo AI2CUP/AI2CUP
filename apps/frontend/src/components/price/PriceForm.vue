@@ -67,7 +67,7 @@
       <AppButton 
         type="submit" 
         :loading="loading" 
-        text="🔮 Predict Price · ዋጋ ተንብይ" 
+        text="Predict Price · ዋጋ ተንብይ" 
       />
     </div>
   </form>
