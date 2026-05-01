@@ -7,7 +7,7 @@
             <span class="text-2xl" role="img" aria-label="coffee">☕</span>
             <div>
               <div class="font-bold text-xl text-gray-900 tracking-tight leading-none">AI2CUP</div>
-              <div class="text-[0.65rem] uppercase tracking-wider text-emerald-600 font-semibold mt-0.5">AI for Ethiopian Coffee</div>
+              <div class="text-[0.65rem] uppercase tracking-wider text-amber-700 font-semibold mt-0.5">AI for Ethiopian Coffee</div>
             </div>
           </router-link>
         </div>
@@ -18,21 +18,21 @@
             <router-link 
               to="/price" 
               class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors"
-              :class="[ $route.path === '/price' ? 'border-emerald-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700' ]"
+              :class="[ $route.path === '/price' ? 'border-amber-600 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700' ]"
             >
               Price
             </router-link>
             <router-link 
               to="/quality" 
               class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors"
-              :class="[ $route.path === '/quality' ? 'border-emerald-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700' ]"
+              :class="[ $route.path === '/quality' ? 'border-amber-600 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700' ]"
             >
               Quality
             </router-link>
             <router-link 
               to="/marketplace" 
               class="inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors"
-              :class="[ $route.path === '/marketplace' ? 'border-emerald-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700' ]"
+              :class="[ $route.path === '/marketplace' ? 'border-amber-600 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700' ]"
             >
               Market
             </router-link>
@@ -43,12 +43,12 @@
             <template v-if="authStore.isAuthenticated">
               <!-- User Dropdown -->
               <div class="relative" @click="dropdownOpen = !dropdownOpen" v-click-outside="() => dropdownOpen = false">
-                <div class="flex items-center gap-2 px-3 py-1.5 bg-emerald-50 rounded-lg border border-emerald-100 cursor-pointer hover:bg-emerald-100 transition-colors">
-                  <div class="w-6 h-6 bg-emerald-500 rounded-full flex items-center justify-center text-white text-xs font-bold">
+                <div class="flex items-center gap-2 px-3 py-1.5 bg-amber-50 rounded-lg border border-amber-100 cursor-pointer hover:bg-amber-100 transition-colors">
+                  <div class="w-6 h-6 bg-amber-600 rounded-full flex items-center justify-center text-white text-xs font-bold">
                     {{ authStore.displayName.charAt(0).toUpperCase() }}
                   </div>
-                  <span class="text-sm font-medium text-emerald-800 max-w-[100px] truncate">{{ authStore.displayName }}</span>
-                  <svg class="w-4 h-4 text-emerald-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <span class="text-sm font-medium text-amber-900 max-w-[100px] truncate">{{ authStore.displayName }}</span>
+                  <svg class="w-4 h-4 text-amber-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                   </svg>
                 </div>
@@ -81,7 +81,7 @@
               </router-link>
               <router-link
                 to="/register"
-                class="text-sm font-semibold text-white bg-emerald-600 hover:bg-emerald-700 px-4 py-2 rounded-lg transition-colors shadow-sm"
+                class="text-sm font-semibold text-white bg-amber-600 hover:bg-amber-700 px-4 py-2 rounded-lg transition-colors shadow-sm"
               >
                 Sign Up
               </router-link>
@@ -93,12 +93,12 @@
         <div class="flex items-center sm:hidden gap-2">
           <!-- Mobile Auth -->
           <template v-if="authStore.isAuthenticated">
-            <div class="w-7 h-7 bg-emerald-500 rounded-full flex items-center justify-center text-white text-xs font-bold">
+            <div class="w-7 h-7 bg-amber-600 rounded-full flex items-center justify-center text-white text-xs font-bold">
               {{ authStore.displayName.charAt(0).toUpperCase() }}
             </div>
           </template>
           <template v-else>
-            <router-link to="/login" class="text-emerald-600 text-sm font-medium">
+            <router-link to="/login" class="text-amber-700 text-sm font-medium">
               Sign In
             </router-link>
           </template>
@@ -118,15 +118,15 @@
       <div v-if="mobileOpen" class="sm:hidden bg-white border-t border-gray-100 shadow-lg">
         <div class="px-4 py-4 space-y-2">
           <router-link @click="mobileOpen = false" to="/price" class="block px-4 py-2.5 rounded-lg text-sm font-medium hover:bg-gray-50 transition-colors"
-            :class="$route.path === '/price' ? 'bg-emerald-50 text-emerald-700' : 'text-gray-700'">
+            :class="$route.path === '/price' ? 'bg-amber-50 text-amber-800' : 'text-gray-700'">
             Price Prediction
           </router-link>
           <router-link @click="mobileOpen = false" to="/quality" class="block px-4 py-2.5 rounded-lg text-sm font-medium hover:bg-gray-50 transition-colors"
-            :class="$route.path === '/quality' ? 'bg-emerald-50 text-emerald-700' : 'text-gray-700'">
+            :class="$route.path === '/quality' ? 'bg-amber-50 text-amber-800' : 'text-gray-700'">
             Quality Detection
           </router-link>
           <router-link @click="mobileOpen = false" to="/marketplace" class="block px-4 py-2.5 rounded-lg text-sm font-medium hover:bg-gray-50 transition-colors"
-            :class="$route.path === '/marketplace' ? 'bg-emerald-50 text-emerald-700' : 'text-gray-700'">
+            :class="$route.path === '/marketplace' ? 'bg-amber-50 text-amber-800' : 'text-gray-700'">
             Marketplace
           </router-link>
 
@@ -134,7 +134,7 @@
             <template v-if="authStore.isAuthenticated">
               <div class="flex items-center justify-between px-4 py-2">
                 <div class="flex items-center gap-2">
-                  <div class="w-8 h-8 bg-emerald-500 rounded-full flex items-center justify-center text-white text-sm font-bold">
+                  <div class="w-8 h-8 bg-amber-600 rounded-full flex items-center justify-center text-white text-sm font-bold">
                     {{ authStore.displayName.charAt(0).toUpperCase() }}
                   </div>
                   <span class="text-sm font-medium text-gray-800">{{ authStore.displayName }}</span>
@@ -148,7 +148,7 @@
               <router-link @click="mobileOpen = false" to="/login" class="block px-4 py-2.5 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">
                 Sign In
               </router-link>
-              <router-link @click="mobileOpen = false" to="/register" class="block px-4 py-2.5 rounded-lg text-sm font-semibold text-white bg-emerald-600 text-center mt-1">
+              <router-link @click="mobileOpen = false" to="/register" class="block px-4 py-2.5 rounded-lg text-sm font-semibold text-white bg-amber-600 text-center mt-1">
                 Create Account
               </router-link>
             </template>
