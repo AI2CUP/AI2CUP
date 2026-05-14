@@ -2,7 +2,7 @@
 
 install:
 	@echo "Installing dependencies..."
-	cd apps/backend && pip install -r requirements.txt
+	cd apps/backend && ( [ -d venv ] || python3 -m venv venv ) && ./venv/bin/pip install -r requirements.txt -r requirements-dev.txt
 	cd apps/frontend && npm install
 
 dev:
@@ -13,7 +13,7 @@ dev:
 
 dev-backend:
 	@echo "Starting backend dev server..."
-	cd apps/backend && uvicorn app.main:app --reload --port 8000
+	cd apps/backend && ./venv/bin/uvicorn app.main:app --reload --port 8000
 
 
 dev-frontend:
@@ -22,15 +22,15 @@ dev-frontend:
 
 test:
 	@echo "Running backend tests..."
-	cd apps/backend && pytest
+	cd apps/backend && ./venv/bin/pytest
 
 lint:
 	@echo "Running linter..."
-	cd apps/backend && ruff check .
+	cd apps/backend && ./venv/bin/ruff check .
 
 format:
 	@echo "Formatting code..."
-	cd apps/backend && ruff format .
+	cd apps/backend && ./venv/bin/ruff format .
 
 dev-docker:
 	@echo "Starting both servers with docker..."
