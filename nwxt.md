@@ -1,0 +1,3 @@
+- language support Am, En, Afaan Oromo
+- quality detection using AI after dataset collection
+- navitem pages enhancement remove icons, color coffee like.

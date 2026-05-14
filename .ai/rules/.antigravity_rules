@@ -1,0 +1,10 @@
+# AI2CUP Assistant Entry Point
+
+Welcome to the AI2CUP repository. To ensure high-quality, project-consistent output, you must follow the centralized instructions and modular skills located in the `.ai/` directory.
+
+### 📖 Required Reading
+1. **System Instructions**: [system_instructions.md](file:///mnt/data-disk/ai2cup/AI2CUP/.ai/system_instructions.md) - Core project philosophy and tech stack.
+2. **Skill Library**: [.ai/skills/](file:///mnt/data-disk/ai2cup/AI2CUP/.ai/skills/) - Task-specific guides for UI, ML, API, and Deployment.
+
+### 🎯 Objective
+Maintain a premium aesthetic, clean code, and reliable ML pipelines.

@@ -30,7 +30,7 @@ python3 -m venv venv
 source venv/bin/activate
 
 # Install the required Python dependencies
-pip install -r requirements.txt
+# pip install -r requirements.txt
 
 # Start the backend server (runs on port 8000)
 uvicorn app.main:app --reload --port 8000
