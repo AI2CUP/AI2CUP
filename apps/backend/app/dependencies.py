@@ -16,7 +16,6 @@ from functools import lru_cache
 
 from app.config import get_settings
 from app.ml.registry import ModelRegistry
-from app.services.match_service import MatchService
 from app.services.price_service import PriceService
 from app.services.quality_service import QualityService
 
@@ -37,22 +36,3 @@ def get_quality_service() -> QualityService:
     """Quality service with model registry injected."""
     return QualityService(model_registry=get_model_registry())
 
-
-def get_match_service() -> MatchService:
-    """Match service with model registry injected."""
-    return MatchService(model_registry=get_model_registry())
-
-
-# ── Future Dependencies ──
-#
-# def get_db() -> Generator[Session, None, None]:
-#     """Database session dependency (yields and auto-closes)."""
-#     db = SessionLocal()
-#     try:
-#         yield db
-#     finally:
-#         db.close()
-#
-# def get_current_user(token: str = Depends(oauth2_scheme)) -> User:
-#     """Auth dependency — extracts user from JWT token."""
-#     ...

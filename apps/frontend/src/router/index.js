@@ -36,7 +36,19 @@ const routes = [
     path: '/marketplace',
     name: 'marketplace',
     component: () => import('../views/MarketplaceView.vue'),
-    meta: { title: 'Marketplace - AI2CUP', requiresAuth: true },
+    meta: { title: 'Marketplace - AI2CUP' },
+  },
+  {
+    path: '/marketplace/create',
+    name: 'create-listing',
+    component: () => import('../views/CreateListingView.vue'),
+    meta: { title: 'Post a Listing - AI2CUP', requiresAuth: true },
+  },
+  {
+    path: '/marketplace/my',
+    name: 'my-listings',
+    component: () => import('../views/MyListingsView.vue'),
+    meta: { title: 'My Listings - AI2CUP', requiresAuth: true },
   },
   {
     path: '/profile',

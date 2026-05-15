@@ -15,7 +15,6 @@ from __future__ import annotations
 
 from app.config import Settings
 from app.ml.base import BaseMLModel
-from app.ml.matcher import MatcherModel
 from app.ml.price_model import PriceModel
 from app.ml.quality_model import QualityModel
 
@@ -36,7 +35,6 @@ class ModelRegistry:
         models_to_load: dict[str, BaseMLModel] = {
             "price": PriceModel(),
             "quality": QualityModel(),
-            "matcher": MatcherModel(),
         }
 
         for name, model in models_to_load.items():

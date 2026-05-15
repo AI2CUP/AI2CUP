@@ -22,7 +22,41 @@ from app.config import get_settings
 from app.core.exceptions import AI2CUPError
 from app.core.middleware import setup_middleware
 from app.dependencies import get_model_registry
-from app.models import init_db
+from app.models import init_db, SessionLocal, Listing
+from app.data.seed.marketplace import SELLERS
+
+
+def _seed_listings():
+    """Populate the listings table from seed data if empty."""
+    db = SessionLocal()
+    try:
+        if db.query(Listing).count() == 0:
+            print("  Seeding marketplace listings...")
+            for seller in SELLERS:
+                listing = Listing(
+                    user_id=None,  # seed data has no owner
+                    title=seller["name"],
+                    description=f"{seller.get('name_amharic', '')} — {seller.get('zone', '')}",
+                    region=seller["region"],
+                    ecx_grade=seller["ecx_grade"],
+                    variety=seller.get("variety"),
+                    processing=seller.get("processing"),
+                    price_per_kg_etb=seller["price_per_kg_etb"],
+                    price_per_kg_usd=seller["price_per_kg_usd"],
+                    available_kg=seller["available_kg"],
+                    certification=", ".join(seller.get("certification", [])),
+                    contact_name=seller["name"],
+                    contact_phone="+251 911 000 000",
+                    contact_email="info@ai2cup.com",
+                    is_active=True,
+                )
+                db.add(listing)
+            db.commit()
+            print(f"  [OK] Seeded {len(SELLERS)} listings")
+        else:
+            print(f"  Listings table already has data, skipping seed.")
+    finally:
+        db.close()
 
 
 @asynccontextmanager
@@ -32,6 +66,7 @@ async def lifespan(app: FastAPI):
 
     Startup:
       - Initializes the model registry (loads all ML models)
+      - Seeds the listings table if empty
 
     Shutdown:
       - Cleanup (future: close DB connections, etc.)
@@ -46,6 +81,9 @@ async def lifespan(app: FastAPI):
     # Initialize Database
     print("Initializing database...")
     init_db()
+
+    # Seed marketplace listings
+    _seed_listings()
 
     print(f"{settings.app_name} is ready!\n")
 
@@ -66,7 +104,7 @@ def create_app() -> FastAPI:
         title=f"{settings.app_name} API",
         description=(
             "AI-powered platform for improving Ethiopian coffee trade. "
-            "Features: Price Prediction, Quality Detection, Buyer/Seller Matching."
+            "Features: Price Prediction, Quality Detection, Coffee Marketplace."
         ),
         version=settings.app_version,
         lifespan=lifespan,

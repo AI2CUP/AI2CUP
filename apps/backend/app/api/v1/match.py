@@ -13,20 +13,17 @@ from fastapi import APIRouter, Depends
 from app.dependencies import get_match_service
 from app.schemas.match import MatchRequest, MatchResponse
 from app.services.match_service import MatchService
-from app.core.auth import get_current_user
-from app.models import User
 
 router = APIRouter()
 
 
 @router.get("")
 async def get_marketplace(
-    service: MatchService = Depends(get_match_service),
-    current_user: User = Depends(get_current_user)
+    service: MatchService = Depends(get_match_service)
 ):
     """
     Get all marketplace listings (buyers and sellers).
-    Requires authentication.
+    Publicly accessible.
     """
     return service.get_all_listings()
 
@@ -34,11 +31,10 @@ async def get_marketplace(
 @router.post("/find", response_model=MatchResponse)
 async def find_match(
     request: MatchRequest,
-    service: MatchService = Depends(get_match_service),
-    current_user: User = Depends(get_current_user)
+    service: MatchService = Depends(get_match_service)
 ):
     """
     Find matching counterparties based on criteria.
-    Requires authentication.
+    Publicly accessible.
     """
     return service.find_matches(request)
