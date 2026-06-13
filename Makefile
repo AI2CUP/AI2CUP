@@ -13,7 +13,7 @@ dev:
 
 dev-backend:
 	@echo "Starting backend dev server..."
-	cd apps/backend && ./venv/bin/uvicorn app.main:app --reload --port 8000
+	cd apps/backend && ./venv/bin/uvicorn app.main:app --reload --port 8002
 
 
 dev-frontend:
