@@ -113,7 +113,31 @@ cloudflared tunnel --url http://localhost:3000
 ### 3. Share the Link
 Once the command is running, Cloudflare will output a temporary URL (e.g., `https://random-words.trycloudflare.com`). Share this exact URL with your collaborators! They will be securely routed straight into your locally running application.
 
+### Recommended Persistent Quick Share Flow
+If you want the link to keep running after you close the terminal, use the systemd services instead of starting `cloudflared` manually.
+
+```bash
+cd /mnt/data-disk/ai2cup/AI2CUP
+
+sudo install -m 644 deploy/ai2cup-backend-native.service /etc/systemd/system/ai2cup-backend.service
+sudo install -m 644 deploy/ai2cup-quick-proxy.service /etc/systemd/system/ai2cup-quick-proxy.service
+sudo install -m 644 deploy/cloudflared-quick-ai2cup.service /etc/systemd/system/cloudflared-quick-ai2cup.service
+
+sudo systemctl daemon-reload
+sudo systemctl enable --now ai2cup-backend.service ai2cup-quick-proxy.service cloudflared-quick-ai2cup.service
+
+sudo journalctl -u cloudflared-quick-ai2cup.service -n 200 --no-pager \
+	| grep -Eo 'https://[-a-z0-9]+\.trycloudflare\.com' \
+	| tail -n 1
+```
+
+This flow keeps running even if you close the terminal. The backend runs on `127.0.0.1:8002`, the local proxy runs on `127.0.0.1:9000`, and Cloudflare points at that proxy.
+
 ### Safely Stopping
 - Stop the Cloudflare tunnel by pressing `Ctrl + C` in its terminal.
+- If you started the service-based flow, stop it with:
+```bash
+sudo systemctl disable --now cloudflared-quick-ai2cup.service ai2cup-quick-proxy.service ai2cup-backend.service
+```
 - **Native:** Stop the frontend and backend servers with `Ctrl + C` in their respective terminals.
 - **Docker:** Run `make down` from the repository root to gracefully tear down your docker containers.
