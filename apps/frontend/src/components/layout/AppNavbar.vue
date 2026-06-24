@@ -4,7 +4,7 @@
       <div class="flex justify-between h-16">
         <div class="flex">
           <router-link to="/" class="flex-shrink-0 flex items-center">
-            <img src="/ai2cup-logo-1.jpg" alt="AI2CUP Logo" class="h-12 w-12 rounded-full object-cover shadow-sm border border-amber-100" />
+            <img src="/logo-rounded.svg" alt="AI2CUP Logo" class="h-12 w-12 object-cover shadow-sm border border-amber-100/50 rounded-full" />
           </router-link>
         </div>
         

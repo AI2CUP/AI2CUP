@@ -12,7 +12,7 @@
       <div class="text-center mb-8">
         <router-link to="/" class="inline-block group">
           <div class="bg-white/95 backdrop-blur-md p-2 rounded-full inline-block shadow-[0_0_20px_rgba(255,255,255,0.1)] group-hover:scale-105 transition-transform duration-300">
-            <img src="/ai2cup-logo-1.jpg" alt="AI2CUP Logo" class="h-16 w-16 rounded-full object-cover" />
+            <img src="/logo-rounded.svg" alt="AI2CUP Logo" class="h-16 w-16 object-cover" />
           </div>
         </router-link>
       </div>
