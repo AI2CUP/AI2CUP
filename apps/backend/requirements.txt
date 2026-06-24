@@ -15,6 +15,3 @@ bcrypt>=4.0.0,<5.0.0
 python-jose[cryptography]>=3.3.0
 email-validator>=2.0.0
 huggingface_hub>=0.19.0
-datasets>=2.15.0
-torch>=2.0.0
-torchvision>=0.15.0
