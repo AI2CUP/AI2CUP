@@ -2,7 +2,7 @@
   <div 
     class="border-2 border-dashed rounded-2xl p-8 text-center transition-all duration-200 bg-gray-50"
     :class="[
-      isDragging ? 'border-emerald-500 bg-emerald-50 scale-[1.02]' : 'border-gray-300 hover:border-emerald-400',
+      isDragging ? 'border-amber-500 bg-amber-50 scale-[1.02]' : 'border-gray-300 hover:border-amber-400',
       hasFile ? 'border-none p-0 overflow-hidden' : ''
     ]"
     @dragover.prevent="isDragging = true"

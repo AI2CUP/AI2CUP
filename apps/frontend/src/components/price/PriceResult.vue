@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-emerald-50 rounded-xl p-6 border border-emerald-100">
-    <div class="flex items-center gap-2 text-emerald-800 font-semibold mb-6">
+  <div class="bg-amber-50 rounded-xl p-6 border border-amber-100 shadow-[inset_0_2px_10px_rgba(217,119,6,0.05)]">
+    <div class="flex items-center gap-2 text-amber-800 font-semibold mb-6">
       <span class="text-xl">✅</span>
       <span>Prediction Result · የትንበያ ውጤት</span>
     </div>
@@ -13,10 +13,10 @@
         <div class="text-gray-500 text-sm">US Dollars {{ result.unit }}</div>
       </div>
 
-      <div class="hidden md:block text-2xl text-emerald-300 font-light">≈</div>
+      <div class="hidden md:block text-2xl text-amber-300 font-light">≈</div>
 
       <div class="text-center">
-        <div class="text-4xl font-bold text-emerald-600 mb-1">
+        <div class="text-4xl font-bold text-amber-600 mb-1">
           {{ formatPrice(result.predicted_price_etb) }} ETB
         </div>
         <div class="text-gray-500 text-sm">Ethiopian Birr {{ result.unit }}</div>
@@ -24,12 +24,12 @@
     </div>
 
     <div class="text-center mb-6">
-      <span class="inline-block bg-white px-4 py-2 rounded-full text-emerald-700 font-semibold shadow-sm border border-emerald-100">
+      <span class="inline-block bg-white px-4 py-2 rounded-full text-amber-700 font-semibold shadow-sm border border-amber-100">
         {{ result.ecx_grade_label }}
       </span>
     </div>
 
-    <div class="bg-white rounded-lg p-4 text-sm text-gray-600 grid grid-cols-2 md:grid-cols-4 gap-4 border border-emerald-50">
+    <div class="bg-white rounded-lg p-4 text-sm text-gray-600 grid grid-cols-2 md:grid-cols-4 gap-4 border border-amber-50 shadow-sm">
       <div>
         <span class="block text-gray-400 text-xs mb-1">Coffee Type</span>
         <span class="font-medium">{{ result.inputs.coffee_type }}</span>

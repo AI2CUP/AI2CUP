@@ -59,9 +59,9 @@
               <div class="w-full bg-gray-50 rounded-lg p-4 border border-gray-100 text-left">
                 <span class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Instructions:</span>
                 <ul class="text-sm text-gray-600 space-y-2">
-                  <li class="flex items-center gap-2"><span class="text-emerald-500">✓</span> Good lighting (bright, indirect)</li>
-                  <li class="flex items-center gap-2"><span class="text-emerald-500">✓</span> High contrast background</li>
-                  <li class="flex items-center gap-2"><span class="text-emerald-500">✓</span> Single layer of beans</li>
+                  <li class="flex items-center gap-2"><span class="text-amber-500">✓</span> Good lighting (bright, indirect)</li>
+                  <li class="flex items-center gap-2"><span class="text-amber-500">✓</span> High contrast background</li>
+                  <li class="flex items-center gap-2"><span class="text-amber-500">✓</span> Single layer of beans</li>
                 </ul>
               </div>
             </div>

@@ -12,23 +12,23 @@
       </div>
       
       <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32 flex flex-col items-center text-center">
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-amber-50 text-sm font-medium mb-6 backdrop-blur-sm">
-          The Future of Ethiopian Coffee Trade
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-amber-100 text-sm font-medium mb-8 backdrop-blur-md shadow-[0_0_15px_rgba(255,255,255,0.05)] hover:bg-white/10 transition-colors cursor-default">
+          <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span> The Future of Ethiopian Coffee Trade
         </div>
         
-        <h1 class="text-4xl md:text-5xl lg:text-7xl font-extrabold text-white tracking-tight mb-6">
-          AI2CUP <span class="text-amber-400 font-light">Platform</span>
+        <h1 class="text-5xl md:text-6xl lg:text-8xl font-black text-white tracking-tight mb-6 drop-shadow-sm">
+          AI2CUP <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-amber-600 font-bold">Platform</span>
         </h1>
         
-        <p class="text-xl md:text-2xl text-amber-100 max-w-3xl mb-10 font-light leading-relaxed">
+        <p class="text-xl md:text-2xl text-stone-200 max-w-3xl mb-12 font-light leading-relaxed drop-shadow">
           Empowering Ethiopian farmers and global buyers with AI-driven price prediction, automated ECX quality grading, and smart matchmaking.
         </p>
         
-        <div class="flex flex-col sm:flex-row items-center gap-4">
-          <router-link to="/price" class="bg-amber-600 hover:bg-amber-500 text-white font-semibold py-3.5 px-8 rounded-xl shadow-lg hover:shadow-xl transition-all w-full sm:w-auto text-center border border-amber-500/50">
+        <div class="flex flex-col sm:flex-row items-center gap-5 w-full sm:w-auto">
+          <router-link to="/price" class="w-full sm:w-auto bg-gradient-to-b from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-white font-semibold py-4 px-10 rounded-2xl shadow-[0_0_40px_-10px_rgba(217,119,6,0.5)] hover:shadow-[0_0_60px_-15px_rgba(217,119,6,0.6)] hover:-translate-y-1 transition-all duration-300 text-center border border-amber-400/30 text-lg">
             Try Price Prediction
           </router-link>
-          <router-link to="/marketplace" class="bg-white/10 hover:bg-white/20 text-white font-semibold py-3.5 px-8 rounded-xl backdrop-blur-sm border border-white/30 transition-all w-full sm:w-auto text-center">
+          <router-link to="/marketplace" class="w-full sm:w-auto bg-white/5 hover:bg-white/10 text-white font-semibold py-4 px-10 rounded-2xl backdrop-blur-xl border border-white/10 hover:border-white/20 shadow-[0_8px_32px_0_rgba(0,0,0,0.2)] hover:shadow-[0_8px_32px_0_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300 text-center text-lg">
             Explore Marketplace
           </router-link>
         </div>
@@ -45,43 +45,43 @@
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <!-- Feature 1 -->
-          <router-link to="/price" class="group bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-xl hover:border-amber-200 transition-all duration-300 relative overflow-hidden flex flex-col items-center text-center group-hover:-translate-y-1">
-            <div class="absolute inset-0 bg-gradient-to-b from-blue-50/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-            <div class="w-20 h-20 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-6 shadow-sm group-hover:scale-110 transition-transform">
+          <router-link to="/price" class="card group p-8 relative flex flex-col items-center text-center">
+            <div class="absolute inset-0 bg-gradient-to-br from-stone-50/50 to-amber-50/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div class="w-20 h-20 bg-gradient-to-br from-white to-stone-100 text-amber-600 rounded-2xl flex items-center justify-center mb-6 shadow-sm border border-stone-200/50 group-hover:scale-110 group-hover:shadow-md transition-all duration-300 relative z-10">
               <svg class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
               </svg>
             </div>
-            <h3 class="text-xl font-bold text-gray-900 mb-3 relative z-10">Market Price Prediction</h3>
-            <p class="text-gray-600 text-sm leading-relaxed relative z-10">Machine learning models trained on historical ECX data to forecast fair market prices based on region, quality, and seasonal factors.</p>
-            <div class="mt-6 text-amber-700 font-medium text-sm flex items-center gap-1 group-hover:gap-2 transition-all">Launch Module <span>→</span></div>
+            <h3 class="text-xl font-extrabold text-stone-900 mb-3 relative z-10">Market Price Prediction</h3>
+            <p class="text-stone-600 text-sm leading-relaxed relative z-10 font-medium">Machine learning models trained on historical ECX data to forecast fair market prices based on region, quality, and seasonal factors.</p>
+            <div class="mt-6 text-amber-600 font-bold text-sm flex items-center gap-1 group-hover:gap-2 transition-all relative z-10">Launch Module <span>→</span></div>
           </router-link>
           
           <!-- Feature 2 -->
-          <router-link to="/quality" class="group bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-xl hover:border-amber-200 transition-all duration-300 relative overflow-hidden flex flex-col items-center text-center group-hover:-translate-y-1">
-            <div class="absolute inset-0 bg-gradient-to-b from-amber-50/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-            <div class="w-20 h-20 bg-amber-100 text-amber-600 rounded-2xl flex items-center justify-center mb-6 shadow-sm group-hover:scale-110 transition-transform">
+          <router-link to="/quality" class="card group p-8 relative flex flex-col items-center text-center">
+            <div class="absolute inset-0 bg-gradient-to-br from-stone-50/50 to-amber-100/30 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div class="w-20 h-20 bg-gradient-to-br from-amber-50 to-amber-100 text-amber-700 rounded-2xl flex items-center justify-center mb-6 shadow-sm border border-amber-200/50 group-hover:scale-110 group-hover:shadow-md transition-all duration-300 relative z-10">
               <svg class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.691.387a6 6 0 01-3.86.517l-2.387-.477a2 2 0 00-1.022.547l-1.162 1.162a2 2 0 00.597 3.321l1.664.333a4 4 0 002.573-.344l.69-.387a4 4 0 012.573-.344l1.664.333a2 2 0 002.597-3.321l-1.162-1.162z" />
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11V5a2 2 0 00-2-2H9a2 2 0 00-2 2v6" />
               </svg>
             </div>
-            <h3 class="text-xl font-bold text-gray-900 mb-3 relative z-10">Computer Vision Quality</h3>
-            <p class="text-gray-600 text-sm leading-relaxed relative z-10">Upload a photo of green coffee beans to instantly receive AI-calculated ECX Grade assessments (Grade 1-5) based on brightness and physical uniformity.</p>
-            <div class="mt-6 text-amber-700 font-medium text-sm flex items-center gap-1 group-hover:gap-2 transition-all">Launch Module <span>→</span></div>
+            <h3 class="text-xl font-extrabold text-stone-900 mb-3 relative z-10">Computer Vision Quality</h3>
+            <p class="text-stone-600 text-sm leading-relaxed relative z-10 font-medium">Upload a photo of green coffee beans to instantly receive AI-calculated ECX Grade assessments based on brightness and physical uniformity.</p>
+            <div class="mt-6 text-amber-600 font-bold text-sm flex items-center gap-1 group-hover:gap-2 transition-all relative z-10">Launch Module <span>→</span></div>
           </router-link>
           
           <!-- Feature 3 -->
-          <router-link to="/marketplace" class="group bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-xl hover:border-amber-200 transition-all duration-300 relative overflow-hidden flex flex-col items-center text-center group-hover:-translate-y-1">
-            <div class="absolute inset-0 bg-gradient-to-b from-indigo-50/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-            <div class="w-20 h-20 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center mb-6 shadow-sm group-hover:scale-110 transition-transform">
+          <router-link to="/marketplace" class="card group p-8 relative flex flex-col items-center text-center">
+            <div class="absolute inset-0 bg-gradient-to-br from-stone-50/50 to-stone-200/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div class="w-20 h-20 bg-gradient-to-br from-stone-800 to-stone-900 text-amber-400 rounded-2xl flex items-center justify-center mb-6 shadow-sm border border-stone-700/50 group-hover:scale-110 group-hover:shadow-md transition-all duration-300 relative z-10">
               <svg class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
               </svg>
             </div>
-            <h3 class="text-xl font-bold text-gray-900 mb-3 relative z-10">Smart Matchmaking</h3>
-            <p class="text-gray-600 text-sm leading-relaxed relative z-10">Algorithmic matching connecting local cooperatives with international buyers based on exact volume constraints, quality levels, and budget parity.</p>
-            <div class="mt-6 text-amber-700 font-medium text-sm flex items-center gap-1 group-hover:gap-2 transition-all">Launch Module <span>→</span></div>
+            <h3 class="text-xl font-extrabold text-stone-900 mb-3 relative z-10">Smart Matchmaking</h3>
+            <p class="text-stone-600 text-sm leading-relaxed relative z-10 font-medium">Algorithmic matching connecting local cooperatives with international buyers based on exact volume constraints, quality levels, and budget parity.</p>
+            <div class="mt-6 text-amber-600 font-bold text-sm flex items-center gap-1 group-hover:gap-2 transition-all relative z-10">Launch Module <span>→</span></div>
           </router-link>
         </div>
       </div>

@@ -3,12 +3,8 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between h-16">
         <div class="flex">
-          <router-link to="/" class="flex-shrink-0 flex items-center gap-3">
-            <span class="text-2xl" role="img" aria-label="coffee">☕</span>
-            <div>
-              <div class="font-bold text-xl text-gray-900 tracking-tight leading-none">AI2CUP</div>
-              <div class="text-[0.65rem] uppercase tracking-wider text-amber-700 font-semibold mt-0.5">AI for Ethiopian Coffee</div>
-            </div>
+          <router-link to="/" class="flex-shrink-0 flex items-center">
+            <img src="/ai2cup-logo-1.jpg" alt="AI2CUP Logo" class="h-12 w-12 rounded-full object-cover shadow-sm border border-amber-100" />
           </router-link>
         </div>
         

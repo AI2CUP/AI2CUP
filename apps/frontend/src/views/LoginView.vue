@@ -1,20 +1,18 @@
 <template>
-  <div class="min-h-screen flex items-center justify-center bg-gradient-to-br from-emerald-900 via-emerald-800 to-teal-900 relative overflow-hidden">
+  <div class="min-h-screen flex items-center justify-center bg-gradient-to-br from-stone-900 via-stone-800 to-amber-950 relative overflow-hidden">
     <!-- Background decoration -->
     <div class="absolute inset-0 overflow-hidden pointer-events-none">
-      <div class="absolute -top-40 -right-40 w-80 h-80 bg-emerald-500/10 rounded-full blur-3xl"></div>
-      <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-teal-400/10 rounded-full blur-3xl"></div>
-      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-emerald-600/5 rounded-full blur-3xl"></div>
+      <div class="absolute -top-40 -right-40 w-80 h-80 bg-amber-500/10 rounded-full blur-3xl"></div>
+      <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-amber-700/10 rounded-full blur-3xl"></div>
+      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-amber-600/5 rounded-full blur-3xl"></div>
     </div>
 
     <div class="relative z-10 w-full max-w-md mx-4">
       <!-- Logo -->
       <div class="text-center mb-8">
-        <router-link to="/" class="inline-flex items-center gap-3 group">
-          <span class="text-4xl group-hover:scale-110 transition-transform duration-300">☕</span>
-          <div>
-            <div class="font-bold text-3xl text-white tracking-tight leading-none">AI2CUP</div>
-            <div class="text-xs uppercase tracking-widest text-emerald-300/80 font-medium mt-0.5">AI for Ethiopian Coffee</div>
+        <router-link to="/" class="inline-block group">
+          <div class="bg-white/95 backdrop-blur-md p-2 rounded-full inline-block shadow-[0_0_20px_rgba(255,255,255,0.1)] group-hover:scale-105 transition-transform duration-300">
+            <img src="/ai2cup-logo-1.jpg" alt="AI2CUP Logo" class="h-16 w-16 rounded-full object-cover" />
           </div>
         </router-link>
       </div>
@@ -51,7 +49,7 @@
                 required
                 autocomplete="username"
                 placeholder="email@example.com or 09xxxxxxxx"
-                class="w-full pl-11 pr-4 py-3 border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 transition-all bg-gray-50/50 hover:bg-white"
+                class="w-full pl-11 pr-4 py-3 border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-500/40 focus:border-amber-500 transition-all bg-gray-50/50 hover:bg-white"
               />
             </div>
           </div>
@@ -72,7 +70,7 @@
                 required
                 autocomplete="current-password"
                 placeholder="Enter your password"
-                class="w-full pl-11 pr-12 py-3 border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500 transition-all bg-gray-50/50 hover:bg-white"
+                class="w-full pl-11 pr-12 py-3 border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-500/40 focus:border-amber-500 transition-all bg-gray-50/50 hover:bg-white"
               />
               <button
                 type="button"
@@ -94,7 +92,7 @@
           <button
             type="submit"
             :disabled="authStore.loading"
-            class="w-full py-3.5 px-6 bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 text-white font-semibold rounded-xl shadow-lg shadow-emerald-500/25 hover:shadow-xl hover:shadow-emerald-500/30 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:shadow-none flex items-center justify-center gap-2"
+            class="w-full py-3.5 px-6 bg-amber-600 hover:bg-amber-700 active:bg-amber-800 text-white font-semibold rounded-xl shadow-[0_4px_14px_0_rgba(217,119,6,0.39)] hover:shadow-[0_6px_20px_rgba(217,119,6,0.23)] hover:-translate-y-0.5 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed disabled:shadow-none disabled:translate-y-0 flex items-center justify-center gap-2"
           >
             <svg v-if="authStore.loading" class="animate-spin w-5 h-5" fill="none" viewBox="0 0 24 24">
               <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" />
@@ -127,7 +125,7 @@
       </div>
 
       <!-- Footer -->
-      <p class="text-center text-emerald-200/60 text-xs mt-6">
+      <p class="text-center text-amber-200/60 text-xs mt-6">
         © 2026 AI2CUP · AI-Powered Ethiopian Coffee Trade Platform
       </p>
     </div>

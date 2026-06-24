@@ -36,19 +36,19 @@
               </p>
               <ul class="space-y-2 text-sm text-gray-700">
                 <li class="flex items-start gap-2">
-                  <span class="text-emerald-500 mt-0.5">●</span>
+                  <span class="text-amber-500 mt-0.5">●</span>
                   <span><strong>Coffee Type:</strong> {{ result.inputs.coffee_type }} commands a specific market premium based on its origin reputation and cup profile.</span>
                 </li>
                 <li class="flex items-start gap-2">
-                  <span class="text-emerald-500 mt-0.5">●</span>
+                  <span class="text-amber-500 mt-0.5">●</span>
                   <span><strong>ECX Grade:</strong> Grade {{ result.inputs.ecx_grade }} affects defect tolerance and export eligibility, directly influencing international pricing.</span>
                 </li>
                 <li class="flex items-start gap-2">
-                  <span class="text-emerald-500 mt-0.5">●</span>
+                  <span class="text-amber-500 mt-0.5">●</span>
                   <span><strong>Processing Method:</strong> {{ result.inputs.processing }} method impacts flavor profile and production cost, with Naturals typically commanding a premium over Washed.</span>
                 </li>
                 <li class="flex items-start gap-2">
-                  <span class="text-emerald-500 mt-0.5">●</span>
+                  <span class="text-amber-500 mt-0.5">●</span>
                   <span><strong>Seasonality:</strong> Month {{ result.inputs.month }} captures harvest cycle supply dynamics — prices tend to be higher early in the season.</span>
                 </li>
               </ul>

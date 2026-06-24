@@ -7,7 +7,7 @@
   >
     <div 
       v-if="loading" 
-      class="absolute inset-0 flex items-center justify-center bg-emerald-500/80 backdrop-blur-sm z-10"
+      class="absolute inset-0 flex items-center justify-center bg-amber-600/80 backdrop-blur-sm z-10"
     >
       <LoadingSpinner class="w-5 h-5 text-white" />
     </div>
