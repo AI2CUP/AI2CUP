@@ -17,13 +17,14 @@ from app.config import Settings
 def setup_middleware(app: FastAPI, settings: Settings) -> None:
     """Configure all application middleware."""
 
+    allowed_origins = settings.cors_origins or []
+    allow_credentials = "*" not in allowed_origins
+
     # ── CORS ──
     app.add_middleware(
         CORSMiddleware,
-        # allow_origins = settings.cors_origins,
-        # allow_credentials=True,
-        allow_origins=["*"],
-        allow_credentials=False,
+        allow_origins=allowed_origins,
+        allow_credentials=allow_credentials,
         allow_methods=["*"],
         allow_headers=["*"],
     )

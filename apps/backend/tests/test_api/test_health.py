@@ -8,4 +8,3 @@ def test_health_check(client):
     assert "models" in data
     assert "price" in data["models"]
     assert "quality" in data["models"]
-    assert "matcher" in data["models"]

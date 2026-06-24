@@ -36,3 +36,22 @@ Thumbs.db
 
 # cloudflared
 *.deb*
+
+# huggingface cache
+.hf_cache
+
+# data storage — all generated data (not tracked)
+apps/backend/app/data/storage/
+apps/backend/app/data/raw/
+
+# Trained model checkpoints ARE tracked (ckpt/)
+!apps/backend/ckpt/
+
+.pytest_cache/
+
+# Root-level data dir only
+/data/
+
+session*.md
+docs/
+deploy/

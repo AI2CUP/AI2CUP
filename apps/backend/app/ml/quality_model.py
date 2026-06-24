@@ -22,29 +22,72 @@ from PIL import Image
 from app.core.constants import ECX_GRADES, QUALITY_MAP
 from app.ml.base import BaseMLModel
 
+try:
+    import torch
+    import torch.nn as nn
+    from torchvision import models, transforms
+    TORCH_AVAILABLE = True
+except Exception:
+    TORCH_AVAILABLE = False
+
 
 class QualityModel(BaseMLModel):
     """
-    Heuristic-based coffee quality detector.
-
-    For the MVP, combines basic image analysis (brightness, color uniformity,
-    warmth) with random noise to produce ECX-graded results.
+    CNN-based coffee quality detector with heuristic fallback.
+    
+    If quality_model.pth is found, it uses MobileNetV2 for inference.
+    Otherwise, it falls back to basic PIL image analysis.
     """
 
     def __init__(self) -> None:
         self._loaded = False
+        self.model = None
+        self.device = None
+        self.transform = None
 
     @property
     def model_info(self) -> str:
-        return "Heuristic v1 (PIL + numpy)"
+        if self.model:
+            return "MobileNetV2 CNN (PyTorch)"
+        return "Heuristic v1 (PIL + numpy) [Fallback]"
 
     @property
     def is_ready(self) -> bool:
         return self._loaded
 
     def load(self) -> None:
-        """No model file to load for the heuristic approach."""
+        """Attempt to load the PyTorch model."""
+        import os
+        from pathlib import Path
+        
         self._loaded = True
+        
+        if not TORCH_AVAILABLE:
+            return
+            
+        model_path = Path(__file__).resolve().parent.parent.parent / "ckpt" / "quality_model.pth"
+        if not model_path.exists():
+            return
+            
+        try:
+            self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+            # Load MobileNetV2 architecture
+            self.model = models.mobilenet_v2(weights=None)
+            num_ftrs = self.model.classifier[1].in_features
+            self.model.classifier[1] = nn.Linear(num_ftrs, 4) # 4 classes (Grade_A to D)
+            
+            self.model.load_state_dict(torch.load(model_path, map_location=self.device))
+            self.model.eval()
+            
+            self.transform = transforms.Compose([
+                transforms.Resize((224, 224)),
+                transforms.ToTensor(),
+                transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+            ])
+        except Exception as e:
+            # If it fails to load, we just fallback to heuristic
+            print(f"Failed to load CNN model: {e}")
+            self.model = None
 
     def predict(self, inputs: dict[str, Any]) -> dict[str, Any]:
         """
@@ -59,9 +102,47 @@ class QualityModel(BaseMLModel):
         image_bytes: bytes = inputs["image_bytes"]
 
         try:
+            if self.model is not None and self.transform is not None:
+                return self._analyze_cnn(image_bytes)
             return self._analyze_image(image_bytes)
         except Exception as e:
             return self._fallback_analysis(str(e))
+
+    def _analyze_cnn(self, image_bytes: bytes) -> dict[str, Any]:
+        """Inference using the PyTorch CNN model."""
+        image = Image.open(io.BytesIO(image_bytes)).convert("RGB")
+        tensor = self.transform(image).unsqueeze(0).to(self.device)
+        
+        with torch.no_grad():
+            outputs = self.model(tensor)
+            probabilities = torch.nn.functional.softmax(outputs[0], dim=0)
+            confidence, predicted_class = torch.max(probabilities, 0)
+            
+        # Map Class (0,1,2,3) to ECX Grade (1,2,3,4)
+        # Class 0: Grade_A -> ECX 1
+        # Class 1: Grade_B -> ECX 2
+        # Class 2: Grade_C -> ECX 3
+        # Class 3: Grade_D -> ECX 4
+        ecx_grade = int(predicted_class.item()) + 1
+        conf_val = float(confidence.item())
+        
+        grade_info = ECX_GRADES[ecx_grade]
+        
+        return {
+            "quality": QUALITY_MAP[ecx_grade],
+            "confidence": round(conf_val, 2),
+            "description": grade_info["description"],
+            "ecx_grade": ecx_grade,
+            "ecx_label": grade_info["label"],
+            "ecx_amharic": grade_info["amharic"],
+            "defect_count": grade_info["defects"],
+            "scaa_score_range": grade_info["scaa_range"],
+            "export_eligible": grade_info["export_eligible"],
+            "details": {
+                "inference_engine": "PyTorch CNN",
+                "class_probabilities": [round(p.item(), 3) for p in probabilities]
+            },
+        }
 
     def _analyze_image(self, image_bytes: bytes) -> dict[str, Any]:
         """Core image analysis logic."""

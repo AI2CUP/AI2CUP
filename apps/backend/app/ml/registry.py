@@ -15,7 +15,7 @@ from __future__ import annotations
 
 from app.config import Settings
 from app.ml.base import BaseMLModel
-from app.ml.price_model import PriceModel
+from app.ml.price_model_v2 import PriceModelV2
 from app.ml.quality_model import QualityModel
 
 
@@ -33,7 +33,7 @@ class ModelRegistry:
     def initialize(self) -> None:
         """Load and register all models at startup."""
         models_to_load: dict[str, BaseMLModel] = {
-            "price": PriceModel(),
+            "price": PriceModelV2(),
             "quality": QualityModel(),
         }
 

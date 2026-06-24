@@ -1,10 +1,4 @@
-"""
-========================================
-AI2CUP - Price Prediction Schemas
-========================================
-
-Request and response models for the price prediction endpoint.
-"""
+from __future__ import annotations
 
 from pydantic import BaseModel, Field
 
@@ -12,10 +6,16 @@ from pydantic import BaseModel, Field
 class PricePredictionRequest(BaseModel):
     """Input parameters for Ethiopian coffee price prediction."""
 
-    region: str = Field(
-        ...,
-        description="Ethiopian coffee region",
-        examples=["Yirgacheffe"],
+    coffee_type: str = Field(
+        default="Yirgachefe",
+        description="Ethiopian coffee type",
+        examples=["Yirgachefe", "Sidamo", "Guji", "Harar"],
+    )
+    year: int = Field(
+        default=2025,
+        ge=2024,
+        le=2030,
+        description="Year of prediction",
     )
     month: int = Field(
         ...,
@@ -23,26 +23,15 @@ class PricePredictionRequest(BaseModel):
         le=12,
         description="Month of year (1-12)",
     )
-    altitude: float = Field(
-        default=1800.0,
-        ge=1000,
-        le=3000,
-        description="Altitude in meters",
-    )
-    rainfall: float = Field(
-        default=120.0,
-        ge=0,
-        le=500,
-        description="Rainfall in mm",
-    )
-    variety: str = Field(
-        default="Heirloom",
-        description="Coffee variety",
-        examples=["Heirloom"],
+    week: int | None = Field(
+        default=None,
+        ge=1,
+        le=53,
+        description="Week of year (1-53, optional)",
     )
     processing: str = Field(
         default="Washed",
-        description="Processing method: Washed, Natural, Honey",
+        description="Processing method: Washed, Natural",
     )
     ecx_grade: int = Field(
         default=3,
@@ -50,16 +39,20 @@ class PricePredictionRequest(BaseModel):
         le=5,
         description="ECX Grade (1=Specialty, 5=Below Standard)",
     )
+    exporter_type: str = Field(
+        default="Commercial",
+        description="Exporter type: Commercial, Grower, Union, V/Integration",
+    )
 
 
 class PricePredictionResponse(BaseModel):
     """Predicted price in dual currency."""
 
-    predicted_price_etb: float
     predicted_price_usd: float
-    currency_primary: str = "ETB"
-    currency_secondary: str = "USD"
+    predicted_price_etb: float
+    currency_primary: str = "USD"
+    currency_secondary: str = "ETB"
     unit: str = "per kg"
     inputs: dict
     ecx_grade_label: str
-    model_info: str = "Linear Regression (scikit-learn)"
+    model_info: str

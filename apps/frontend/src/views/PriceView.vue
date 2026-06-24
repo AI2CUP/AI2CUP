@@ -5,50 +5,56 @@
         Coffee Price Prediction · የቡና ዋጋ ትንበያ
       </h1>
       <p class="text-gray-600 text-lg max-w-3xl">
-        AI-predicted prices in ETB & USD based on ECX market factors, region, and coffee characteristics.
+        AI-predicted prices in USD & ETB based on ECX market data, coffee type,
+        grade, processing method, and exporter type.
       </p>
     </div>
-    
+
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
       <div class="lg:col-span-5 xl:col-span-4">
         <div class="section-panel">
-          <PriceForm 
-            :loading="isLoading" 
-            @submit="handlePredict" 
+          <PriceForm
+            :loading="isLoading"
+            @submit="handlePredict"
           />
         </div>
       </div>
-      
+
       <div class="lg:col-span-7 xl:col-span-8">
         <transition name="fade" mode="out-in">
           <div v-if="result" :key="'result'">
             <PriceResult :result="result" />
-            
+
             <div class="mt-8 section-panel">
               <h3 class="font-semibold text-gray-800 mb-4">
                 Price Factors Analysis
               </h3>
               <p class="text-gray-600 text-sm mb-4">
-                The ML model determined this price based on historical Ethiopian Commodity Exchange (ECX) data. 
-                Values shown are synthetic for the MVP but accurately reflect Ethiopian market dynamics.
+                Prices are predicted by a HistGradientBoosting model trained on
+                25,000+ real weekly export records from the Ethiopian Coffee
+                Organization (ECO). Key pricing factors:
               </p>
               <ul class="space-y-2 text-sm text-gray-700">
                 <li class="flex items-start gap-2">
                   <span class="text-emerald-500 mt-0.5">●</span>
-                  <span><strong>Altitude & Quality:</strong> {{ result.inputs.altitude }}m enables complex flavor development, raising the base price.</span>
+                  <span><strong>Coffee Type:</strong> {{ result.inputs.coffee_type }} commands a specific market premium based on its origin reputation and cup profile.</span>
                 </li>
                 <li class="flex items-start gap-2">
                   <span class="text-emerald-500 mt-0.5">●</span>
-                  <span><strong>Seasonality:</strong> Month {{ result.inputs.month }} is factored into the harvest cycle supply curve.</span>
+                  <span><strong>ECX Grade:</strong> Grade {{ result.inputs.ecx_grade }} affects defect tolerance and export eligibility, directly influencing international pricing.</span>
                 </li>
                 <li class="flex items-start gap-2">
                   <span class="text-emerald-500 mt-0.5">●</span>
-                  <span><strong>Processing:</strong> {{ result.inputs.processing }} method commands specific market premiums.</span>
+                  <span><strong>Processing Method:</strong> {{ result.inputs.processing }} method impacts flavor profile and production cost, with Naturals typically commanding a premium over Washed.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-emerald-500 mt-0.5">●</span>
+                  <span><strong>Seasonality:</strong> Month {{ result.inputs.month }} captures harvest cycle supply dynamics — prices tend to be higher early in the season.</span>
                 </li>
               </ul>
             </div>
           </div>
-          
+
           <div v-else :key="'empty'" class="h-full min-h-[400px] flex flex-col items-center justify-center border-2 border-dashed border-gray-200 rounded-2xl bg-gray-50/50 p-8 text-center text-gray-500">
             <div class="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mb-6">
               <svg class="w-10 h-10 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -56,7 +62,7 @@
               </svg>
             </div>
             <h3 class="text-lg font-medium text-gray-700 mb-2">Awaiting Prediction Parameters</h3>
-            <p class="max-w-md text-sm">Adjust the region, variety, and grade settings and click Predict to see the AI estimated market value.</p>
+            <p class="max-w-md text-sm">Select coffee type, grade, and processing preferences and click Predict to see the AI estimated market value.</p>
           </div>
         </transition>
       </div>

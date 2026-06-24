@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api/v1'
+const API_URL = import.meta.env.VITE_API_URL || '/api/v1'
 
 const api = axios.create({
   baseURL: API_URL,
@@ -36,7 +36,11 @@ api.interceptors.response.use(
         window.location.href = '/login'
       }
     }
-    const message = error.response?.data?.detail || error.response?.data?.error || error.message || 'Network error occurred'
+    if (!error.response) {
+      console.error('API Network Error — backend may be down:', error.message)
+      return Promise.reject(new Error('Cannot reach the backend server. Make sure the backend is running (make dev-backend).'))
+    }
+    const message = error.response?.data?.detail || error.response?.data?.error || error.message || 'An error occurred'
     console.error('API Error:', message, error)
     return Promise.reject(new Error(message))
   }

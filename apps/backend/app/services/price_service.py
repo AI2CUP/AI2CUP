@@ -1,18 +1,3 @@
-"""
-========================================
-AI2CUP - Price Prediction Service
-========================================
-
-Business logic for coffee price prediction.
-Orchestrates between the API layer and the ML layer.
-
-This is where you add:
-  - Logging predictions to a database
-  - Caching frequent predictions
-  - Enriching results with business context
-  - Audit trails
-"""
-
 from __future__ import annotations
 
 from app.core.constants import ECX_GRADE_LABELS
@@ -28,32 +13,21 @@ class PriceService:
         self._registry = model_registry
 
     def predict(self, request: PricePredictionRequest) -> PricePredictionResponse:
-        """
-        Predict coffee price.
-
-        1. Gets the ML model through the registry (not directly)
-        2. Calls predict with the request parameters
-        3. Enriches the result with ECX grade labels
-        4. Returns a formatted response
-        """
         model = self._registry.get_model("price")
         if model is None or not model.is_ready:
             raise ModelNotReadyError("price")
 
-        # Call ML through abstract interface
         prediction = model.predict({
-            "region": request.region,
+            "coffee_type": request.coffee_type,
             "month": request.month,
-            "altitude": request.altitude,
-            "rainfall": request.rainfall,
-            "variety": request.variety,
-            "processing": request.processing,
             "ecx_grade": request.ecx_grade,
+            "processing": request.processing,
+            "exporter_type": request.exporter_type,
         })
 
         return PricePredictionResponse(
-            predicted_price_etb=prediction["price_etb"],
             predicted_price_usd=prediction["price_usd"],
+            predicted_price_etb=prediction["price_etb"],
             ecx_grade_label=ECX_GRADE_LABELS.get(
                 request.ecx_grade, f"Grade {request.ecx_grade}"
             ),

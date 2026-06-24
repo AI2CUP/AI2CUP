@@ -33,12 +33,12 @@ class Settings(BaseSettings):
         "http://127.0.0.1:5173"]
 
     # ── ML ──
-    model_dir: Path = Path("app/data/storage")
-    price_model_filename: str = "trained_model.joblib"
+    model_dir: Path = Path("ckpt")
+    price_model_filename: str = "trained_model_v2.joblib"
     auto_train_on_startup: bool = True
 
     # ── Data ──
-    dataset_path: Path = Path("app/data/storage/coffee_prices.csv")
+    training_data_path: Path = Path("app/data/storage/eco_training.parquet")
 
     # ── Currency ──
     usd_to_etb: float = 57.0
@@ -50,6 +50,8 @@ class Settings(BaseSettings):
     jwt_secret: str = "8d5a0139-d6be-4d56-bee5-fd52bc0d4fb5-secret-key"
     jwt_algorithm: str = "HS256"
     jwt_expiry_minutes: int = 60
+    hf_token: str = ""
+    hf_home: str = ""
 
     model_config = {
         "env_file": ".env",
