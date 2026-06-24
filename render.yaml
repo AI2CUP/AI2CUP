@@ -11,7 +11,7 @@ services:
       - key: AI2CUP_DEBUG
         value: false
       - key: AI2CUP_AUTO_TRAIN_ON_STARTUP
-        value: "true"
+        value: "false"
       - key: AI2CUP_CORS_ORIGINS
         sync: false
       - key: AI2CUP_JWT_SECRET
